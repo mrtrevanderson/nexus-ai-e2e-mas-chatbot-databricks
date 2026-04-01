@@ -17,7 +17,7 @@ resources:
   apps:
     nexus_mas_chatbot:
       # NOTE: customize the app name here, if desired
-      name: nexus-mas-chatbot-${var.resource_name_suffix}
+      name: nexus-mas-${var.resource_name_suffix}
       description: "Nexus AI — Multi-Agent Supervisor chatbot powered by Databricks"
       source_code_path: .
       resources:
