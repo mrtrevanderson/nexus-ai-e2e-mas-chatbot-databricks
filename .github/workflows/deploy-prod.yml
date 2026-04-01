@@ -23,6 +23,9 @@ jobs:
     name: Deploy (prod)
     runs-on: ubuntu-latest
     needs: validate
+    defaults:
+      run:
+        working-directory: app
 
     environment: production
 
