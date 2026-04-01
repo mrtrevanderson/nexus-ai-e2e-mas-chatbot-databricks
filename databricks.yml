@@ -1,5 +1,5 @@
 bundle:
-  name: ergopro-support-assistant
+  name: nexus-ai-e2e-mas-chatbot
 
 variables:
   serving_endpoint_name:
@@ -15,10 +15,10 @@ variables:
 
 resources:
   apps:
-    ergopro_support_assistant:
+    nexus_mas_chatbot:
       # NOTE: customize the app name here, if desired
-      name: ergopro-support-${var.resource_name_suffix}
-      description: "ErgoPro Support Assistant — AI-powered chair recommendation and customer support"
+      name: nexus-mas-chatbot-${var.resource_name_suffix}
+      description: "Nexus AI — Multi-Agent Supervisor chatbot powered by Databricks"
       source_code_path: .
       resources:
         - name: serving-endpoint
@@ -38,17 +38,17 @@ targets:
     mode: development
     default: true
     variables:
-      resource_name_suffix: dev-v2-${workspace.current_user.domain_friendly_name}
+      resource_name_suffix: dev-${workspace.current_user.domain_friendly_name}
       v1_resource_name_suffix: dev-${workspace.current_user.domain_friendly_name}
 
   staging:
     mode: production
     variables:
-      resource_name_suffix: "v2-staging"
+      resource_name_suffix: "staging"
       v1_resource_name_suffix: "staging"
 
   prod:
     mode: production
     variables:
-      resource_name_suffix: "v2-prod"
+      resource_name_suffix: "prod"
       v1_resource_name_suffix: "prod"
