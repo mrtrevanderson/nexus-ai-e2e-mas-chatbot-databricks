@@ -39,8 +39,8 @@ export function AppSidebar({
               className="flex flex-row items-center gap-3"
             >
               <img
-                src="/logo.svg"
-                alt="ErgoPro Logo"
+                src="/logo.png"
+                alt="Nexus AI Logo"
                 className="h-10 w-auto cursor-pointer rounded-md px-1 hover:bg-muted"
               />
             </Link>

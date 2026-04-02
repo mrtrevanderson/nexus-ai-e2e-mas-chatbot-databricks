@@ -16,10 +16,10 @@ interface SuggestedActionsProps {
 function PureSuggestedActions({ chatId, sendMessage }: SuggestedActionsProps) {
   const { chatHistoryEnabled } = useAppConfig();
   const suggestedActions = [
-    'Which ErgoPro chair is right for me?',
-    'What is your return and warranty policy?',
-    'How do I adjust my chair for better posture?',
-    'Track my order or check shipping status',
+    'What are our top performing products this month?',
+    'Show me a summary of sales trends by region',
+    'Compare this quarter vs last quarter',
+    'What insights can you find in the latest data?',
   ];
 
   return (

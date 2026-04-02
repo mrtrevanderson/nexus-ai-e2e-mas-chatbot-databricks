@@ -13,7 +13,7 @@ export const Greeting = () => {
         transition={{ delay: 0.5 }}
         className="font-semibold text-xl md:text-2xl"
       >
-        Welcome to ErgoPro Support!
+        Welcome to Nexus Analytics Assistant
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 10 }}
@@ -22,7 +22,7 @@ export const Greeting = () => {
         transition={{ delay: 0.6 }}
         className="text-xl text-zinc-500 md:text-2xl"
       >
-        How can I help you find the perfect chair today?
+        Ask me anything about your data, reports, or metrics.
       </motion.div>
     </div>
   );
