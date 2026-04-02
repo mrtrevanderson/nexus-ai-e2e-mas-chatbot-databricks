@@ -20,7 +20,7 @@ export interface DatabaseCredentials {
  * v2 owns ai_chatbot_v2; no cross-SP grants required.
  */
 export function getSchemaName(): string {
-  const schemaName = 'ai_chatbot_v2';
+  const schemaName = 'ergopro_demo';
   console.log(`[getSchemaName] Using hardcoded schema: ${schemaName}`);
   return schemaName;
 }
