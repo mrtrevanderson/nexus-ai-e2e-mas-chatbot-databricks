@@ -1,0 +1,640 @@
+# ErgoPro Subagent Configurations
+# All agents live in: ius_unity_prod.sandbox
+# Create each via: Databricks → Genie → New (for Genie spaces)
+#                  Databricks → Agents → Knowledge Assistant (for KA)
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 1 — PRODUCT RESEARCH
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Product Research Agent
+table: ius_unity_prod.sandbox.product_research
+
+general_instructions: |
+  You analyze competitor products, market trends, pricing bands, ratings,
+  and feature gaps for the ErgoPro chair line.
+
+  Key context:
+  - ErgoPro SKUs: EP-200 (Entry $349), EP-500 (Mid $649), EP-900 (Premium $999)
+  - Competitor set: Herman Miller, Steelcase, Branch, Autonomous, Humanscale
+  - Market segments: budget, mid-market, premium, luxury
+  - Categories: ergonomic, executive, gaming, task, kneeling, saddle
+  - yoy_sales_growth_pct is year-over-year category growth for that brand/product
+  - Always segment results by market_segment or category when comparing
+
+example_sql_queries:
+  - |
+    -- Average competitor price by market segment
+    SELECT market_segment,
+           ROUND(AVG(msrp_usd), 2)      AS avg_msrp,
+           ROUND(AVG(sale_price_usd), 2) AS avg_sale_price,
+           ROUND(AVG(rating_avg), 2)     AS avg_rating,
+           COUNT(*)                      AS products
+    FROM ius_unity_prod.sandbox.product_research
+    GROUP BY market_segment
+    ORDER BY avg_msrp DESC;
+
+  - |
+    -- Top rated competitors with highest review volume
+    SELECT competitor_brand, product_name, msrp_usd,
+           rating_avg, review_count, key_feature_1, warranty_years
+    FROM ius_unity_prod.sandbox.product_research
+    WHERE rating_avg >= 4.5
+    ORDER BY review_count DESC
+    LIMIT 10;
+
+  - |
+    -- Fastest growing brands by YoY sales growth
+    SELECT competitor_brand,
+           ROUND(AVG(yoy_sales_growth_pct), 1) AS avg_growth_pct,
+           COUNT(*) AS products_tracked
+    FROM ius_unity_prod.sandbox.product_research
+    GROUP BY competitor_brand
+    ORDER BY avg_growth_pct DESC;
+
+  - |
+    -- Feature frequency analysis — what features appear most
+    SELECT feature, COUNT(*) AS frequency
+    FROM (
+      SELECT key_feature_1 AS feature FROM ius_unity_prod.sandbox.product_research
+      UNION ALL
+      SELECT key_feature_2 FROM ius_unity_prod.sandbox.product_research
+      UNION ALL
+      SELECT key_feature_3 FROM ius_unity_prod.sandbox.product_research
+    )
+    GROUP BY feature
+    ORDER BY frequency DESC;
+
+  - |
+    -- Price gap analysis by category vs ErgoPro MSRP
+    SELECT category,
+           ROUND(AVG(msrp_usd), 2) AS avg_competitor_msrp,
+           ROUND(MIN(msrp_usd), 2) AS min_competitor_price,
+           ROUND(MAX(msrp_usd), 2) AS max_competitor_price,
+           SUM(CASE WHEN in_stock = 'Yes' THEN 1 ELSE 0 END) AS in_stock_count
+    FROM ius_unity_prod.sandbox.product_research
+    GROUP BY category
+    ORDER BY avg_competitor_msrp;
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 2 — INVENTORY MANAGEMENT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Inventory Management Agent
+table: ius_unity_prod.sandbox.inventory_management
+
+general_instructions: |
+  You manage stock levels, reorder points, warehouse locations, and supply
+  forecasts for ErgoPro chairs (EP-200, EP-500, EP-900).
+
+  Key context:
+  - Warehouses: WH-LAX (Los Angeles), WH-DFW (Dallas), WH-ORD (Chicago),
+    WH-ATL (Atlanta), WH-JFK (New York)
+  - SKUs: EP-200 (Entry), EP-500 (Mid), EP-900 (Premium)
+  - weeks_of_supply = units_available / (avg_daily_velocity * 7)
+  - Units below reorder_point require immediate replenishment action
+  - carrying_cost_pct is the annual cost to hold inventory as % of unit cost
+  - Always flag SKUs where weeks_of_supply < 4 as at-risk for stockout
+
+example_sql_queries:
+  - |
+    -- Current stock summary by SKU across all warehouses
+    SELECT sku, product_name, tier,
+           SUM(units_on_hand)   AS total_on_hand,
+           SUM(units_reserved)  AS total_reserved,
+           SUM(units_available) AS total_available,
+           ROUND(AVG(weeks_of_supply), 1) AS avg_weeks_supply,
+           ROUND(AVG(avg_daily_velocity), 2) AS avg_daily_velocity
+    FROM ius_unity_prod.sandbox.inventory_management
+    GROUP BY sku, product_name, tier
+    ORDER BY sku;
+
+  - |
+    -- At-risk SKUs where available stock is below reorder point
+    SELECT sku, product_name, warehouse,
+           units_available, reorder_point, reorder_qty,
+           lead_time_days, weeks_of_supply
+    FROM ius_unity_prod.sandbox.inventory_management
+    WHERE units_available < reorder_point
+    ORDER BY units_available ASC;
+
+  - |
+    -- Inventory health by warehouse
+    SELECT warehouse,
+           COUNT(DISTINCT sku) AS skus_stocked,
+           SUM(units_available) AS total_available,
+           ROUND(AVG(weeks_of_supply), 1) AS avg_weeks_supply,
+           SUM(CASE WHEN units_available < reorder_point THEN 1 ELSE 0 END) AS below_reorder
+    FROM ius_unity_prod.sandbox.inventory_management
+    GROUP BY warehouse
+    ORDER BY total_available DESC;
+
+  - |
+    -- Carrying cost exposure by SKU
+    SELECT sku, product_name,
+           SUM(units_on_hand) AS units,
+           ROUND(AVG(unit_cost_usd), 2) AS avg_unit_cost,
+           ROUND(SUM(units_on_hand * unit_cost_usd), 2) AS total_inventory_value,
+           ROUND(AVG(carrying_cost_pct), 1) AS avg_carrying_cost_pct
+    FROM ius_unity_prod.sandbox.inventory_management
+    GROUP BY sku, product_name
+    ORDER BY total_inventory_value DESC;
+
+  - |
+    -- Days since last received by warehouse and SKU
+    SELECT sku, warehouse, last_received_date, last_sold_date,
+           units_available, avg_daily_velocity, weeks_of_supply
+    FROM ius_unity_prod.sandbox.inventory_management
+    ORDER BY last_received_date ASC;
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 3 — PRICING & PROMOTIONS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Pricing & Promotions Agent
+table: ius_unity_prod.sandbox.pricing_promotions
+
+general_instructions: |
+  You analyze promotional performance, price elasticity, ROI, and competitor
+  price positioning for ErgoPro SKUs (EP-200, EP-500, EP-900).
+
+  Key context:
+  - base_price_usd is MSRP: EP-200=$349, EP-500=$649, EP-900=$999
+  - MAP prices: EP-200=$299, EP-500=$549, EP-900=$849
+  - price_index = promo_price / competitor_price (< 1.0 means we are cheaper)
+  - elasticity_score: more negative = more price sensitive
+  - Promo types: percent_off, fixed_off, bundle, bogo, flash
+  - Channels: organic_search, paid_search, email, social, direct, affiliate
+  - Never recommend discounts that would push price below MAP
+
+example_sql_queries:
+  - |
+    -- Promo ROI by type and SKU
+    SELECT promo_type, sku, product_name,
+           COUNT(*) AS promos_run,
+           ROUND(AVG(discount_pct), 1)   AS avg_discount_pct,
+           ROUND(AVG(promo_roi_pct), 1)  AS avg_roi_pct,
+           ROUND(AVG(margin_pct), 1)     AS avg_margin_pct,
+           SUM(units_sold_promo)         AS total_units,
+           ROUND(SUM(revenue_promo_usd), 2) AS total_revenue
+    FROM ius_unity_prod.sandbox.pricing_promotions
+    GROUP BY promo_type, sku, product_name
+    ORDER BY avg_roi_pct DESC;
+
+  - |
+    -- Price index vs competitors by channel
+    SELECT channel, sku,
+           ROUND(AVG(base_price_usd), 2)       AS avg_msrp,
+           ROUND(AVG(competitor_price_usd), 2) AS avg_competitor_price,
+           ROUND(AVG(price_index), 3)           AS avg_price_index,
+           ROUND(AVG(promo_price_usd), 2)       AS avg_promo_price
+    FROM ius_unity_prod.sandbox.pricing_promotions
+    GROUP BY channel, sku
+    ORDER BY channel, sku;
+
+  - |
+    -- Elasticity by SKU — how price sensitive is each tier
+    SELECT sku, product_name, tier,
+           ROUND(AVG(elasticity_score), 2) AS avg_elasticity,
+           ROUND(AVG(discount_pct), 1)     AS avg_discount_run,
+           ROUND(AVG(promo_roi_pct), 1)    AS avg_roi_pct
+    FROM ius_unity_prod.sandbox.pricing_promotions
+    GROUP BY sku, product_name, tier
+    ORDER BY avg_elasticity;
+
+  - |
+    -- Best performing promos by ROI (top 10)
+    SELECT promo_id, sku, channel, promo_type,
+           discount_pct, units_sold_promo,
+           revenue_promo_usd, margin_pct, promo_roi_pct
+    FROM ius_unity_prod.sandbox.pricing_promotions
+    ORDER BY promo_roi_pct DESC
+    LIMIT 10;
+
+  - |
+    -- Promo uplift: promo units vs baseline units
+    SELECT sku, promo_type,
+           ROUND(AVG(units_sold_promo), 0)    AS avg_promo_units,
+           ROUND(AVG(units_sold_baseline), 0) AS avg_baseline_units,
+           ROUND(AVG(units_sold_promo - units_sold_baseline), 0) AS avg_uplift
+    FROM ius_unity_prod.sandbox.pricing_promotions
+    GROUP BY sku, promo_type
+    ORDER BY avg_uplift DESC;
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 4 — MARKETING COPY
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Marketing Copy Agent
+table: ius_unity_prod.sandbox.marketing_copy
+
+general_instructions: |
+  You evaluate marketing copy performance across formats, channels, tones,
+  and SKUs for the ErgoPro chair line. Use CTR, CVR, and engagement score
+  as primary quality metrics.
+
+  Key context:
+  - Copy formats: product_title, bullet_feature, short_description,
+    ad_headline, email_subject, meta_description, social_caption, banner_copy
+  - Tones: professional, casual, aspirational, technical, friendly, authoritative
+  - Channels: organic_search, paid_search, email, social, direct, affiliate
+  - engagement_score = CTR * CVR * variance_factor (higher is better)
+  - A/B variants: A, B, C — compare within same format and channel
+  - approved field: Yes = live, No = rejected, Pending = awaiting review
+
+example_sql_queries:
+  - |
+    -- Top performing copy by CTR per format
+    SELECT copy_format, tone, channel,
+           ROUND(AVG(click_through_rate_pct), 2) AS avg_ctr,
+           ROUND(AVG(conversion_rate_pct), 2)    AS avg_cvr,
+           ROUND(AVG(engagement_score), 2)        AS avg_engagement,
+           COUNT(*) AS assets
+    FROM ius_unity_prod.sandbox.marketing_copy
+    WHERE approved = 'Yes'
+    GROUP BY copy_format, tone, channel
+    ORDER BY avg_ctr DESC;
+
+  - |
+    -- A/B variant comparison by format and SKU
+    SELECT sku, copy_format, ab_variant,
+           COUNT(*) AS assets,
+           ROUND(AVG(click_through_rate_pct), 2) AS avg_ctr,
+           ROUND(AVG(conversion_rate_pct), 2)    AS avg_cvr
+    FROM ius_unity_prod.sandbox.marketing_copy
+    GROUP BY sku, copy_format, ab_variant
+    ORDER BY sku, copy_format, avg_ctr DESC;
+
+  - |
+    -- Copy approval status summary
+    SELECT sku, product_name, approved, COUNT(*) AS asset_count
+    FROM ius_unity_prod.sandbox.marketing_copy
+    GROUP BY sku, product_name, approved
+    ORDER BY sku, approved;
+
+  - |
+    -- Best tone by channel
+    SELECT channel, tone,
+           ROUND(AVG(click_through_rate_pct), 2) AS avg_ctr,
+           ROUND(AVG(conversion_rate_pct), 2)    AS avg_cvr,
+           COUNT(*) AS assets
+    FROM ius_unity_prod.sandbox.marketing_copy
+    WHERE approved = 'Yes'
+    GROUP BY channel, tone
+    ORDER BY channel, avg_ctr DESC;
+
+  - |
+    -- Pending review assets by reviewer
+    SELECT reviewed_by, COUNT(*) AS pending_count,
+           GROUP_CONCAT(DISTINCT sku) AS skus_pending
+    FROM ius_unity_prod.sandbox.marketing_copy
+    WHERE approved = 'Pending'
+    GROUP BY reviewed_by
+    ORDER BY pending_count DESC;
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 5 — CUSTOMER SUPPORT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Customer Support Agent
+table: ius_unity_prod.sandbox.customer_support
+
+general_instructions: |
+  You analyze support ticket trends, CSAT scores, resolution patterns,
+  and escalation risk for ErgoPro chairs (EP-200, EP-500, EP-900).
+
+  Key context:
+  - Issue types: assembly_question, return_request, missing_part,
+    warranty_claim, delivery_delay, product_defect, sizing_question,
+    adjustment_help
+  - Resolution types: resolved_first_contact, escalated_to_tier2,
+    replacement_sent, refund_processed, knowledge_base_link, callback_scheduled
+  - CSAT score: 1 (worst) to 5 (best) — target is 4.0+
+  - sentiment_score: -1.0 (negative) to +1.0 (positive)
+  - first_response_hrs and resolution_hrs are key SLA metrics
+  - escalated = 'Yes' means ticket went to Tier 2
+
+example_sql_queries:
+  - |
+    -- CSAT and resolution time by issue type
+    SELECT issue_type,
+           COUNT(*) AS tickets,
+           ROUND(AVG(csat_score), 2)         AS avg_csat,
+           ROUND(AVG(first_response_hrs), 1) AS avg_first_response_hrs,
+           ROUND(AVG(resolution_hrs), 1)     AS avg_resolution_hrs,
+           SUM(CASE WHEN escalated = 'Yes' THEN 1 ELSE 0 END) AS escalations
+    FROM ius_unity_prod.sandbox.customer_support
+    GROUP BY issue_type
+    ORDER BY avg_csat ASC;
+
+  - |
+    -- Top issues by SKU
+    SELECT sku, product_name, issue_type, COUNT(*) AS ticket_count,
+           ROUND(AVG(csat_score), 2) AS avg_csat
+    FROM ius_unity_prod.sandbox.customer_support
+    GROUP BY sku, product_name, issue_type
+    ORDER BY ticket_count DESC;
+
+  - |
+    -- Escalation rate and sentiment by SKU
+    SELECT sku, product_name,
+           COUNT(*) AS total_tickets,
+           SUM(CASE WHEN escalated = 'Yes' THEN 1 ELSE 0 END) AS escalated,
+           ROUND(SUM(CASE WHEN escalated = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS escalation_rate_pct,
+           ROUND(AVG(sentiment_score), 3) AS avg_sentiment,
+           ROUND(AVG(csat_score), 2)      AS avg_csat
+    FROM ius_unity_prod.sandbox.customer_support
+    GROUP BY sku, product_name
+    ORDER BY escalation_rate_pct DESC;
+
+  - |
+    -- Repeat contact analysis
+    SELECT sku, issue_type,
+           SUM(CASE WHEN repeat_contact = 'Yes' THEN 1 ELSE 0 END) AS repeat_contacts,
+           COUNT(*) AS total,
+           ROUND(SUM(CASE WHEN repeat_contact = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS repeat_rate_pct
+    FROM ius_unity_prod.sandbox.customer_support
+    GROUP BY sku, issue_type
+    ORDER BY repeat_rate_pct DESC;
+
+  - |
+    -- Regional support volume and CSAT
+    SELECT region, COUNT(*) AS tickets,
+           ROUND(AVG(csat_score), 2) AS avg_csat,
+           ROUND(AVG(resolution_hrs), 1) AS avg_resolution_hrs
+    FROM ius_unity_prod.sandbox.customer_support
+    GROUP BY region
+    ORDER BY tickets DESC;
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 6 — ORDER FULFILLMENT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Order Fulfillment Agent
+table: ius_unity_prod.sandbox.order_fulfillment
+
+general_instructions: |
+  You track order volumes, carrier performance, on-time delivery, return rates,
+  and regional fulfillment patterns for ErgoPro orders.
+
+  Key context:
+  - Carriers: UPS Ground (EP-200, EP-500), FedEx Freight (EP-900)
+  - Warehouses: WH-LAX, WH-DFW, WH-ORD, WH-ATL, WH-JFK
+  - on_time = 'Yes' means actual_delivery_date <= estimated_delivery_date
+  - delivery_status values: delivered, in_transit, out_for_delivery,
+    exception, returned
+  - Packaging: flat_box, double_wall_box, pallet
+  - return_initiated = 'Yes' means customer started a return
+
+example_sql_queries:
+  - |
+    -- On-time delivery rate by carrier and SKU
+    SELECT carrier, sku, product_name,
+           COUNT(*) AS orders,
+           SUM(CASE WHEN on_time = 'Yes' THEN 1 ELSE 0 END) AS on_time_count,
+           ROUND(SUM(CASE WHEN on_time = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS on_time_pct,
+           ROUND(AVG(shipping_cost_usd), 2) AS avg_shipping_cost
+    FROM ius_unity_prod.sandbox.order_fulfillment
+    GROUP BY carrier, sku, product_name
+    ORDER BY on_time_pct ASC;
+
+  - |
+    -- Return rate by SKU and region
+    SELECT sku, product_name, region,
+           COUNT(*) AS orders,
+           SUM(CASE WHEN return_initiated = 'Yes' THEN 1 ELSE 0 END) AS returns,
+           ROUND(SUM(CASE WHEN return_initiated = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS return_rate_pct
+    FROM ius_unity_prod.sandbox.order_fulfillment
+    GROUP BY sku, product_name, region
+    ORDER BY return_rate_pct DESC;
+
+  - |
+    -- Revenue and order volume by warehouse
+    SELECT warehouse, sku,
+           COUNT(*) AS orders,
+           SUM(quantity) AS units_shipped,
+           ROUND(SUM(order_total_usd), 2) AS total_revenue,
+           ROUND(AVG(shipping_cost_usd), 2) AS avg_ship_cost
+    FROM ius_unity_prod.sandbox.order_fulfillment
+    GROUP BY warehouse, sku
+    ORDER BY total_revenue DESC;
+
+  - |
+    -- Delivery exception and status breakdown
+    SELECT delivery_status, sku, COUNT(*) AS count
+    FROM ius_unity_prod.sandbox.order_fulfillment
+    GROUP BY delivery_status, sku
+    ORDER BY count DESC;
+
+  - |
+    -- Average order value and shipping cost by region and tier
+    SELECT region, tier,
+           COUNT(*) AS orders,
+           ROUND(AVG(order_total_usd), 2)   AS avg_order_value,
+           ROUND(AVG(shipping_cost_usd), 2) AS avg_shipping_cost,
+           ROUND(AVG(shipping_cost_usd / order_total_usd * 100), 1) AS shipping_as_pct_of_order
+    FROM ius_unity_prod.sandbox.order_fulfillment
+    GROUP BY region, tier
+    ORDER BY avg_order_value DESC;
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 7 — WEBSITE PERFORMANCE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Website Performance Agent
+tables:
+  - ius_unity_prod.sandbox.web_sessions
+  - ius_unity_prod.sandbox.product_page_interactions
+  - ius_unity_prod.sandbox.checkout_funnel
+  - ius_unity_prod.sandbox.site_search_queries
+  - ius_unity_prod.sandbox.campaign_attribution
+
+general_instructions: |
+  You analyze website behavioral data across sessions, product page engagement,
+  checkout funnel, on-site search, and campaign attribution for ergochair.com.
+
+  Key context:
+  - Bounce = session where pages_viewed = 1
+  - Conversion = sessions where conversions = 'Yes'
+  - For revenue always use final_total_usd from checkout_funnel
+    where completed_purchase = 'Yes' — never use cart_total_usd as revenue
+  - ROAS = revenue_usd / cost_usd from campaign_attribution
+  - Channels: organic_search, paid_search, email, social, direct, referral, affiliate
+  - Devices: desktop, mobile, tablet
+  - When comparing channels always show both session volume AND conversion rate
+
+example_sql_queries:
+  - |
+    -- Conversion rate and bounce rate by channel
+    SELECT channel,
+           COUNT(*) AS sessions,
+           ROUND(AVG(session_duration_sec), 0) AS avg_duration_sec,
+           ROUND(SUM(CASE WHEN is_bounce = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS bounce_rate_pct,
+           ROUND(SUM(CASE WHEN conversions = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS conversion_rate_pct
+    FROM ius_unity_prod.sandbox.web_sessions
+    GROUP BY channel
+    ORDER BY conversion_rate_pct DESC;
+
+  - |
+    -- Checkout funnel drop-off by SKU
+    SELECT sku, product_name, tier,
+           COUNT(*) AS entered_cart,
+           SUM(CASE WHEN reached_checkout  = 'Yes' THEN 1 ELSE 0 END) AS reached_checkout,
+           SUM(CASE WHEN reached_payment   = 'Yes' THEN 1 ELSE 0 END) AS reached_payment,
+           SUM(CASE WHEN completed_purchase = 'Yes' THEN 1 ELSE 0 END) AS completed,
+           ROUND(SUM(CASE WHEN completed_purchase = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS purchase_rate_pct
+    FROM ius_unity_prod.sandbox.checkout_funnel
+    GROUP BY sku, product_name, tier
+    ORDER BY purchase_rate_pct DESC;
+
+  - |
+    -- Top abandonment reasons by stage
+    SELECT abandonment_stage, abandonment_reason, sku,
+           COUNT(*) AS abandoned_sessions
+    FROM ius_unity_prod.sandbox.checkout_funnel
+    WHERE completed_purchase = 'No' AND abandonment_reason != ''
+    GROUP BY abandonment_stage, abandonment_reason, sku
+    ORDER BY abandoned_sessions DESC;
+
+  - |
+    -- Campaign ROAS by channel and campaign
+    SELECT channel, utm_campaign,
+           COUNT(*) AS sessions,
+           ROUND(SUM(revenue_usd), 2) AS total_revenue,
+           ROUND(SUM(cost_usd), 2)    AS total_cost,
+           ROUND(SUM(revenue_usd) / NULLIF(SUM(cost_usd), 0), 2) AS roas,
+           ROUND(AVG(ctr_pct), 2)     AS avg_ctr_pct
+    FROM ius_unity_prod.sandbox.campaign_attribution
+    WHERE cost_usd > 0
+    GROUP BY channel, utm_campaign
+    ORDER BY roas DESC;
+
+  - |
+    -- Zero result searches — content gaps
+    SELECT query, COUNT(*) AS searches,
+           SUM(CASE WHEN zero_results = 'Yes' THEN 1 ELSE 0 END) AS zero_result_count,
+           ROUND(SUM(CASE WHEN zero_results = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS zero_result_rate_pct
+    FROM ius_unity_prod.sandbox.site_search_queries
+    GROUP BY query
+    HAVING zero_result_count > 0
+    ORDER BY zero_result_count DESC;
+
+  - |
+    -- Product page engagement by SKU and device
+    SELECT sku, product_name, device_type,
+           COUNT(*) AS page_views,
+           ROUND(AVG(scroll_depth_pct), 1)   AS avg_scroll_pct,
+           ROUND(AVG(time_on_page_sec), 0)   AS avg_time_on_page_sec,
+           ROUND(SUM(CASE WHEN added_to_cart = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS add_to_cart_rate_pct
+    FROM ius_unity_prod.sandbox.product_page_interactions
+    GROUP BY sku, product_name, device_type
+    ORDER BY sku, device_type;
+
+  - |
+    -- Promo code performance
+    SELECT promo_code_applied, sku,
+           COUNT(*) AS uses,
+           ROUND(AVG(discount_usd), 2) AS avg_discount,
+           SUM(CASE WHEN completed_purchase = 'Yes' THEN 1 ELSE 0 END) AS purchases,
+           ROUND(SUM(CASE WHEN completed_purchase = 'Yes' THEN final_total_usd ELSE 0 END), 2) AS revenue
+    FROM ius_unity_prod.sandbox.checkout_funnel
+    WHERE promo_code_applied != ''
+    GROUP BY promo_code_applied, sku
+    ORDER BY purchases DESC;
+
+  - |
+    -- New vs returning visitor behavior by channel
+    SELECT is_new_user, channel,
+           COUNT(*) AS sessions,
+           ROUND(AVG(pages_viewed), 1)        AS avg_pages,
+           ROUND(AVG(session_duration_sec), 0) AS avg_duration_sec,
+           ROUND(SUM(CASE WHEN conversions = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS conversion_rate_pct
+    FROM ius_unity_prod.sandbox.web_sessions
+    GROUP BY is_new_user, channel
+    ORDER BY is_new_user, conversion_rate_pct DESC;
+
+  - |
+    -- Revenue and sessions by region and device
+    SELECT s.region, s.device_type,
+           COUNT(DISTINCT s.session_id) AS sessions,
+           SUM(CASE WHEN f.completed_purchase = 'Yes' THEN 1 ELSE 0 END) AS purchases,
+           ROUND(SUM(CASE WHEN f.completed_purchase = 'Yes' THEN f.final_total_usd ELSE 0 END), 2) AS total_revenue
+    FROM ius_unity_prod.sandbox.web_sessions s
+    LEFT JOIN ius_unity_prod.sandbox.checkout_funnel f ON s.session_id = f.session_id
+    GROUP BY s.region, s.device_type
+    ORDER BY total_revenue DESC;
+
+  - |
+    -- Search queries that lead to purchase
+    SELECT query,
+           COUNT(*) AS searches,
+           SUM(CASE WHEN led_to_purchase = 'Yes' THEN 1 ELSE 0 END) AS led_to_purchase,
+           ROUND(SUM(CASE WHEN led_to_purchase = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS purchase_rate_pct
+    FROM ius_unity_prod.sandbox.site_search_queries
+    GROUP BY query
+    ORDER BY led_to_purchase DESC
+    LIMIT 15;
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 8 — KNOWLEDGE ASSISTANT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: ErgoPro Knowledge Assistant
+type: Knowledge Assistant (Agent Bricks)
+knowledge_source_type: UC Files
+knowledge_source_path: /Volumes/s3/hma_prod/hma_data_storage_prod/sandbox/ergo_launch_sample/docs/
+
+knowledge_source_description: |
+  Internal ErgoPro product documentation covering: technical specifications
+  and dimensions for EP-200, EP-500, and EP-900 chairs; step-by-step assembly
+  and ergonomic setup instructions; warranty coverage periods and returns policy;
+  pricing architecture, MAP policy, discount authority levels, and promotional
+  calendar; customer support FAQs and escalation guide; sales pitch scripts,
+  competitive positioning and objection handling; and warehouse fulfillment SOPs
+  including carrier routing, packaging standards, and returns processing.
+
+files:
+  - 01_ergo_product_spec_sheets.pdf
+  - 02_ergo_assembly_setup_guide.pdf
+  - 03_ergo_warranty_returns_policy.pdf
+  - 04_ergo_pricing_promotions_playbook.pdf
+  - 05_ergo_customer_support_faq.pdf
+  - 06_ergo_sales_enablement.pdf
+  - 07_ergo_fulfillment_shipping_sop.pdf
+
+test_questions:
+  - "What is the weight capacity of the EP-900?"
+  - "How do I adjust the lumbar support on the EP-500?"
+  - "Is mesh fraying covered under warranty?"
+  - "What is the MAP price for the EP-200?"
+  - "My chair is sinking — is this a defect?"
+  - "How should I respond when a customer says Herman Miller has a better warranty?"
+  - "What packaging standard applies to EP-900 shipments?"
+  - "What discount requires VP Sales approval?"
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AGENT 9 — YOU.COM WEB SEARCH
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: You.com Web Search Agent
+type: MCP Server
+mcp_server: You.com (pre-integrated)
+setup: Add via Agents → MCP Servers in Databricks sidebar
+
+routing_guidance: |
+  Use for real-time external information only:
+  - Competitor news, pricing changes, product launches
+  - Consumer sentiment and social media trends
+  - Industry news and market reports
+  - Any question requiring information from after the training cutoff
+  - Validation of internal data against current market reality
+
+  Do NOT use for questions answerable from internal tables or documents.

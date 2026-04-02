@@ -1,0 +1,101 @@
+research_id,date,competitor_brand,product_name,category,msrp_usd,sale_price_usd,rating_avg,review_count,key_feature_1,key_feature_2,key_feature_3,weight_capacity_lbs,seat_height_range_in,warranty_years,assembly_time_min,in_stock,market_segment,yoy_sales_growth_pct
+PR-0001,2026-02-24,Steelcase,Steelcase Ergonomic Chair 854,ergonomic,1099,852.41,4.5,4507,seat depth adjustment,headrest,memory foam seat,225,18-21,1,18,Yes,mid-market,3.6
+PR-0002,2025-12-14,Uplift,Uplift Ergonomic Chair 325,ergonomic,799,688.98,3.7,93,headrest,memory foam seat,ergonomic lumbar,250,18-21,3,50,Yes,mid-market,30.4
+PR-0003,2026-01-02,Haworth,Haworth Ergonomic Chair 718,ergonomic,349,284.83,3.3,3803,4D armrests,adjustable armrests,tilt tension,350,16-21,1,85,Yes,premium,16.4
+PR-0004,2026-01-31,Steelcase,Steelcase Ergonomic Chair 203,ergonomic,999,844.19,4.0,3028,headrest,seat depth adjustment,adjustable armrests,250,17-21,2,49,Yes,mid-market,14.8
+PR-0005,2026-02-03,Autonomous,Autonomous Executive Chair 801,executive,699,580.92,4.5,498,4D armrests,seat depth adjustment,ergonomic lumbar,250,16-21,5,49,Yes,mid-market,28.8
+PR-0006,2025-12-20,Uplift,Uplift Saddle Chair 758,saddle,549,474.73,3.7,2060,headrest,memory foam seat,forward tilt,350,18-21,12,89,No,luxury,8.4
+PR-0007,2026-02-20,Branch,Branch Kneeling Chair 742,kneeling,699,552.21,4.4,560,adjustable armrests,lumbar support,aluminum base,300,17-22,5,82,Yes,budget,20.2
+PR-0008,2026-03-03,Steelcase,Steelcase Saddle Chair 400,saddle,799,686.09,4.0,2197,seat depth adjustment,memory foam seat,tilt tension,350,16-22,1,53,Yes,mid-market,8.8
+PR-0009,2026-01-08,Branch,Branch Kneeling Chair 600,kneeling,1199,905.09,4.8,2559,ergonomic lumbar,lumbar support,breathable fabric,250,16-20,10,25,Yes,luxury,25.2
+PR-0010,2026-02-17,Flexispot,Flexispot Executive Chair 371,executive,399,351.89,4.2,1775,memory foam seat,forward tilt,ergonomic lumbar,350,18-22,2,54,No,premium,11.2
+PR-0011,2026-01-04,Flexispot,Flexispot Task Chair 121,task,349,313.08,3.6,1844,headrest,aluminum base,adjustable armrests,225,16-22,12,22,Yes,budget,28.5
+PR-0012,2026-02-05,Haworth,Haworth Ergonomic Chair 652,ergonomic,799,625.68,4.8,4717,headrest,seat depth adjustment,forward tilt,350,17-20,5,67,Yes,budget,-1.4
+PR-0013,2025-10-10,Knoll,Knoll Gaming Chair 769,gaming,649,646.43,3.4,3338,4D armrests,forward tilt,lumbar support,275,16-20,2,39,No,mid-market,10.6
+PR-0014,2026-03-06,Humanscale,Humanscale Task Chair 151,task,449,409.95,4.1,160,adjustable armrests,forward tilt,ergonomic lumbar,225,16-20,5,77,No,mid-market,27.0
+PR-0015,2025-12-05,Herman Miller,Herman Miller Executive Chair 392,executive,649,555.38,4.8,4592,lumbar support,4D armrests,seat depth adjustment,300,16-20,3,42,Yes,budget,22.7
+PR-0016,2026-02-19,Herman Miller,Herman Miller Ergonomic Chair 158,ergonomic,899,890.19,3.3,1562,forward tilt,ergonomic lumbar,memory foam seat,225,18-20,12,45,No,budget,29.8
+PR-0017,2026-03-11,Uplift,Uplift Executive Chair 529,executive,899,821.99,4.2,2631,breathable fabric,lumbar support,aluminum base,275,16-22,12,55,Yes,premium,9.6
+PR-0018,2025-10-23,Humanscale,Humanscale Task Chair 676,task,549,548.46,3.3,1786,adjustable armrests,lumbar support,forward tilt,350,17-20,3,23,Yes,premium,5.5
+PR-0019,2026-03-29,Secretlab,Secretlab Kneeling Chair 783,kneeling,1099,1048.75,3.7,888,seat depth adjustment,breathable fabric,ergonomic lumbar,250,17-20,1,85,Yes,premium,5.4
+PR-0020,2025-11-22,Autonomous,Autonomous Saddle Chair 600,saddle,549,446.22,4.7,456,headrest,memory foam seat,seat depth adjustment,225,18-21,3,20,Yes,premium,23.5
+PR-0021,2025-11-08,Humanscale,Humanscale Executive Chair 109,executive,1099,854.99,4.8,1261,forward tilt,ergonomic lumbar,4D armrests,350,16-21,10,85,Yes,luxury,-0.3
+PR-0022,2025-10-08,Humanscale,Humanscale Gaming Chair 355,gaming,1199,1099.16,3.8,4626,lumbar support,tilt tension,headrest,300,18-22,2,45,Yes,mid-market,27.6
+PR-0023,2026-01-22,Herman Miller,Herman Miller Executive Chair 263,executive,1099,1040.58,3.4,357,tilt tension,4D armrests,headrest,300,16-20,5,59,Yes,mid-market,3.2
+PR-0024,2026-01-01,Autonomous,Autonomous Task Chair 756,task,549,481.67,4.4,4432,seat depth adjustment,adjustable armrests,aluminum base,275,16-20,3,37,Yes,budget,-1.0
+PR-0025,2025-11-21,Knoll,Knoll Gaming Chair 218,gaming,1099,930.08,4.2,2126,tilt tension,4D armrests,breathable fabric,225,18-21,1,81,Yes,premium,11.0
+PR-0026,2025-11-22,Haworth,Haworth Kneeling Chair 416,kneeling,549,503.28,3.8,2462,memory foam seat,adjustable armrests,seat depth adjustment,350,16-20,5,63,Yes,premium,10.0
+PR-0027,2025-10-27,Herman Miller,Herman Miller Gaming Chair 770,gaming,499,414.45,4.0,1790,headrest,4D armrests,breathable fabric,350,17-22,2,25,Yes,premium,-1.5
+PR-0028,2026-03-25,Autonomous,Autonomous Saddle Chair 147,saddle,499,404.79,4.0,636,headrest,aluminum base,mesh backrest,300,17-22,10,39,No,luxury,9.8
+PR-0029,2026-02-03,Branch,Branch Saddle Chair 280,saddle,1099,1045.18,4.4,3845,lumbar support,adjustable armrests,4D armrests,225,18-20,1,73,Yes,luxury,19.7
+PR-0030,2025-12-12,Flexispot,Flexispot Kneeling Chair 661,kneeling,549,472.95,3.5,3928,forward tilt,breathable fabric,ergonomic lumbar,300,17-20,12,50,No,mid-market,5.2
+PR-0031,2026-01-09,Steelcase,Steelcase Saddle Chair 653,saddle,499,384.3,3.5,3177,headrest,seat depth adjustment,tilt tension,250,18-20,1,68,No,premium,15.1
+PR-0032,2025-10-04,Knoll,Knoll Ergonomic Chair 120,ergonomic,449,432.92,4.5,3156,4D armrests,aluminum base,breathable fabric,300,16-21,3,64,No,mid-market,13.1
+PR-0033,2025-10-11,Humanscale,Humanscale Task Chair 795,task,699,663.73,4.4,3868,lumbar support,4D armrests,tilt tension,250,18-22,1,65,Yes,budget,18.8
+PR-0034,2026-01-07,Branch,Branch Task Chair 316,task,399,344.61,3.8,3145,lumbar support,seat depth adjustment,4D armrests,275,17-21,1,75,Yes,budget,32.0
+PR-0035,2026-03-24,Haworth,Haworth Executive Chair 353,executive,999,799.04,3.2,1288,adjustable armrests,memory foam seat,lumbar support,250,16-21,12,29,Yes,luxury,20.9
+PR-0036,2026-01-11,Haworth,Haworth Executive Chair 210,executive,899,804.31,4.8,4756,breathable fabric,adjustable armrests,mesh backrest,300,17-22,2,24,Yes,budget,20.8
+PR-0037,2026-01-02,Humanscale,Humanscale Saddle Chair 645,saddle,899,770.53,3.8,4184,adjustable armrests,breathable fabric,lumbar support,275,16-21,5,28,No,premium,18.5
+PR-0038,2025-10-16,Secretlab,Secretlab Saddle Chair 376,saddle,399,360.69,4.8,4000,4D armrests,mesh backrest,ergonomic lumbar,300,17-22,10,49,Yes,mid-market,25.7
+PR-0039,2025-10-26,Steelcase,Steelcase Gaming Chair 784,gaming,699,590.48,3.2,2702,headrest,forward tilt,breathable fabric,250,17-20,3,48,Yes,premium,27.6
+PR-0040,2026-01-29,Humanscale,Humanscale Kneeling Chair 837,kneeling,299,254.63,4.1,2008,ergonomic lumbar,headrest,adjustable armrests,300,18-22,5,72,Yes,budget,5.9
+PR-0041,2025-12-27,Knoll,Knoll Saddle Chair 584,saddle,449,398.88,3.8,4548,seat depth adjustment,memory foam seat,breathable fabric,275,17-22,5,49,Yes,premium,3.5
+PR-0042,2026-02-10,Autonomous,Autonomous Gaming Chair 321,gaming,349,326.19,3.7,4337,aluminum base,ergonomic lumbar,mesh backrest,350,17-20,2,52,Yes,premium,1.6
+PR-0043,2026-03-18,Herman Miller,Herman Miller Saddle Chair 666,saddle,799,657.6,4.8,4061,mesh backrest,seat depth adjustment,lumbar support,225,16-22,3,75,No,luxury,7.6
+PR-0044,2025-11-26,Herman Miller,Herman Miller Gaming Chair 175,gaming,699,625.08,4.4,1282,adjustable armrests,aluminum base,4D armrests,250,18-21,1,46,Yes,luxury,17.4
+PR-0045,2025-12-08,Uplift,Uplift Executive Chair 404,executive,1199,1157.08,4.9,2541,ergonomic lumbar,4D armrests,forward tilt,350,18-20,10,27,Yes,mid-market,4.8
+PR-0046,2026-02-19,Steelcase,Steelcase Executive Chair 102,executive,449,382.61,4.4,3889,mesh backrest,ergonomic lumbar,adjustable armrests,275,16-20,3,51,No,budget,20.4
+PR-0047,2026-03-02,Humanscale,Humanscale Saddle Chair 657,saddle,899,724.78,3.5,2216,memory foam seat,headrest,4D armrests,250,16-20,2,54,Yes,luxury,-0.4
+PR-0048,2025-11-25,Humanscale,Humanscale Saddle Chair 548,saddle,649,499.8,3.3,3579,seat depth adjustment,ergonomic lumbar,memory foam seat,275,18-21,1,26,Yes,budget,32.0
+PR-0049,2025-10-16,Humanscale,Humanscale Kneeling Chair 552,kneeling,299,292.73,3.5,3610,mesh backrest,forward tilt,ergonomic lumbar,300,16-21,3,67,Yes,premium,19.8
+PR-0050,2025-10-13,Branch,Branch Gaming Chair 510,gaming,649,618.75,4.1,3765,aluminum base,forward tilt,seat depth adjustment,225,17-21,3,29,No,budget,19.3
+PR-0051,2025-12-29,Flexispot,Flexispot Task Chair 737,task,649,609.48,4.3,462,lumbar support,headrest,ergonomic lumbar,250,17-22,2,51,No,luxury,-0.5
+PR-0052,2026-03-28,Uplift,Uplift Executive Chair 665,executive,1099,936.35,3.6,969,mesh backrest,seat depth adjustment,ergonomic lumbar,300,16-22,2,78,Yes,premium,10.4
+PR-0053,2025-12-23,Secretlab,Secretlab Task Chair 295,task,449,440.23,4.1,1158,forward tilt,ergonomic lumbar,mesh backrest,225,17-21,3,79,Yes,budget,5.5
+PR-0054,2025-12-07,Humanscale,Humanscale Kneeling Chair 651,kneeling,899,783.11,3.8,4491,memory foam seat,forward tilt,mesh backrest,300,17-21,2,45,No,mid-market,26.7
+PR-0055,2025-12-23,Knoll,Knoll Ergonomic Chair 779,ergonomic,549,520.51,4.3,1286,aluminum base,forward tilt,4D armrests,300,16-20,10,90,Yes,budget,27.3
+PR-0056,2025-12-17,Secretlab,Secretlab Ergonomic Chair 770,ergonomic,799,793.0,3.3,2211,forward tilt,lumbar support,mesh backrest,275,18-22,5,25,Yes,luxury,30.3
+PR-0057,2025-10-21,Secretlab,Secretlab Kneeling Chair 800,kneeling,299,293.09,4.9,780,breathable fabric,adjustable armrests,headrest,300,16-22,12,27,No,mid-market,20.7
+PR-0058,2025-12-26,Herman Miller,Herman Miller Ergonomic Chair 541,ergonomic,549,431.73,4.1,4676,lumbar support,seat depth adjustment,tilt tension,250,16-20,1,63,Yes,luxury,28.8
+PR-0059,2026-01-25,Branch,Branch Executive Chair 782,executive,699,525.89,4.6,2396,memory foam seat,seat depth adjustment,forward tilt,350,16-20,5,59,Yes,luxury,20.5
+PR-0060,2026-01-30,Secretlab,Secretlab Gaming Chair 490,gaming,449,400.95,4.2,2458,4D armrests,forward tilt,adjustable armrests,225,18-21,3,16,Yes,luxury,25.8
+PR-0061,2025-10-24,Humanscale,Humanscale Executive Chair 356,executive,899,826.58,4.4,1160,tilt tension,headrest,memory foam seat,225,18-22,1,54,No,budget,16.4
+PR-0062,2026-02-08,Branch,Branch Ergonomic Chair 235,ergonomic,499,472.37,4.7,3037,tilt tension,4D armrests,mesh backrest,350,18-21,2,47,No,premium,22.6
+PR-0063,2025-10-09,Haworth,Haworth Ergonomic Chair 841,ergonomic,699,642.1,3.9,4605,adjustable armrests,mesh backrest,headrest,275,16-21,1,48,Yes,luxury,8.6
+PR-0064,2025-10-10,Humanscale,Humanscale Kneeling Chair 339,kneeling,649,563.25,4.3,4639,memory foam seat,tilt tension,adjustable armrests,275,18-20,12,23,No,premium,19.0
+PR-0065,2026-03-02,Steelcase,Steelcase Executive Chair 199,executive,299,241.8,4.1,3223,lumbar support,seat depth adjustment,forward tilt,300,17-22,12,84,No,mid-market,27.8
+PR-0066,2025-10-06,Steelcase,Steelcase Task Chair 479,task,899,723.08,4.0,1974,4D armrests,seat depth adjustment,lumbar support,275,16-22,3,84,Yes,budget,9.7
+PR-0067,2025-10-18,Autonomous,Autonomous Ergonomic Chair 754,ergonomic,699,628.6,3.2,2772,adjustable armrests,memory foam seat,headrest,250,16-22,2,23,Yes,mid-market,25.1
+PR-0068,2026-01-20,Autonomous,Autonomous Gaming Chair 248,gaming,1199,1195.26,4.1,1469,mesh backrest,breathable fabric,lumbar support,225,18-20,2,16,Yes,mid-market,16.8
+PR-0069,2025-11-17,Herman Miller,Herman Miller Executive Chair 216,executive,499,467.27,4.0,3005,lumbar support,mesh backrest,4D armrests,350,18-20,5,79,Yes,budget,21.9
+PR-0070,2025-11-29,Flexispot,Flexispot Gaming Chair 511,gaming,699,598.74,3.4,3673,memory foam seat,lumbar support,aluminum base,225,16-21,10,33,Yes,mid-market,5.2
+PR-0071,2025-11-16,Uplift,Uplift Kneeling Chair 401,kneeling,1099,948.91,4.2,852,tilt tension,4D armrests,breathable fabric,225,18-22,10,42,No,luxury,27.9
+PR-0072,2026-01-10,Knoll,Knoll Gaming Chair 537,gaming,699,578.86,3.6,1290,4D armrests,aluminum base,adjustable armrests,300,16-20,1,26,No,budget,22.5
+PR-0073,2025-11-08,Haworth,Haworth Executive Chair 437,executive,799,733.09,3.9,3504,lumbar support,breathable fabric,ergonomic lumbar,225,17-22,3,60,Yes,mid-market,0.7
+PR-0074,2026-03-02,Secretlab,Secretlab Executive Chair 880,executive,349,286.06,3.6,3555,tilt tension,ergonomic lumbar,aluminum base,350,18-22,12,86,Yes,premium,-3.9
+PR-0075,2026-03-30,Humanscale,Humanscale Saddle Chair 285,saddle,1199,1159.99,4.2,3323,seat depth adjustment,tilt tension,memory foam seat,225,16-22,12,18,Yes,mid-market,8.9
+PR-0076,2025-11-06,Secretlab,Secretlab Gaming Chair 710,gaming,399,307.72,3.3,1329,tilt tension,seat depth adjustment,aluminum base,350,16-22,1,49,No,luxury,13.0
+PR-0077,2026-01-02,Secretlab,Secretlab Task Chair 540,task,499,388.08,4.4,4026,headrest,ergonomic lumbar,adjustable armrests,350,18-21,1,43,No,budget,-4.7
+PR-0078,2026-01-07,Humanscale,Humanscale Executive Chair 222,executive,1199,901.57,4.5,1479,mesh backrest,seat depth adjustment,memory foam seat,250,17-22,12,44,Yes,budget,9.7
+PR-0079,2025-11-04,Herman Miller,Herman Miller Task Chair 539,task,299,267.11,4.4,3461,forward tilt,adjustable armrests,tilt tension,275,16-21,1,56,Yes,luxury,25.8
+PR-0080,2025-11-01,Haworth,Haworth Ergonomic Chair 510,ergonomic,649,571.76,3.9,2581,adjustable armrests,headrest,4D armrests,275,16-21,2,24,Yes,mid-market,28.5
+PR-0081,2026-03-05,Haworth,Haworth Gaming Chair 249,gaming,1099,894.58,3.5,1292,memory foam seat,mesh backrest,headrest,225,16-22,5,74,No,premium,27.0
+PR-0082,2025-10-21,Haworth,Haworth Executive Chair 410,executive,699,663.41,4.2,2923,adjustable armrests,forward tilt,memory foam seat,350,16-21,5,72,Yes,budget,8.6
+PR-0083,2025-11-22,Humanscale,Humanscale Ergonomic Chair 493,ergonomic,999,864.81,4.1,376,adjustable armrests,breathable fabric,memory foam seat,300,18-22,2,56,No,mid-market,30.4
+PR-0084,2025-10-17,Secretlab,Secretlab Ergonomic Chair 276,ergonomic,1199,910.98,4.4,3639,tilt tension,adjustable armrests,ergonomic lumbar,350,18-22,2,61,Yes,premium,9.3
+PR-0085,2026-03-15,Haworth,Haworth Saddle Chair 437,saddle,899,695.49,4.4,2367,lumbar support,memory foam seat,tilt tension,275,18-22,10,34,Yes,budget,16.6
+PR-0086,2026-02-26,Branch,Branch Gaming Chair 709,gaming,499,462.68,3.3,4618,memory foam seat,aluminum base,4D armrests,300,18-21,2,82,Yes,luxury,13.8
+PR-0087,2025-11-27,Herman Miller,Herman Miller Gaming Chair 296,gaming,499,402.51,3.4,672,mesh backrest,headrest,tilt tension,275,16-22,10,82,Yes,premium,27.4
+PR-0088,2026-02-13,Uplift,Uplift Executive Chair 809,executive,899,847.55,4.6,1396,4D armrests,mesh backrest,memory foam seat,300,16-21,3,45,No,premium,22.8
+PR-0089,2026-02-10,Secretlab,Secretlab Executive Chair 476,executive,799,734.74,4.2,3649,headrest,seat depth adjustment,forward tilt,300,17-21,10,82,No,mid-market,25.2
+PR-0090,2025-12-26,Uplift,Uplift Executive Chair 667,executive,499,490.8,4.4,4266,lumbar support,memory foam seat,forward tilt,225,17-20,2,49,No,mid-market,25.7
+PR-0091,2026-03-18,Steelcase,Steelcase Executive Chair 505,executive,699,611.98,3.6,708,tilt tension,lumbar support,4D armrests,275,16-20,3,27,Yes,mid-market,0.1
+PR-0092,2025-10-25,Humanscale,Humanscale Task Chair 105,task,1099,1073.13,3.2,1806,mesh backrest,forward tilt,memory foam seat,250,18-22,10,82,No,budget,23.7
+PR-0093,2025-10-19,Autonomous,Autonomous Gaming Chair 737,gaming,349,301.63,3.4,4134,lumbar support,headrest,4D armrests,350,18-20,12,80,Yes,mid-market,5.8
+PR-0094,2026-02-12,Herman Miller,Herman Miller Kneeling Chair 780,kneeling,549,503.46,4.1,2994,headrest,breathable fabric,4D armrests,225,18-22,10,79,Yes,luxury,27.3
+PR-0095,2025-12-30,Herman Miller,Herman Miller Saddle Chair 169,saddle,649,542.69,4.4,889,tilt tension,seat depth adjustment,lumbar support,350,18-21,2,20,Yes,premium,25.1
+PR-0096,2026-02-25,Branch,Branch Saddle Chair 164,saddle,699,649.38,4.8,342,aluminum base,forward tilt,mesh backrest,275,16-20,2,20,Yes,premium,14.1
+PR-0097,2026-01-17,Flexispot,Flexispot Task Chair 465,task,499,481.8,3.3,2759,lumbar support,memory foam seat,headrest,275,16-21,5,66,No,luxury,7.5
+PR-0098,2026-01-22,Branch,Branch Task Chair 184,task,1099,1024.02,3.3,1518,forward tilt,tilt tension,ergonomic lumbar,350,17-21,1,25,Yes,premium,6.3
+PR-0099,2025-12-07,Uplift,Uplift Saddle Chair 143,saddle,649,604.68,4.7,3603,mesh backrest,forward tilt,tilt tension,275,18-20,1,66,Yes,mid-market,30.3
+PR-0100,2026-03-14,Branch,Branch Kneeling Chair 341,kneeling,999,943.68,3.8,3176,forward tilt,lumbar support,mesh backrest,350,16-22,2,72,Yes,premium,11.4

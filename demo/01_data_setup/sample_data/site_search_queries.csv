@@ -1,0 +1,501 @@
+search_id,session_id,user_id,search_timestamp,query,query_length_chars,results_returned,results_clicked,clicked_url,click_position,search_refined,refined_query,device_type,channel,led_to_cart,led_to_purchase,zero_results
+SRCH-00001,fe72ab48849242,U557321,2026-01-02 00:26:19,gaming chair vs office chair,28,2,2,/products/ergo-pro-200,2,No,,tablet,organic_search,No,No,No
+SRCH-00002,45b75595075a45,U508254,2025-11-15 14:55:03,chair mat,9,3,2,/products/ergo-pro-900,2,No,,desktop,referral,Yes,No,No
+SRCH-00003,e311a34eb4b94c,U790576,2025-10-27 16:06:59,lumbar support pillow,21,8,0,,,No,,desktop,email,No,No,No
+SRCH-00004,c71b67b5de1a4e,U320512,2025-10-31 10:39:23,ergo pro assembly,17,2,0,,,Yes,ergo pro assembly,desktop,email,No,No,No
+SRCH-00005,62cac3a9560944,U664860,2026-03-07 21:34:49,office chair lumbar support,27,17,1,/support/assembly,1,No,,mobile,social,No,No,No
+SRCH-00006,b9ccaada5fb74b,U328592,2026-03-03 16:49:03,ergo pro discount code,22,13,3,/compare,1,No,,tablet,organic_search,No,No,No
+SRCH-00007,b41f6ae51a9d4e,U677281,2026-01-18 20:03:22,best chair for programmers,26,8,5,/support/assembly,2,No,,tablet,paid_search,No,No,No
+SRCH-00008,6fae5304ff4746,U344799,2025-10-19 22:09:58,mesh office chair,17,17,5,/products/ergo-pro-200,2,No,,desktop,organic_search,No,No,No
+SRCH-00009,24eb345daced4f,U986542,2026-02-27 00:15:45,ergo pro 200,12,5,2,/products/ergo-pro-200,1,No,,mobile,organic_search,No,No,No
+SRCH-00010,ce727558c7f24f,U121893,2025-11-19 10:13:58,ergo pro assembly,17,12,2,/products/ergo-pro-900,2,No,,mobile,organic_search,No,No,No
+SRCH-00011,ca61d30173754d,U624228,2026-03-14 18:42:16,ergo pro 900 leather,20,16,1,/support/warranty,1,No,,mobile,social,No,No,No
+SRCH-00012,262e2a23a4104a,U172935,2025-10-31 22:55:21,ergo pro 200 review,19,8,1,/products/ergo-pro-900,1,No,,desktop,social,No,No,No
+SRCH-00013,7632b83b8bc94e,U272642,2026-01-12 10:10:10,chair mat,9,4,2,/support/assembly,2,No,,desktop,organic_search,Yes,No,No
+SRCH-00014,2ef32c4c41bf47,U124249,2026-03-11 18:07:07,best office chair 2026,22,0,0,,,No,,mobile,organic_search,No,No,Yes
+SRCH-00015,8e9063732f0e47,U842831,2025-10-19 17:20:32,ergo pro 500 vs 900,19,18,3,/support/assembly,1,No,,desktop,email,No,No,No
+SRCH-00016,523b721f54d548,U581032,2025-10-28 01:20:28,ergo pro chair review,21,3,3,/support/warranty,3,No,,desktop,organic_search,No,No,No
+SRCH-00017,fbf71cea3d1b43,U868380,2026-03-25 08:37:58,ergo pro discount code,22,8,4,,2,Yes,ergo pro warranty,mobile,referral,No,No,No
+SRCH-00018,c2008f8b6f2940,U449594,2026-02-07 15:21:55,chair mat,9,1,1,/blog/best-ergonomic-chairs-2026,1,No,,desktop,direct,No,No,No
+SRCH-00019,dd91d013a0cc44,U874763,2026-01-30 03:14:43,ergonomic chair,15,12,5,/products/ergo-pro-900,2,Yes,ergo pro 200 review,mobile,organic_search,No,No,No
+SRCH-00020,c49bb09719d24a,U475225,2025-10-04 16:53:22,ergo pro discount code,22,16,3,,3,No,,mobile,social,No,No,No
+SRCH-00021,d4391d1f443d4a,U700403,2026-03-28 09:27:21,ergo pro return policy,22,1,1,,1,No,,mobile,paid_search,No,No,No
+SRCH-00022,c8c166162e4440,U183411,2026-03-08 07:12:17,ergo pro 500 vs 900,19,15,3,/products/ergo-pro-500,3,No,,tablet,organic_search,Yes,No,No
+SRCH-00023,917f56d659494f,U887915,2025-10-14 04:21:15,office chair lumbar support,27,17,3,/blog/best-ergonomic-chairs-2026,2,Yes,best chair for programmers,desktop,direct,No,No,No
+SRCH-00024,32f3f38e63c946,U364445,2026-02-07 23:39:27,lumbar support pillow,21,9,0,,,Yes,ergo pro return policy,mobile,affiliate,No,No,No
+SRCH-00025,4c86d6290eb94c,U194696,2025-11-04 21:28:09,office chair 300 lbs capacity,29,3,0,,,No,,tablet,referral,No,No,No
+SRCH-00026,1b5c839b4c0d42,U484033,2025-11-16 11:17:56,ergonomic chair,15,13,4,/blog/best-ergonomic-chairs-2026,3,Yes,best chair for programmers,mobile,organic_search,No,No,No
+SRCH-00027,5afc217d0a304e,U123910,2025-11-21 00:46:04,mesh office chair,17,18,4,/products/ergo-pro-500,4,Yes,chair mat,mobile,paid_search,No,No,No
+SRCH-00028,ff3aa3c8c45248,U273267,2026-01-18 21:38:59,ergo pro 500 vs 900,19,18,2,/support/warranty,1,No,,desktop,email,No,No,No
+SRCH-00029,8bf20663d1834c,U608439,2026-02-19 08:25:28,ergo pro vs herman miller,25,1,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00030,ed0c32855b9d45,U349249,2025-10-31 07:22:50,chair with headrest,19,17,3,/support/assembly,2,No,,mobile,referral,No,No,No
+SRCH-00031,c49a8e6313724f,U961631,2026-01-04 11:12:52,tall person office chair,24,17,3,,3,Yes,office chair 300 lbs capacity,desktop,paid_search,No,No,No
+SRCH-00032,fb674893060547,U172667,2026-03-20 18:03:44,ergo pro 900 leather,20,13,4,/compare,2,No,,mobile,organic_search,Yes,Yes,No
+SRCH-00033,29d71674f7a54f,U404478,2025-12-26 05:40:06,ergo pro chair review,21,7,5,,2,Yes,ergo pro discount code,mobile,social,No,No,No
+SRCH-00034,331c135d087d48,U672389,2025-11-25 23:43:59,ergo pro return policy,22,6,0,,,No,,desktop,paid_search,No,No,No
+SRCH-00035,8bd07fcec96342,U747376,2026-01-13 17:29:07,best chair for working from home,32,4,4,/products/ergo-pro-200,4,No,,desktop,paid_search,Yes,No,No
+SRCH-00036,ee411fb8c36943,U456738,2026-03-16 04:13:50,mesh office chair,17,13,4,,4,No,,tablet,organic_search,No,No,No
+SRCH-00037,fe8622ef01eb45,U609308,2026-03-30 14:25:54,office chair 300 lbs capacity,29,4,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00038,7a242f8170254c,U668808,2026-01-24 09:09:34,ergo pro 900 leather,20,9,4,/support/assembly,1,No,,desktop,direct,No,No,No
+SRCH-00039,4febb473e75740,U549954,2025-12-31 22:46:55,ergo pro 900 leather,20,7,1,/support/warranty,1,Yes,chair with headrest,desktop,paid_search,No,No,No
+SRCH-00040,d7e888c88e264c,U765222,2025-10-06 19:27:36,ergo pro warranty,17,12,0,,,No,,desktop,paid_search,No,No,No
+SRCH-00041,4454d310edce48,U750879,2025-11-14 19:02:06,chair with headrest,19,5,2,,2,No,,tablet,email,No,No,No
+SRCH-00042,3d30d46355db4f,U695692,2026-02-26 17:01:46,chair for back pain,19,9,5,/blog/best-ergonomic-chairs-2026,5,Yes,ergo pro vs herman miller,desktop,social,No,No,No
+SRCH-00043,686a552a71a448,U469485,2026-03-14 17:49:19,chair mat,9,18,1,,1,No,,tablet,paid_search,Yes,No,No
+SRCH-00044,5cc53e30994c4e,U280953,2025-12-23 19:35:36,ergo pro discount code,22,4,3,/blog/best-ergonomic-chairs-2026,2,No,,mobile,organic_search,No,No,No
+SRCH-00045,3c077ce8e39a40,U664237,2026-02-21 07:53:49,ergo pro 900 leather,20,8,3,,2,No,,tablet,organic_search,No,No,No
+SRCH-00046,bdaf58867c264d,U409842,2025-10-31 09:47:42,ergo pro accessories,20,13,2,/support/warranty,1,No,,desktop,organic_search,No,No,No
+SRCH-00047,9a122307e57b42,U481448,2025-10-31 22:20:51,tall person office chair,24,13,2,/support/assembly,1,Yes,best chair for working from home,tablet,direct,No,No,No
+SRCH-00048,8775376895494e,U805474,2025-12-18 13:28:20,ergo pro vs herman miller,25,0,0,,,Yes,ergo pro vs herman miller,desktop,paid_search,No,No,Yes
+SRCH-00049,f57cca4d585e46,U979092,2025-10-28 07:16:59,ergo pro 200 review,19,5,1,/blog/best-ergonomic-chairs-2026,1,No,,desktop,paid_search,Yes,No,No
+SRCH-00050,a70cd242c2dc44,U116280,2025-11-03 14:22:38,ergo pro 500 vs 900,19,14,2,/blog/best-ergonomic-chairs-2026,2,No,,desktop,direct,No,No,No
+SRCH-00051,c56003ac88be4f,U153893,2025-10-06 12:57:17,chair mat,9,14,2,/support/warranty,2,No,,mobile,organic_search,No,No,No
+SRCH-00052,4327041f84cc41,U795234,2026-02-09 06:46:54,best office chair 2026,22,17,0,,,No,,desktop,direct,No,No,No
+SRCH-00053,e8dbf3f9c3d54b,U905610,2025-10-26 22:24:39,ergo pro 500 vs 900,19,18,5,/products/ergo-pro-900,2,No,,mobile,direct,No,No,No
+SRCH-00054,a0d88a173c6142,U148805,2025-10-15 05:34:59,ergo pro assembly,17,6,3,/products/ergo-pro-500,3,Yes,best chair for working from home,desktop,direct,No,No,No
+SRCH-00055,dc80bdb852634e,U746700,2026-02-02 16:26:51,ergo pro 200 review,19,8,1,/compare,1,No,,mobile,organic_search,No,No,No
+SRCH-00056,37224a00b0ee40,U965024,2026-02-22 22:33:54,ergo pro return policy,22,11,5,/products/ergo-pro-900,3,No,,mobile,referral,No,No,No
+SRCH-00057,39a6dc8f935844,U238436,2025-12-10 16:09:35,ergo pro vs herman miller,25,15,3,/support/warranty,3,No,,desktop,paid_search,No,No,No
+SRCH-00058,68e39d74622747,U214057,2025-11-13 21:47:39,office chair lumbar support,27,16,1,/support/warranty,1,No,,desktop,direct,No,No,No
+SRCH-00059,90dbef7da1d54a,U490640,2025-12-25 05:34:03,ergo pro 200,12,16,5,/support/warranty,3,Yes,ergo pro return policy,desktop,organic_search,No,No,No
+SRCH-00060,b047c0ca7e0745,U913442,2025-10-08 05:24:07,best office chair 2026,22,9,4,,4,Yes,ergonomic chair,desktop,referral,No,No,No
+SRCH-00061,cfd53cfd0c5b4b,U956541,2026-03-02 23:07:47,ergo pro 200 review,19,14,2,/compare,2,No,,desktop,paid_search,No,No,No
+SRCH-00062,49645befd5ee4d,U162807,2025-11-02 00:34:15,ergonomic chair,15,5,5,/products/ergo-pro-500,3,Yes,ergonomic chair under 400,desktop,organic_search,No,No,No
+SRCH-00063,5c48250be71d44,U746316,2026-01-07 12:52:42,best office chair 2026,22,15,4,/products/ergo-pro-900,4,No,,mobile,paid_search,No,No,No
+SRCH-00064,9bf19df5f6f740,U499227,2026-03-21 14:01:13,ergo pro 900 leather,20,10,4,/compare,1,Yes,chair with headrest,desktop,organic_search,No,No,No
+SRCH-00065,f34cfde8257842,U176553,2026-03-12 23:56:14,ergonomic chair,15,3,3,/support/warranty,1,No,,desktop,social,Yes,No,No
+SRCH-00066,61c0ef789ba641,U209567,2026-01-24 17:35:29,chair mat,9,8,4,/support/assembly,1,No,,desktop,referral,No,No,No
+SRCH-00067,7f6e80e9a31240,U665781,2025-11-21 18:50:04,lumbar support pillow,21,7,1,/compare,1,Yes,ergo pro vs herman miller,mobile,social,No,No,No
+SRCH-00068,b106d8d4456c45,U978497,2026-03-19 09:42:00,ergonomic chair under 400,25,12,0,,,No,,tablet,referral,No,No,No
+SRCH-00069,445e46657d1c46,U975323,2025-10-17 01:28:32,ergo pro discount code,22,13,1,/products/ergo-pro-500,1,No,,desktop,organic_search,No,No,No
+SRCH-00070,4c51f470b62443,U777051,2025-10-16 00:41:41,ergo pro 200,12,12,1,/support/assembly,1,No,,desktop,organic_search,No,No,No
+SRCH-00071,9391c15f1c6a45,U914142,2026-03-14 07:24:08,ergo pro 200 review,19,9,1,/blog/best-ergonomic-chairs-2026,1,Yes,best chair for working from home,desktop,referral,No,No,No
+SRCH-00072,4ca2fb68a42049,U439908,2025-11-24 11:03:26,best chair for working from home,32,11,4,/blog/best-ergonomic-chairs-2026,2,No,,desktop,paid_search,No,No,No
+SRCH-00073,c37960fbfc8a4c,U684621,2026-03-07 18:05:16,tall person office chair,24,3,3,/products/ergo-pro-500,2,No,,desktop,organic_search,No,No,No
+SRCH-00074,cb51312d1b8e49,U465116,2026-03-08 13:17:38,chair mat,9,7,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00075,43b03a948e3347,U902719,2026-03-28 21:33:21,best chair for programmers,26,6,5,/support/assembly,3,No,,desktop,direct,No,No,No
+SRCH-00076,02e59d8b75a942,U353197,2025-10-05 18:46:14,best chair for working from home,32,9,2,/support/warranty,1,Yes,ergo pro return policy,desktop,organic_search,No,No,No
+SRCH-00077,35fcde63900c4c,U244698,2026-03-10 02:25:33,lumbar support pillow,21,16,4,/support/warranty,4,No,,desktop,paid_search,No,No,No
+SRCH-00078,7509cfad196d49,U830945,2026-01-22 16:53:24,ergo pro 200,12,3,0,,,Yes,office chair lumbar support,desktop,social,No,No,No
+SRCH-00079,ce6ec0cff6e648,U758632,2026-01-28 05:49:37,best chair for programmers,26,12,1,/products/ergo-pro-500,1,No,,mobile,organic_search,No,No,No
+SRCH-00080,54323c32b09641,U367302,2026-01-11 09:43:58,ergo pro 200,12,1,1,,1,No,,desktop,referral,No,No,No
+SRCH-00081,8d73a4d825684b,U489989,2026-02-01 14:45:57,ergo pro 500 vs 900,19,11,1,/products/ergo-pro-500,1,No,,mobile,email,No,No,No
+SRCH-00082,a5f080bc430c4b,U220985,2026-01-07 12:41:59,ergo pro vs herman miller,25,9,3,/compare,2,No,,desktop,email,No,No,No
+SRCH-00083,d2412ef34c1e46,U235371,2026-01-28 02:30:33,best chair for programmers,26,3,1,/products/ergo-pro-900,1,No,,mobile,social,Yes,No,No
+SRCH-00084,b97ba4a6127440,U341085,2026-02-19 09:21:34,lumbar support pillow,21,4,2,/products/ergo-pro-200,1,No,,mobile,organic_search,Yes,Yes,No
+SRCH-00085,9e82d368f42a43,U865804,2025-10-30 07:40:32,best chair for working from home,32,13,5,/blog/best-ergonomic-chairs-2026,3,No,,mobile,organic_search,No,No,No
+SRCH-00086,9608f51399a548,U731022,2025-12-05 13:55:42,chair with headrest,19,16,0,,,No,,mobile,paid_search,No,No,No
+SRCH-00087,c9e43d2b94d843,U374146,2026-03-24 01:23:47,ergo pro assembly,17,2,1,/support/assembly,1,No,,desktop,organic_search,No,No,No
+SRCH-00088,161c14da8a484c,U944574,2025-11-08 14:15:21,mesh office chair,17,3,1,/support/warranty,1,No,,mobile,social,No,No,No
+SRCH-00089,288a17ca54a24a,U960974,2026-01-10 02:52:46,ergo pro discount code,22,17,3,/support/assembly,3,No,,desktop,organic_search,Yes,No,No
+SRCH-00090,c1c749e2b99d4f,U377406,2026-03-03 22:35:29,office chair lumbar support,27,15,2,/products/ergo-pro-200,2,Yes,ergo pro assembly,tablet,direct,No,No,No
+SRCH-00091,ff096bc018ee47,U616890,2025-10-03 10:39:37,office chair 300 lbs capacity,29,6,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00092,e9da8240f88e41,U924495,2025-12-01 20:17:55,best chair for working from home,32,14,3,/products/ergo-pro-900,2,No,,mobile,organic_search,No,No,No
+SRCH-00093,eb8b65fdefad4e,U292678,2025-11-24 09:59:10,office chair lumbar support,27,16,1,/support/assembly,1,No,,mobile,social,No,No,No
+SRCH-00094,943a3253257949,U289151,2025-10-19 19:55:53,ergo pro chair review,21,15,0,,,No,,tablet,email,No,No,No
+SRCH-00095,a7d521130ace41,U889918,2026-02-15 08:12:21,ergo pro vs herman miller,25,16,1,,1,No,,mobile,social,No,No,No
+SRCH-00096,bfd71be7dbd84e,U674380,2026-01-01 02:39:53,office chair 300 lbs capacity,29,1,1,/products/ergo-pro-500,1,No,,desktop,direct,No,No,No
+SRCH-00097,be846256131a4b,U971870,2025-11-01 21:57:53,ergo pro accessories,20,8,4,/blog/best-ergonomic-chairs-2026,1,No,,mobile,organic_search,No,No,No
+SRCH-00098,8bbaaf81a7ff43,U263819,2025-10-23 13:00:56,ergo pro 200,12,11,1,/products/ergo-pro-500,1,No,,desktop,email,No,No,No
+SRCH-00099,3b05aab1303b41,U108777,2026-02-27 18:14:18,best chair for working from home,32,3,1,/products/ergo-pro-500,1,No,,desktop,organic_search,Yes,Yes,No
+SRCH-00100,e9ec5feb7c6e48,U115928,2025-12-02 09:42:13,ergonomic chair under 400,25,3,0,,,No,,mobile,social,No,No,No
+SRCH-00101,d2ce2c158fac4f,U751080,2026-03-12 09:37:58,office chair lumbar support,27,17,5,/support/assembly,2,Yes,ergo pro 200,mobile,email,No,No,No
+SRCH-00102,dbb17c839cc64d,U673415,2026-03-05 17:47:39,ergo pro 500 vs 900,19,2,1,/products/ergo-pro-500,1,Yes,ergo pro chair review,desktop,organic_search,No,No,No
+SRCH-00103,9c0e1d5399d347,U991414,2025-10-08 12:24:35,ergo pro return policy,22,9,3,/blog/best-ergonomic-chairs-2026,3,No,,mobile,paid_search,No,No,No
+SRCH-00104,4d2fff36cf6242,U960561,2025-12-30 06:28:53,tall person office chair,24,0,0,,,No,,tablet,email,No,No,Yes
+SRCH-00105,a52e3f493f204b,U794051,2026-01-07 02:20:46,office chair 300 lbs capacity,29,10,0,,,Yes,chair with headrest,mobile,organic_search,No,No,No
+SRCH-00106,de5b7f38f3c44d,U989387,2026-02-08 15:54:56,ergo pro 200 review,19,5,0,,,No,,desktop,paid_search,No,No,No
+SRCH-00107,e98ebdb2b0bc48,U761749,2025-11-12 01:55:36,office chair lumbar support,27,14,1,,1,No,,mobile,email,No,No,No
+SRCH-00108,5d7f73ba38134d,U679877,2025-12-16 12:27:26,ergo pro 200 review,19,12,0,,,No,,tablet,direct,No,No,No
+SRCH-00109,482393d537e447,U424829,2025-11-10 19:51:11,ergonomic chair under 400,25,9,4,/products/ergo-pro-200,2,No,,desktop,organic_search,No,No,No
+SRCH-00110,61be101173914b,U780025,2025-11-01 14:35:34,best chair for programmers,26,8,4,/support/assembly,2,No,,tablet,paid_search,No,No,No
+SRCH-00111,b182ec159c9b43,U206615,2025-11-11 13:29:30,chair mat,9,10,1,/support/assembly,1,No,,mobile,social,No,No,No
+SRCH-00112,c62f1dca542b4c,U766328,2026-02-03 09:20:55,ergo pro discount code,22,13,2,/products/ergo-pro-900,2,No,,mobile,organic_search,Yes,No,No
+SRCH-00113,c1bf419b2b3746,U236024,2025-10-16 10:02:45,ergonomic chair,15,17,3,/support/assembly,2,No,,desktop,paid_search,No,No,No
+SRCH-00114,2aba4a2868724d,U633717,2026-01-08 12:14:27,chair mat,9,18,2,/support/warranty,2,No,,desktop,organic_search,No,No,No
+SRCH-00115,1f3b409b376a49,U316979,2026-02-09 16:39:51,ergo pro vs herman miller,25,16,0,,,No,,tablet,email,No,No,No
+SRCH-00116,9bbc4dc548c745,U967950,2026-03-09 21:30:53,ergo pro return policy,22,0,0,,,Yes,ergo pro return policy,desktop,email,No,No,Yes
+SRCH-00117,444bb6c85fba4f,U872445,2026-02-02 20:43:18,office chair 300 lbs capacity,29,4,4,/support/warranty,2,Yes,ergo pro return policy,mobile,organic_search,No,No,No
+SRCH-00118,0e21eb959b374a,U650566,2026-02-12 17:02:30,best office chair 2026,22,10,5,,3,No,,tablet,social,Yes,No,No
+SRCH-00119,de7316b1930f48,U955409,2025-10-17 09:15:09,chair with headrest,19,15,2,/products/ergo-pro-200,1,No,,mobile,email,No,No,No
+SRCH-00120,4a6ec3862a824e,U486749,2026-03-28 01:50:56,ergo pro warranty,17,9,2,/products/ergo-pro-200,1,No,,mobile,direct,No,No,No
+SRCH-00121,83c77a4a02224c,U155989,2025-11-07 16:27:30,mesh office chair,17,9,5,/blog/best-ergonomic-chairs-2026,2,No,,tablet,organic_search,No,No,No
+SRCH-00122,bef3e0b68f3b4e,U251876,2025-11-12 21:25:14,best chair for programmers,26,11,5,/blog/best-ergonomic-chairs-2026,2,No,,tablet,organic_search,No,No,No
+SRCH-00123,485723693e5d41,U661711,2025-12-18 12:48:24,lumbar support pillow,21,5,3,/products/ergo-pro-200,3,No,,desktop,organic_search,No,No,No
+SRCH-00124,b1092d2f759448,U976803,2026-02-27 16:35:21,office chair lumbar support,27,4,0,,,Yes,ergo pro 500 vs 900,desktop,social,No,No,No
+SRCH-00125,f81b562cae7a4c,U888116,2025-11-20 10:32:29,best chair for programmers,26,10,5,/products/ergo-pro-200,1,No,,mobile,organic_search,No,No,No
+SRCH-00126,138194be1a7049,U532200,2025-12-14 20:04:12,office chair 300 lbs capacity,29,2,1,/compare,1,No,,desktop,direct,Yes,No,No
+SRCH-00127,a49bf0d217f042,U356009,2026-01-06 01:05:08,ergo pro discount code,22,11,3,/products/ergo-pro-900,3,No,,mobile,email,No,No,No
+SRCH-00128,6d031aae0d2245,U702625,2025-10-09 08:23:05,chair with headrest,19,16,5,/compare,5,No,,desktop,email,No,No,No
+SRCH-00129,79394d871abd4f,U309031,2026-01-23 08:47:22,ergo pro assembly,17,10,0,,,Yes,office chair lumbar support,desktop,organic_search,No,No,No
+SRCH-00130,6012699d07134f,U207454,2026-03-02 09:57:55,office chair 300 lbs capacity,29,2,1,/compare,1,No,,mobile,social,No,No,No
+SRCH-00131,4997016d85724b,U985261,2026-01-23 14:02:10,office chair 300 lbs capacity,29,1,1,/blog/best-ergonomic-chairs-2026,1,Yes,tall person office chair,tablet,email,No,No,No
+SRCH-00132,825a16d2858a42,U175683,2025-11-14 06:15:16,ergo pro chair review,21,12,0,,,Yes,office chair 300 lbs capacity,desktop,email,No,No,No
+SRCH-00133,7bdaa9bcfc6c48,U410022,2026-01-06 13:20:59,gaming chair vs office chair,28,14,1,/compare,1,Yes,office chair 300 lbs capacity,desktop,paid_search,No,No,No
+SRCH-00134,aac93220898547,U829240,2025-10-09 07:12:41,office chair lumbar support,27,9,1,/support/warranty,1,No,,desktop,paid_search,No,No,No
+SRCH-00135,7fdc5021fc9149,U495740,2025-10-17 22:25:08,ergo pro 200,12,2,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00136,702b203c044442,U844200,2025-11-12 08:11:46,ergonomic chair under 400,25,15,1,,1,No,,desktop,direct,No,No,No
+SRCH-00137,307883b015fb40,U672331,2025-10-25 11:01:24,office chair lumbar support,27,1,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00138,e425ccdb933d4a,U792958,2025-11-23 16:20:53,ergo pro 200 review,19,4,3,/blog/best-ergonomic-chairs-2026,1,No,,desktop,organic_search,No,No,No
+SRCH-00139,8f4367ffe94545,U860911,2026-01-17 14:55:23,chair with headrest,19,3,0,,,No,,mobile,paid_search,No,No,No
+SRCH-00140,53b5896e56424b,U483430,2025-11-23 00:53:35,tall person office chair,24,2,2,/support/warranty,2,No,,mobile,organic_search,No,No,No
+SRCH-00141,fdf34634784942,U959736,2025-10-10 04:34:27,office chair lumbar support,27,10,5,/compare,5,No,,tablet,paid_search,No,No,No
+SRCH-00142,814fed0d36114c,U974947,2026-02-16 22:45:05,ergo pro assembly,17,11,2,/products/ergo-pro-200,2,Yes,office chair 300 lbs capacity,tablet,organic_search,No,No,No
+SRCH-00143,d9c54a11d52f45,U296406,2026-01-12 19:17:48,ergo pro chair review,21,2,0,,,Yes,ergo pro discount code,mobile,affiliate,No,No,No
+SRCH-00144,f08ad372c3a54a,U766270,2026-03-30 05:46:46,ergo pro 500 vs 900,19,18,3,/support/warranty,3,No,,tablet,organic_search,No,No,No
+SRCH-00145,e48a7364b8ad42,U517089,2026-02-20 17:35:24,office chair 300 lbs capacity,29,13,2,/compare,2,Yes,best chair for programmers,desktop,paid_search,No,No,No
+SRCH-00146,309ac8415eb14b,U232107,2025-12-10 21:33:20,ergo pro vs herman miller,25,18,1,,1,Yes,best chair for working from home,desktop,organic_search,No,No,No
+SRCH-00147,c063e6ee0cb640,U925729,2025-10-16 02:28:50,ergo pro chair review,21,18,5,/support/assembly,4,No,,desktop,direct,Yes,No,No
+SRCH-00148,62311e8dbe5741,U877416,2025-11-13 20:46:00,best chair for programmers,26,6,5,/products/ergo-pro-900,3,No,,mobile,social,No,No,No
+SRCH-00149,379a4a0761bd4a,U702160,2026-01-03 14:06:22,best office chair 2026,22,3,0,,,Yes,chair mat,desktop,organic_search,No,No,No
+SRCH-00150,4c047860e3d945,U588357,2025-11-07 11:29:25,ergonomic chair,15,1,1,/support/warranty,1,Yes,ergonomic chair under 400,desktop,social,Yes,No,No
+SRCH-00151,7243f8dd7d454e,U210109,2026-02-05 21:20:26,ergo pro chair review,21,16,1,/products/ergo-pro-900,1,Yes,gaming chair vs office chair,tablet,direct,Yes,Yes,No
+SRCH-00152,d3bcd7d3eb7f4e,U302760,2025-11-03 01:31:58,ergo pro 900 leather,20,18,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00153,49f67840c0574a,U942811,2026-03-26 20:55:15,chair mat,9,12,0,,,No,,desktop,social,No,No,No
+SRCH-00154,926f6230f70e4c,U848422,2026-02-16 06:10:35,ergo pro 900 leather,20,16,2,/support/warranty,2,No,,desktop,social,No,No,No
+SRCH-00155,e815dd1f0b854d,U596671,2026-03-18 01:49:59,tall person office chair,24,2,2,/products/ergo-pro-500,1,No,,desktop,organic_search,No,No,No
+SRCH-00156,7880d0c9fb9241,U143376,2025-11-23 13:44:48,chair mat,9,13,2,/support/warranty,1,No,,desktop,paid_search,No,No,No
+SRCH-00157,efd434a719f44b,U342079,2025-10-26 07:45:17,ergo pro return policy,22,2,2,/products/ergo-pro-200,1,No,,tablet,social,No,No,No
+SRCH-00158,3fdbaa5cbe4841,U589588,2026-01-12 03:46:44,ergonomic chair,15,1,0,,,Yes,ergo pro 200 review,mobile,organic_search,No,No,No
+SRCH-00159,8acc74982ea24e,U938401,2025-12-06 10:10:49,ergo pro return policy,22,15,4,,4,No,,desktop,paid_search,No,No,No
+SRCH-00160,21866108ebe44b,U347916,2025-12-28 09:00:47,gaming chair vs office chair,28,12,3,/support/warranty,1,No,,desktop,direct,No,No,No
+SRCH-00161,24b9f9123eca4f,U833846,2026-02-16 13:53:39,ergo pro 900 leather,20,9,1,/blog/best-ergonomic-chairs-2026,1,No,,mobile,email,No,No,No
+SRCH-00162,9857486b4df04a,U539763,2026-01-26 20:10:03,best chair for working from home,32,6,2,/compare,1,No,,desktop,direct,No,No,No
+SRCH-00163,1129ee5d140241,U831306,2026-02-07 02:04:13,ergo pro chair review,21,12,3,/products/ergo-pro-900,2,No,,desktop,organic_search,No,No,No
+SRCH-00164,e9e4e9b58fb24f,U518370,2025-11-04 20:57:19,ergo pro 500 vs 900,19,4,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00165,0de5414c064643,U464200,2026-03-23 00:05:05,office chair lumbar support,27,14,1,/blog/best-ergonomic-chairs-2026,1,No,,mobile,paid_search,No,No,No
+SRCH-00166,4182c8274d2142,U234240,2025-10-11 05:10:46,ergo pro return policy,22,6,5,/products/ergo-pro-500,5,Yes,ergo pro assembly,desktop,organic_search,No,No,No
+SRCH-00167,6108fb3657e043,U772427,2026-03-23 12:31:55,ergonomic chair,15,12,5,/products/ergo-pro-900,5,No,,desktop,direct,Yes,No,No
+SRCH-00168,34e786725a4b45,U942677,2025-10-15 19:41:56,best chair for working from home,32,10,4,/products/ergo-pro-500,3,No,,tablet,organic_search,No,No,No
+SRCH-00169,ec9fd47a9e1b47,U763594,2026-01-21 05:51:45,chair for back pain,19,5,4,/support/assembly,3,No,,desktop,email,No,No,No
+SRCH-00170,c768a46c6e8742,U350454,2025-11-25 08:30:41,chair mat,9,14,5,/support/warranty,3,No,,desktop,organic_search,No,No,No
+SRCH-00171,b781e495d87241,U239670,2025-11-10 07:04:30,ergonomic chair,15,15,1,/products/ergo-pro-500,1,No,,desktop,affiliate,Yes,Yes,No
+SRCH-00172,51638787e29742,U823896,2026-01-27 08:00:47,gaming chair vs office chair,28,3,0,,,Yes,ergonomic chair,tablet,social,No,No,No
+SRCH-00173,06ddcbec8b8e4c,U650648,2026-02-14 13:16:08,ergo pro warranty,17,1,1,/support/assembly,1,No,,mobile,social,Yes,No,No
+SRCH-00174,c8b5841fa40740,U639435,2026-03-14 19:52:35,chair for back pain,19,7,2,/support/warranty,2,Yes,office chair 300 lbs capacity,mobile,paid_search,No,No,No
+SRCH-00175,51f9f432e74a48,U216897,2026-03-28 11:47:36,office chair 300 lbs capacity,29,14,2,/products/ergo-pro-200,1,Yes,chair with headrest,tablet,email,No,No,No
+SRCH-00176,df29c2c3cb994c,U467088,2026-01-05 16:48:49,ergo pro 500 vs 900,19,11,5,/products/ergo-pro-900,2,No,,mobile,organic_search,No,No,No
+SRCH-00177,696fe07979dd4d,U547975,2026-02-23 14:21:02,ergo pro warranty,17,2,0,,,Yes,ergo pro 200 review,desktop,organic_search,No,No,No
+SRCH-00178,0f6615a4159b48,U981061,2025-12-19 14:34:10,ergo pro accessories,20,16,2,/products/ergo-pro-200,1,No,,mobile,organic_search,No,No,No
+SRCH-00179,b3ba69ed229042,U426498,2025-10-19 12:10:24,tall person office chair,24,11,1,/products/ergo-pro-200,1,No,,desktop,email,No,No,No
+SRCH-00180,ea3856bccfa045,U712597,2025-10-02 22:45:11,ergo pro 900 leather,20,12,5,,2,No,,tablet,organic_search,No,No,No
+SRCH-00181,497fb977995c46,U178617,2025-11-19 11:52:33,best office chair 2026,22,13,5,/support/warranty,3,No,,tablet,direct,Yes,Yes,No
+SRCH-00182,56ed320f7f9741,U259942,2025-10-03 11:37:18,chair for back pain,19,8,1,,1,Yes,ergo pro 500 vs 900,desktop,social,No,No,No
+SRCH-00183,3c3268d97b6b42,U500781,2026-01-12 18:24:16,ergo pro assembly,17,6,4,/support/assembly,1,No,,desktop,referral,No,No,No
+SRCH-00184,62442d51517c4b,U433816,2025-11-06 05:13:59,chair for back pain,19,0,0,,,No,,tablet,organic_search,No,No,Yes
+SRCH-00185,727d71954bba4f,U323906,2025-10-17 12:31:41,chair for back pain,19,13,3,/products/ergo-pro-500,3,No,,tablet,paid_search,No,No,No
+SRCH-00186,b2b8800ed3d441,U807310,2026-03-19 14:19:32,ergonomic chair under 400,25,2,2,/products/ergo-pro-900,1,Yes,best chair for working from home,desktop,organic_search,No,No,No
+SRCH-00187,b82b97a8193044,U332854,2025-12-03 07:51:58,ergonomic chair,15,17,2,/blog/best-ergonomic-chairs-2026,2,Yes,ergo pro return policy,mobile,organic_search,Yes,No,No
+SRCH-00188,4d2b99b1cea34c,U652813,2025-10-21 07:26:37,ergo pro discount code,22,17,2,/compare,2,Yes,ergo pro chair review,mobile,organic_search,No,No,No
+SRCH-00189,febd8034c70046,U251472,2025-10-04 05:43:17,ergo pro 200 review,19,14,0,,,No,,mobile,social,No,No,No
+SRCH-00190,b13c48e7dfc24e,U960702,2025-10-03 15:32:58,office chair 300 lbs capacity,29,18,3,/blog/best-ergonomic-chairs-2026,1,No,,mobile,email,No,No,No
+SRCH-00191,9960cc44a08d48,U164358,2026-01-26 13:48:01,lumbar support pillow,21,0,0,,,Yes,ergo pro 500 vs 900,tablet,direct,No,No,Yes
+SRCH-00192,895ff685c80b40,U629728,2026-03-11 15:07:34,ergo pro warranty,17,13,3,/support/assembly,3,No,,desktop,social,No,No,No
+SRCH-00193,237b8fc9c31f45,U345133,2025-12-26 17:27:30,ergo pro return policy,22,2,1,/blog/best-ergonomic-chairs-2026,1,Yes,chair for back pain,desktop,paid_search,Yes,No,No
+SRCH-00194,91879c5d744a46,U427951,2026-03-26 12:03:34,tall person office chair,24,10,1,/products/ergo-pro-200,1,No,,desktop,organic_search,No,No,No
+SRCH-00195,dd43a399ce6540,U541197,2026-01-30 12:01:33,mesh office chair,17,10,1,/blog/best-ergonomic-chairs-2026,1,Yes,ergo pro return policy,mobile,direct,No,No,No
+SRCH-00196,92f3f6270af641,U937414,2025-10-10 16:30:24,ergo pro 900 leather,20,16,3,/support/warranty,2,No,,mobile,direct,Yes,No,No
+SRCH-00197,9c28ae317b614a,U866729,2026-03-27 18:40:30,best office chair 2026,22,17,1,/support/warranty,1,No,,desktop,paid_search,No,No,No
+SRCH-00198,dc916ea4375344,U359934,2025-11-17 23:08:37,gaming chair vs office chair,28,11,0,,,No,,mobile,email,No,No,No
+SRCH-00199,49f2f90a40cf4f,U484621,2026-02-03 00:38:34,ergonomic chair under 400,25,13,3,/support/assembly,1,No,,mobile,paid_search,No,No,No
+SRCH-00200,a9339c78f9dd40,U294395,2026-03-29 19:16:41,office chair 300 lbs capacity,29,6,1,/products/ergo-pro-500,1,Yes,ergo pro chair review,mobile,paid_search,No,No,No
+SRCH-00201,1f707093cb224f,U439333,2025-12-14 10:56:23,ergonomic chair under 400,25,3,3,/products/ergo-pro-200,1,No,,tablet,organic_search,No,No,No
+SRCH-00202,941e334095b94d,U142951,2026-02-12 00:07:27,ergo pro chair review,21,13,5,/products/ergo-pro-900,2,No,,desktop,paid_search,No,No,No
+SRCH-00203,d57ba7aef46449,U737531,2026-02-02 01:31:21,best office chair 2026,22,16,4,/products/ergo-pro-900,4,Yes,mesh office chair,tablet,paid_search,Yes,No,No
+SRCH-00204,4189b75e78f349,U126123,2025-10-04 21:22:52,ergo pro warranty,17,17,4,/products/ergo-pro-900,4,Yes,ergo pro vs herman miller,mobile,email,No,No,No
+SRCH-00205,21d59af9596c44,U895140,2025-10-08 00:19:36,office chair 300 lbs capacity,29,8,4,/blog/best-ergonomic-chairs-2026,2,No,,desktop,social,No,No,No
+SRCH-00206,f1ab1fca4dff4c,U525813,2025-11-02 15:25:20,ergo pro return policy,22,9,0,,,No,,mobile,paid_search,No,No,No
+SRCH-00207,672c69847aa146,U924703,2025-10-24 13:37:20,chair mat,9,5,5,/support/warranty,5,No,,tablet,organic_search,No,No,No
+SRCH-00208,d0d7608170764a,U875709,2026-03-28 15:06:28,best chair for programmers,26,13,4,/products/ergo-pro-900,2,No,,mobile,organic_search,No,No,No
+SRCH-00209,b5a072f9a4c74e,U595851,2026-02-10 15:36:07,best office chair 2026,22,7,1,/support/assembly,1,No,,tablet,social,No,No,No
+SRCH-00210,f33f4d3a9b204f,U978651,2025-12-14 02:55:44,gaming chair vs office chair,28,7,1,/support/assembly,1,No,,tablet,social,Yes,Yes,No
+SRCH-00211,30eadaac8a4c4a,U446550,2026-02-19 19:27:38,ergo pro 500 vs 900,19,12,4,/products/ergo-pro-500,3,Yes,best chair for working from home,desktop,email,No,No,No
+SRCH-00212,a7c7a7fe5e254a,U971729,2026-03-27 13:37:06,ergo pro 200,12,7,5,/support/assembly,5,No,,desktop,organic_search,Yes,No,No
+SRCH-00213,483cbe1d556c43,U629807,2025-11-27 19:31:48,ergo pro vs herman miller,25,2,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00214,3932b7ee595247,U268023,2026-03-05 03:48:44,chair with headrest,19,5,0,,,Yes,tall person office chair,desktop,paid_search,No,No,No
+SRCH-00215,547354091a1945,U558933,2025-12-17 08:00:43,best chair for working from home,32,0,0,,,No,,desktop,paid_search,No,No,Yes
+SRCH-00216,fa04cac8e62040,U698886,2025-12-02 15:18:51,ergonomic chair under 400,25,0,0,,,Yes,ergo pro 900 leather,desktop,paid_search,No,No,Yes
+SRCH-00217,af1cc56b922742,U259687,2026-03-02 23:27:27,chair for back pain,19,10,2,/products/ergo-pro-500,2,No,,desktop,social,No,No,No
+SRCH-00218,67798b0d02704a,U863101,2025-11-03 01:26:58,ergo pro assembly,17,17,0,,,Yes,ergo pro return policy,mobile,direct,No,No,No
+SRCH-00219,d0ade0131d5b4d,U288455,2025-12-31 21:11:33,best chair for programmers,26,2,0,,,No,,mobile,paid_search,No,No,No
+SRCH-00220,a73c7d898c344f,U476931,2025-11-14 17:47:25,ergo pro vs herman miller,25,17,4,/products/ergo-pro-900,2,No,,mobile,organic_search,No,No,No
+SRCH-00221,e5d73257fc424f,U201945,2026-03-13 06:31:46,chair mat,9,6,4,/products/ergo-pro-200,4,Yes,tall person office chair,mobile,organic_search,No,No,No
+SRCH-00222,80545debffd945,U889771,2026-01-06 00:32:43,ergo pro chair review,21,8,4,/products/ergo-pro-500,4,No,,tablet,social,No,No,No
+SRCH-00223,09b540e3ac4640,U508985,2026-02-06 18:56:16,best chair for working from home,32,16,0,,,No,,mobile,direct,No,No,No
+SRCH-00224,f37db823a94642,U679403,2025-10-10 11:43:23,ergo pro assembly,17,16,2,/compare,2,No,,desktop,social,No,No,No
+SRCH-00225,d2df507e881f40,U971189,2026-03-18 20:58:19,mesh office chair,17,11,3,/support/warranty,3,No,,mobile,paid_search,No,No,No
+SRCH-00226,5eafb9a7d6bb4a,U571600,2026-02-14 22:38:41,best office chair 2026,22,5,3,/products/ergo-pro-200,1,No,,mobile,affiliate,No,No,No
+SRCH-00227,8b236291736c4f,U374526,2025-12-28 02:34:03,tall person office chair,24,13,2,/products/ergo-pro-900,2,No,,desktop,organic_search,No,No,No
+SRCH-00228,f9d8461bb0af4f,U327641,2026-02-09 23:34:14,ergo pro discount code,22,11,4,/support/assembly,2,No,,desktop,organic_search,No,No,No
+SRCH-00229,09be1ab15f7443,U710361,2026-01-05 00:06:39,gaming chair vs office chair,28,16,3,/blog/best-ergonomic-chairs-2026,2,No,,mobile,paid_search,No,No,No
+SRCH-00230,d69e26791f7748,U454198,2026-03-04 00:03:48,lumbar support pillow,21,14,3,/products/ergo-pro-500,1,No,,tablet,paid_search,No,No,No
+SRCH-00231,3bd5a5c5238445,U546699,2025-10-06 18:56:09,chair mat,9,13,1,/products/ergo-pro-900,1,No,,mobile,social,No,No,No
+SRCH-00232,25a3aced715c43,U482313,2026-03-19 09:27:31,tall person office chair,24,12,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00233,f5841dd05d2b49,U793185,2026-02-16 13:58:19,ergo pro return policy,22,18,4,/compare,2,No,,desktop,social,No,No,No
+SRCH-00234,25749a9125a248,U683348,2025-10-11 20:49:47,chair with headrest,19,2,1,/support/warranty,1,No,,desktop,paid_search,No,No,No
+SRCH-00235,f10adbe6fc074c,U239722,2026-03-13 03:33:55,ergonomic chair under 400,25,17,1,/blog/best-ergonomic-chairs-2026,1,No,,desktop,social,Yes,No,No
+SRCH-00236,8b83c6c3b23042,U521942,2025-12-14 09:36:20,ergo pro 900 leather,20,3,0,,,No,,tablet,referral,No,No,No
+SRCH-00237,7c08ba6f371a41,U564522,2025-11-05 00:44:46,ergo pro accessories,20,17,2,/products/ergo-pro-500,2,Yes,ergo pro 500 vs 900,tablet,organic_search,No,No,No
+SRCH-00238,2d3d0d986b494d,U874928,2025-11-22 17:46:33,office chair lumbar support,27,4,1,/products/ergo-pro-200,1,Yes,ergo pro accessories,desktop,social,Yes,No,No
+SRCH-00239,351cf23b67b04d,U541058,2026-02-04 21:20:40,chair mat,9,1,0,,,No,,desktop,direct,No,No,No
+SRCH-00240,5706125c378940,U827187,2025-11-27 12:52:49,chair for back pain,19,1,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00241,af052ad6ca374a,U321061,2025-11-06 09:25:32,ergo pro discount code,22,0,0,,,No,,mobile,paid_search,No,No,Yes
+SRCH-00242,d859418948b54a,U971558,2025-12-21 02:05:55,ergo pro return policy,22,17,3,/products/ergo-pro-900,2,No,,mobile,email,No,No,No
+SRCH-00243,6ce3d5c572934a,U648904,2025-12-04 15:18:20,ergo pro vs herman miller,25,2,2,/compare,1,No,,desktop,direct,No,No,No
+SRCH-00244,22c4557d532241,U982117,2025-11-06 21:18:24,ergo pro assembly,17,17,0,,,No,,mobile,direct,No,No,No
+SRCH-00245,cb935dcfd94242,U670200,2025-11-28 22:02:44,best chair for programmers,26,17,1,/support/warranty,1,No,,desktop,organic_search,No,No,No
+SRCH-00246,ec33298d20614f,U419516,2025-10-16 22:40:15,mesh office chair,17,10,3,/support/warranty,3,No,,desktop,organic_search,No,No,No
+SRCH-00247,bfc4336944f947,U312341,2025-12-29 00:40:04,ergo pro discount code,22,11,5,/products/ergo-pro-900,3,No,,desktop,paid_search,No,No,No
+SRCH-00248,1017fd1653ca4f,U804437,2026-01-27 07:53:53,ergo pro vs herman miller,25,10,5,/compare,1,Yes,ergo pro chair review,desktop,social,No,No,No
+SRCH-00249,d91515a49ae841,U962902,2026-01-02 22:36:00,ergo pro warranty,17,6,1,/products/ergo-pro-900,1,Yes,ergonomic chair,tablet,referral,No,No,No
+SRCH-00250,9d1a20f934254d,U536458,2026-02-18 10:21:45,tall person office chair,24,15,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00251,83c47d9485ee47,U800908,2026-02-18 23:12:21,lumbar support pillow,21,13,4,/products/ergo-pro-500,1,No,,mobile,organic_search,No,No,No
+SRCH-00252,9c6afd96ed2b40,U816377,2025-10-24 16:13:07,ergo pro assembly,17,16,3,/products/ergo-pro-900,3,No,,desktop,paid_search,No,No,No
+SRCH-00253,608dce4451f949,U697519,2026-01-03 23:34:44,lumbar support pillow,21,14,4,/products/ergo-pro-500,1,No,,mobile,organic_search,No,No,No
+SRCH-00254,a689c2811a874b,U721745,2025-11-07 11:53:11,chair mat,9,2,2,/compare,1,No,,tablet,email,No,No,No
+SRCH-00255,a7908bcd38f54a,U662554,2025-10-26 22:40:42,ergonomic chair under 400,25,12,5,/support/assembly,2,No,,mobile,social,No,No,No
+SRCH-00256,95d1047ea41143,U232592,2026-03-27 06:43:22,ergo pro 900 leather,20,0,0,,,Yes,office chair lumbar support,tablet,paid_search,No,No,Yes
+SRCH-00257,19e7910b318944,U610520,2026-03-25 19:57:30,ergo pro accessories,20,15,5,/blog/best-ergonomic-chairs-2026,3,No,,desktop,social,No,No,No
+SRCH-00258,8a164e09751c4a,U948481,2025-10-26 02:35:36,mesh office chair,17,15,4,/support/warranty,1,No,,mobile,paid_search,No,No,No
+SRCH-00259,0bc506584bf940,U792358,2026-03-20 00:49:13,ergo pro 500 vs 900,19,11,4,/products/ergo-pro-900,2,No,,mobile,paid_search,No,No,No
+SRCH-00260,00a01e2a1ad940,U500661,2026-02-21 17:14:35,best chair for working from home,32,18,0,,,No,,tablet,social,No,No,No
+SRCH-00261,86da41201b4940,U993264,2025-11-02 16:56:23,ergo pro warranty,17,17,5,/products/ergo-pro-200,3,Yes,gaming chair vs office chair,desktop,social,No,No,No
+SRCH-00262,7b565873901a4f,U756244,2025-12-05 15:59:55,ergo pro return policy,22,11,3,/blog/best-ergonomic-chairs-2026,1,No,,desktop,social,No,No,No
+SRCH-00263,f6acdf01d5824e,U736649,2026-01-02 11:33:10,ergo pro 500 vs 900,19,9,0,,,Yes,ergo pro 500 vs 900,tablet,paid_search,No,No,No
+SRCH-00264,cc8f66ddbecc4a,U486770,2026-02-24 21:02:53,ergo pro 900 leather,20,0,0,,,Yes,gaming chair vs office chair,tablet,paid_search,No,No,Yes
+SRCH-00265,e762447154f14d,U368065,2026-02-26 20:56:08,chair for back pain,19,0,0,,,No,,desktop,organic_search,No,No,Yes
+SRCH-00266,d1c4874e540241,U631584,2025-12-14 20:16:32,chair mat,9,11,2,/blog/best-ergonomic-chairs-2026,1,No,,tablet,organic_search,No,No,No
+SRCH-00267,e375c2731fda45,U451536,2026-03-06 20:31:26,chair with headrest,19,13,2,,2,Yes,office chair 300 lbs capacity,mobile,social,No,No,No
+SRCH-00268,61147ff369894b,U717607,2025-10-04 05:43:25,office chair 300 lbs capacity,29,16,0,,,No,,tablet,organic_search,No,No,No
+SRCH-00269,7a1d7e68baf145,U577356,2026-03-22 05:20:24,ergo pro assembly,17,13,0,,,No,,mobile,social,No,No,No
+SRCH-00270,083950ca93a04a,U346068,2026-03-29 06:35:36,lumbar support pillow,21,9,4,/support/assembly,2,No,,desktop,paid_search,No,No,No
+SRCH-00271,b86bcccb14424d,U585436,2025-11-22 02:40:34,ergo pro vs herman miller,25,13,0,,,Yes,chair with headrest,desktop,paid_search,No,No,No
+SRCH-00272,a753fb6d1d9642,U952852,2026-02-20 04:02:19,chair mat,9,7,0,,,Yes,ergo pro warranty,desktop,organic_search,No,No,No
+SRCH-00273,07465563dbe24c,U198909,2026-01-02 20:48:23,ergo pro 200 review,19,6,1,/products/ergo-pro-200,1,No,,mobile,organic_search,No,No,No
+SRCH-00274,c45bdafce65841,U981132,2025-10-30 15:30:42,ergo pro 200,12,11,2,/products/ergo-pro-500,1,No,,mobile,organic_search,Yes,Yes,No
+SRCH-00275,a8d851ee018f4b,U223462,2025-11-30 00:41:45,chair mat,9,6,3,/support/assembly,2,Yes,ergo pro chair review,desktop,social,No,No,No
+SRCH-00276,e35a4ad04b514d,U791022,2025-11-05 01:05:20,chair mat,9,1,1,/products/ergo-pro-500,1,No,,desktop,paid_search,No,No,No
+SRCH-00277,1b148a4909d646,U835528,2026-03-28 07:07:01,chair mat,9,2,0,,,No,,desktop,paid_search,No,No,No
+SRCH-00278,4d575c755e8446,U398116,2025-12-11 23:18:28,ergo pro 200,12,16,0,,,No,,tablet,email,No,No,No
+SRCH-00279,5c44f4a5724244,U228216,2026-01-28 10:15:17,ergonomic chair under 400,25,15,0,,,No,,tablet,email,No,No,No
+SRCH-00280,6e80d299acdb4e,U864567,2025-11-28 12:25:14,best chair for programmers,26,6,3,/support/warranty,2,No,,mobile,organic_search,Yes,Yes,No
+SRCH-00281,22741b88d73c4a,U851965,2026-01-30 17:07:34,mesh office chair,17,15,3,/products/ergo-pro-900,3,Yes,ergo pro discount code,mobile,email,No,No,No
+SRCH-00282,d161c433e1464f,U138307,2026-03-20 03:50:37,office chair lumbar support,27,2,0,,,No,,desktop,direct,No,No,No
+SRCH-00283,ac359fd4fe2941,U613787,2025-12-19 21:48:10,ergo pro chair review,21,9,3,/compare,2,No,,mobile,social,No,No,No
+SRCH-00284,8b7cc6f3271d45,U345357,2025-12-27 21:30:26,gaming chair vs office chair,28,13,3,/blog/best-ergonomic-chairs-2026,1,No,,tablet,email,No,No,No
+SRCH-00285,8f4c2420638941,U196000,2025-10-08 11:44:29,lumbar support pillow,21,8,4,/products/ergo-pro-200,1,No,,tablet,organic_search,No,No,No
+SRCH-00286,2ffa18f930db4a,U115847,2025-10-23 03:26:33,office chair lumbar support,27,13,4,/support/warranty,2,No,,mobile,social,No,No,No
+SRCH-00287,bbd3e8a1fe9042,U703716,2025-11-14 05:01:14,best office chair 2026,22,7,1,/products/ergo-pro-500,1,No,,mobile,paid_search,No,No,No
+SRCH-00288,62798ccdd6b44d,U844475,2026-03-12 21:18:28,ergo pro assembly,17,6,4,/products/ergo-pro-500,3,No,,desktop,organic_search,No,No,No
+SRCH-00289,d66a309fac3446,U106566,2026-02-08 08:53:42,ergo pro 200 review,19,16,0,,,No,,desktop,social,No,No,No
+SRCH-00290,a338729f73e54f,U360015,2025-10-19 08:43:05,office chair 300 lbs capacity,29,13,0,,,No,,desktop,email,No,No,No
+SRCH-00291,ba94818007f046,U415662,2025-10-03 00:45:58,ergo pro 900 leather,20,10,3,/products/ergo-pro-500,3,No,,desktop,paid_search,No,No,No
+SRCH-00292,53e757800faa4c,U308022,2026-03-19 01:04:02,mesh office chair,17,0,0,,,Yes,ergo pro chair review,tablet,referral,No,No,Yes
+SRCH-00293,c7f0e30fa35c4b,U246294,2026-03-23 02:00:35,best chair for programmers,26,17,4,,3,Yes,ergo pro discount code,desktop,paid_search,Yes,No,No
+SRCH-00294,15b249661e7e4d,U373863,2025-11-04 22:36:06,gaming chair vs office chair,28,7,4,/products/ergo-pro-500,2,No,,tablet,organic_search,No,No,No
+SRCH-00295,4a43140c6b3444,U861739,2025-12-06 09:52:29,ergo pro 900 leather,20,13,5,/products/ergo-pro-200,5,No,,tablet,social,No,No,No
+SRCH-00296,f3260cb8a11f4f,U705650,2025-12-07 14:58:02,ergo pro warranty,17,14,3,/products/ergo-pro-500,1,No,,mobile,email,Yes,No,No
+SRCH-00297,77456bda37454a,U783199,2025-12-14 07:26:32,ergo pro discount code,22,18,3,/products/ergo-pro-200,1,No,,tablet,paid_search,No,No,No
+SRCH-00298,7baf0005cd6c42,U181274,2026-01-10 12:37:34,ergo pro warranty,17,15,5,/products/ergo-pro-900,4,No,,mobile,organic_search,No,No,No
+SRCH-00299,1d723fcc31a745,U998438,2026-03-26 03:46:25,best chair for programmers,26,11,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00300,6a1e10e9b4f44a,U238084,2025-11-07 21:38:31,ergo pro vs herman miller,25,8,5,,4,No,,desktop,organic_search,No,No,No
+SRCH-00301,e2505ed083fe41,U957235,2026-02-15 09:37:03,chair for back pain,19,1,0,,,Yes,ergonomic chair under 400,tablet,direct,No,No,No
+SRCH-00302,50fbc829746945,U804866,2026-03-14 15:16:57,best chair for working from home,32,1,0,,,No,,mobile,social,No,No,No
+SRCH-00303,9ca239c3ad1f49,U184234,2026-01-27 00:58:20,chair with headrest,19,17,1,/support/warranty,1,No,,desktop,referral,No,No,No
+SRCH-00304,fea91c9314e44f,U621177,2026-03-14 02:53:51,best office chair 2026,22,16,4,/blog/best-ergonomic-chairs-2026,4,No,,tablet,organic_search,No,No,No
+SRCH-00305,f62cb7ab328847,U653379,2026-01-28 03:02:28,chair with headrest,19,5,4,/products/ergo-pro-900,4,No,,desktop,direct,No,No,No
+SRCH-00306,eb1ac28e049a46,U747272,2026-01-03 01:10:31,lumbar support pillow,21,11,4,/support/warranty,4,Yes,office chair lumbar support,mobile,direct,No,No,No
+SRCH-00307,b991c99801d040,U711709,2025-10-23 22:10:16,best office chair 2026,22,5,0,,,No,,mobile,direct,No,No,No
+SRCH-00308,19c5c181e98446,U561638,2026-03-11 09:21:27,ergonomic chair,15,8,0,,,No,,desktop,social,No,No,No
+SRCH-00309,72be6117f32d49,U148533,2026-01-03 04:54:20,mesh office chair,17,5,1,/blog/best-ergonomic-chairs-2026,1,No,,desktop,organic_search,No,No,No
+SRCH-00310,c259d92de49c48,U335953,2026-03-19 18:28:44,ergo pro 900 leather,20,8,1,/products/ergo-pro-200,1,Yes,lumbar support pillow,desktop,email,No,No,No
+SRCH-00311,d9fca8e93ee846,U178515,2026-01-06 14:52:14,chair mat,9,11,3,/support/assembly,3,No,,mobile,email,No,No,No
+SRCH-00312,f1db7e24814941,U143343,2026-01-02 14:31:46,ergo pro warranty,17,6,3,/products/ergo-pro-500,3,No,,mobile,organic_search,No,No,No
+SRCH-00313,f16b4661b08b49,U179600,2025-11-17 22:19:30,ergo pro assembly,17,8,1,/products/ergo-pro-900,1,No,,desktop,social,No,No,No
+SRCH-00314,88110a1d1b2549,U253201,2026-03-12 01:29:40,ergo pro chair review,21,6,2,/support/assembly,2,Yes,best chair for working from home,desktop,paid_search,No,No,No
+SRCH-00315,9bdd5ba2fdea47,U241763,2026-01-20 14:06:48,office chair 300 lbs capacity,29,3,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00316,1c08a402b9cd43,U208038,2025-10-14 12:15:12,ergo pro 200 review,19,8,3,/compare,2,No,,desktop,organic_search,No,No,No
+SRCH-00317,f4b0257e19ef46,U440034,2026-03-19 10:11:02,gaming chair vs office chair,28,4,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00318,a6696bc6f5f64a,U683248,2026-02-16 19:51:20,chair with headrest,19,11,4,,3,No,,desktop,organic_search,No,No,No
+SRCH-00319,bf4dbf55db5b4b,U924842,2026-03-08 22:48:48,best chair for working from home,32,2,0,,,Yes,office chair lumbar support,mobile,paid_search,No,No,No
+SRCH-00320,dc56ad80c18c43,U960312,2026-03-21 01:42:51,ergo pro 500 vs 900,19,9,3,/products/ergo-pro-500,3,No,,mobile,email,No,No,No
+SRCH-00321,4d775cd5b14047,U240401,2026-02-20 17:14:16,tall person office chair,24,14,2,/support/assembly,2,No,,desktop,paid_search,Yes,Yes,No
+SRCH-00322,916a7ab4e03a40,U569498,2025-10-11 23:43:59,ergo pro accessories,20,11,3,/products/ergo-pro-500,2,No,,mobile,organic_search,No,No,No
+SRCH-00323,8675094260ce47,U380871,2025-11-16 15:41:28,office chair lumbar support,27,13,3,/products/ergo-pro-200,1,No,,desktop,paid_search,No,No,No
+SRCH-00324,43d3a4659e3d4b,U501007,2025-11-15 20:42:09,best office chair 2026,22,8,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00325,4ee53510076742,U391422,2026-01-04 19:44:42,lumbar support pillow,21,3,3,/products/ergo-pro-500,2,Yes,ergonomic chair under 400,tablet,organic_search,No,No,No
+SRCH-00326,e90624f9940547,U525359,2025-12-09 17:29:32,ergo pro assembly,17,5,1,/support/warranty,1,No,,mobile,organic_search,No,No,No
+SRCH-00327,c0929e6c3c6240,U819100,2026-03-25 18:28:19,ergonomic chair,15,10,2,/products/ergo-pro-200,1,No,,mobile,email,Yes,No,No
+SRCH-00328,5a03cf65171f4d,U741636,2026-03-19 10:06:03,tall person office chair,24,3,0,,,Yes,ergo pro chair review,mobile,organic_search,No,No,No
+SRCH-00329,e7a855866efe41,U421961,2026-03-11 10:04:32,gaming chair vs office chair,28,0,0,,,No,,tablet,organic_search,No,No,Yes
+SRCH-00330,cf245b7e234744,U716052,2026-03-06 05:11:17,office chair lumbar support,27,3,3,/support/assembly,3,No,,desktop,email,No,No,No
+SRCH-00331,b736afe1f2284f,U602523,2026-01-17 02:42:54,ergo pro vs herman miller,25,13,1,,1,No,,desktop,email,No,No,No
+SRCH-00332,d8a3c07456d347,U106547,2026-01-24 14:21:29,chair with headrest,19,2,2,/blog/best-ergonomic-chairs-2026,1,No,,desktop,organic_search,No,No,No
+SRCH-00333,a3cd2224895b43,U533784,2025-12-24 18:43:13,ergonomic chair,15,13,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00334,89d2e403cfbd44,U854482,2026-01-26 02:09:05,ergo pro vs herman miller,25,6,4,/products/ergo-pro-900,2,No,,mobile,organic_search,Yes,Yes,No
+SRCH-00335,65c5d9303abc47,U743870,2025-12-27 02:57:59,chair with headrest,19,11,2,/products/ergo-pro-500,1,No,,mobile,organic_search,No,No,No
+SRCH-00336,5a6f0791386542,U890543,2026-03-07 06:38:42,ergo pro 200,12,0,0,,,No,,desktop,organic_search,No,No,Yes
+SRCH-00337,65bd9c81cd8740,U120815,2025-10-23 18:30:53,ergo pro assembly,17,1,1,/support/assembly,1,No,,tablet,affiliate,No,No,No
+SRCH-00338,8f45032858864d,U244210,2025-10-17 22:34:48,ergo pro assembly,17,9,3,/support/warranty,1,Yes,chair for back pain,desktop,social,No,No,No
+SRCH-00339,36e7e150646540,U485132,2025-11-06 09:56:21,chair with headrest,19,4,0,,,No,,mobile,social,No,No,No
+SRCH-00340,1d055ac7d6ec46,U512862,2025-11-16 01:32:05,ergo pro 900 leather,20,0,0,,,No,,desktop,email,No,No,Yes
+SRCH-00341,9d194b1d9f8049,U378346,2026-02-21 10:25:43,office chair 300 lbs capacity,29,7,1,/support/warranty,1,Yes,ergo pro discount code,tablet,social,No,No,No
+SRCH-00342,56eb2bfbfa674d,U838178,2026-02-17 03:34:09,chair for back pain,19,13,2,/blog/best-ergonomic-chairs-2026,2,No,,mobile,paid_search,No,No,No
+SRCH-00343,70b104033b094e,U299097,2025-11-19 22:31:05,ergonomic chair under 400,25,9,4,/products/ergo-pro-900,4,No,,desktop,email,No,No,No
+SRCH-00344,4e8c5865d3a749,U817838,2025-10-12 01:44:24,best office chair 2026,22,11,1,/products/ergo-pro-900,1,No,,desktop,direct,No,No,No
+SRCH-00345,74eb681a86954b,U371913,2025-10-28 00:30:46,best office chair 2026,22,15,2,,1,No,,desktop,social,No,No,No
+SRCH-00346,687f9bebc68841,U197411,2025-10-07 18:57:37,tall person office chair,24,7,3,/compare,3,No,,mobile,organic_search,No,No,No
+SRCH-00347,906eaf3a27c44b,U985202,2026-03-08 17:30:56,ergo pro 200 review,19,5,4,/compare,3,No,,tablet,organic_search,No,No,No
+SRCH-00348,8ddeae5daaed45,U984912,2026-02-22 06:10:04,ergo pro return policy,22,0,0,,,No,,mobile,direct,No,No,Yes
+SRCH-00349,c7d1a2e168fb49,U313170,2026-01-15 14:39:35,ergo pro 200 review,19,18,0,,,Yes,ergo pro discount code,desktop,paid_search,No,No,No
+SRCH-00350,845bdb8b58474a,U711023,2026-03-29 01:39:09,chair mat,9,6,5,/products/ergo-pro-500,2,Yes,best chair for working from home,mobile,referral,No,No,No
+SRCH-00351,4cd4bbe4fd574a,U712123,2026-03-30 12:03:08,ergonomic chair,15,0,0,,,Yes,ergo pro accessories,tablet,social,No,No,Yes
+SRCH-00352,f35c893274eb4b,U416006,2025-11-17 05:15:41,ergo pro 200,12,16,1,/products/ergo-pro-500,1,No,,desktop,organic_search,No,No,No
+SRCH-00353,e955786e225742,U919463,2026-01-27 08:22:27,chair mat,9,8,2,/support/warranty,1,No,,mobile,organic_search,No,No,No
+SRCH-00354,b556155648ad4c,U214844,2025-10-29 23:13:38,office chair lumbar support,27,18,2,/compare,2,No,,tablet,paid_search,No,No,No
+SRCH-00355,7b75bb2104d645,U897276,2025-11-11 21:44:54,ergonomic chair,15,6,2,/support/assembly,1,No,,desktop,organic_search,No,No,No
+SRCH-00356,c91450d597bb49,U659834,2025-12-26 02:29:11,ergo pro 900 leather,20,6,4,/support/assembly,2,No,,desktop,social,No,No,No
+SRCH-00357,5764ecb56c904a,U490939,2025-11-14 18:05:19,ergo pro assembly,17,3,2,/products/ergo-pro-900,1,Yes,ergo pro 500 vs 900,desktop,social,No,No,No
+SRCH-00358,5400b292a3f448,U726021,2026-01-13 08:10:37,mesh office chair,17,7,2,/products/ergo-pro-200,2,No,,mobile,organic_search,No,No,No
+SRCH-00359,ad5d6d89d50b4b,U100330,2025-12-28 02:08:05,ergo pro 500 vs 900,19,10,2,/blog/best-ergonomic-chairs-2026,2,No,,desktop,affiliate,Yes,No,No
+SRCH-00360,c7413eff71064b,U198219,2026-03-22 22:18:17,best office chair 2026,22,15,0,,,No,,mobile,organic_search,No,No,No
+SRCH-00361,2e5f3cc532bb41,U521388,2025-10-18 01:28:16,chair with headrest,19,10,0,,,No,,tablet,social,No,No,No
+SRCH-00362,a3b4b7d32bfe47,U812524,2025-10-09 10:56:36,ergonomic chair,15,0,0,,,Yes,tall person office chair,desktop,email,No,No,Yes
+SRCH-00363,32c011526c9244,U469654,2025-11-23 04:41:35,ergo pro vs herman miller,25,13,4,/products/ergo-pro-900,2,Yes,ergo pro 900 leather,mobile,email,No,No,No
+SRCH-00364,dcef44110fef45,U113145,2025-12-03 14:51:51,lumbar support pillow,21,10,1,/products/ergo-pro-900,1,No,,desktop,organic_search,No,No,No
+SRCH-00365,e7edd3c1d74f4d,U391225,2025-12-06 10:58:54,tall person office chair,24,18,5,/support/warranty,3,No,,desktop,email,No,No,No
+SRCH-00366,4128473eb2ce4d,U299031,2026-01-09 00:18:44,ergo pro discount code,22,5,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00367,bab74f9c8c874f,U839881,2026-03-28 15:55:57,ergo pro return policy,22,6,0,,,Yes,best chair for programmers,mobile,organic_search,No,No,No
+SRCH-00368,fd2513fbc7d24f,U667914,2025-12-10 07:40:33,best chair for programmers,26,10,5,/support/assembly,2,No,,tablet,social,No,No,No
+SRCH-00369,d1756080368c4c,U507424,2025-12-10 15:04:44,best office chair 2026,22,9,4,/support/warranty,4,No,,desktop,referral,No,No,No
+SRCH-00370,5a33e2b0b7254d,U133035,2026-03-05 15:39:32,lumbar support pillow,21,4,1,/products/ergo-pro-200,1,No,,desktop,paid_search,No,No,No
+SRCH-00371,1160a1c36fda45,U587012,2025-10-05 11:32:44,chair mat,9,8,5,/products/ergo-pro-900,3,No,,mobile,email,No,No,No
+SRCH-00372,3301e5d4359f4d,U600082,2026-03-21 02:51:07,office chair lumbar support,27,5,4,/compare,4,Yes,ergonomic chair,desktop,social,No,No,No
+SRCH-00373,e0ee93846c7742,U966925,2025-10-17 17:27:40,ergo pro 200 review,19,1,1,/products/ergo-pro-900,1,No,,tablet,organic_search,No,No,No
+SRCH-00374,e8a2c8b3a7494a,U232782,2025-12-21 20:30:19,ergo pro discount code,22,2,2,,2,No,,tablet,organic_search,No,No,No
+SRCH-00375,57a8100db98146,U244373,2026-02-27 06:24:30,best chair for working from home,32,1,1,/support/assembly,1,No,,mobile,organic_search,No,No,No
+SRCH-00376,b4e831ccc9ac42,U928692,2026-03-24 01:55:36,lumbar support pillow,21,15,5,/support/warranty,3,No,,mobile,organic_search,No,No,No
+SRCH-00377,500f12ec98784e,U924400,2025-11-16 10:22:11,ergo pro 500 vs 900,19,13,4,/products/ergo-pro-500,4,No,,desktop,social,No,No,No
+SRCH-00378,69c53855684441,U761020,2026-02-24 05:39:58,lumbar support pillow,21,8,0,,,No,,desktop,paid_search,No,No,No
+SRCH-00379,445831821f8545,U937159,2026-03-28 19:56:19,ergo pro chair review,21,6,1,,1,No,,desktop,affiliate,No,No,No
+SRCH-00380,1caa5439170e4c,U803408,2025-12-22 23:39:38,ergo pro 200,12,17,5,/support/warranty,4,No,,tablet,organic_search,No,No,No
+SRCH-00381,b160c7d4021e47,U311319,2025-12-02 22:02:16,office chair lumbar support,27,0,0,,,No,,mobile,email,No,No,Yes
+SRCH-00382,cd443af5f7b741,U561793,2025-11-15 14:33:14,ergo pro assembly,17,12,5,/support/warranty,3,No,,desktop,email,No,No,No
+SRCH-00383,195470ef216547,U411448,2025-11-20 22:07:54,office chair 300 lbs capacity,29,16,1,/products/ergo-pro-200,1,No,,mobile,email,Yes,No,No
+SRCH-00384,769bc7d8f7d243,U968552,2025-10-24 04:33:45,chair with headrest,19,9,0,,,No,,mobile,referral,No,No,No
+SRCH-00385,2742f272fcbd41,U398151,2026-03-24 14:44:01,ergo pro return policy,22,13,2,,2,Yes,ergo pro accessories,tablet,paid_search,Yes,No,No
+SRCH-00386,cda34699ab7749,U807224,2026-02-07 06:54:23,best office chair 2026,22,12,4,/products/ergo-pro-500,1,Yes,ergo pro 200 review,mobile,organic_search,No,No,No
+SRCH-00387,cc35a3a7493742,U894132,2025-10-07 19:37:06,ergonomic chair under 400,25,9,2,/support/warranty,1,No,,mobile,organic_search,No,No,No
+SRCH-00388,fad7c8b924e643,U145306,2026-02-10 01:30:39,ergo pro discount code,22,4,2,/products/ergo-pro-500,2,No,,mobile,social,No,No,No
+SRCH-00389,c98da926d66a43,U797237,2026-03-22 05:17:50,lumbar support pillow,21,0,0,,,No,,mobile,paid_search,No,No,Yes
+SRCH-00390,aca7dd9a735249,U510533,2026-01-24 23:14:38,office chair 300 lbs capacity,29,15,2,/support/warranty,1,No,,desktop,referral,No,No,No
+SRCH-00391,865a2fa8f6204b,U293808,2025-12-30 08:20:34,ergo pro chair review,21,13,3,/products/ergo-pro-500,2,No,,tablet,social,No,No,No
+SRCH-00392,c48170758d234c,U520384,2025-10-27 09:29:27,best office chair 2026,22,4,3,/blog/best-ergonomic-chairs-2026,1,No,,desktop,paid_search,No,No,No
+SRCH-00393,75f9057b80894d,U629963,2026-03-01 09:52:40,mesh office chair,17,12,5,,3,No,,mobile,organic_search,No,No,No
+SRCH-00394,6e2744ffbdda40,U907553,2026-03-13 00:44:55,chair mat,9,12,4,/support/assembly,3,No,,mobile,paid_search,No,No,No
+SRCH-00395,976e87b4b3fe4f,U399761,2025-10-21 11:58:33,tall person office chair,24,18,0,,,No,,mobile,direct,No,No,No
+SRCH-00396,e9d5966e18ea40,U984606,2026-01-26 07:20:56,chair with headrest,19,10,0,,,No,,desktop,email,No,No,No
+SRCH-00397,ddbecbd1048d49,U770339,2026-01-22 23:17:50,ergo pro chair review,21,4,1,/products/ergo-pro-900,1,No,,tablet,direct,No,No,No
+SRCH-00398,f09a14fff39040,U385269,2026-01-22 00:47:56,gaming chair vs office chair,28,12,2,,2,No,,mobile,organic_search,No,No,No
+SRCH-00399,6b95e11271e64d,U130679,2026-01-03 08:13:26,best office chair 2026,22,15,3,/blog/best-ergonomic-chairs-2026,3,No,,mobile,paid_search,No,No,No
+SRCH-00400,c0473bd02e2144,U498636,2025-11-21 03:14:43,ergo pro return policy,22,5,4,/compare,2,Yes,ergonomic chair,tablet,social,No,No,No
+SRCH-00401,67281a45357a45,U142773,2026-03-27 01:34:37,chair for back pain,19,3,3,/products/ergo-pro-500,2,No,,desktop,email,No,No,No
+SRCH-00402,94c871fd61464f,U800088,2026-03-12 20:42:09,chair for back pain,19,3,1,/products/ergo-pro-500,1,No,,mobile,referral,No,No,No
+SRCH-00403,2c4b89937b214f,U373339,2026-03-09 15:54:24,ergonomic chair under 400,25,9,3,/support/assembly,3,No,,mobile,direct,No,No,No
+SRCH-00404,1ffbddb03c9d41,U259054,2025-12-27 05:45:28,ergo pro vs herman miller,25,12,1,/blog/best-ergonomic-chairs-2026,1,Yes,best chair for programmers,tablet,affiliate,No,No,No
+SRCH-00405,04985861c2744c,U219936,2026-01-02 23:29:57,ergonomic chair under 400,25,1,0,,,No,,desktop,direct,No,No,No
+SRCH-00406,d5e2c698c98a4f,U853037,2025-11-12 17:05:13,ergo pro warranty,17,4,3,/blog/best-ergonomic-chairs-2026,1,No,,desktop,social,No,No,No
+SRCH-00407,beaa76896cc843,U556206,2026-01-24 00:18:47,best chair for programmers,26,2,0,,,Yes,ergo pro 500 vs 900,desktop,organic_search,No,No,No
+SRCH-00408,ca112f06b88e4a,U585833,2026-02-15 07:46:02,best chair for working from home,32,8,5,/products/ergo-pro-500,5,No,,tablet,affiliate,No,No,No
+SRCH-00409,9316b86b764f49,U287625,2025-12-27 05:56:56,ergo pro 500 vs 900,19,12,5,/products/ergo-pro-900,1,No,,mobile,organic_search,No,No,No
+SRCH-00410,89d987d8e54b4a,U317608,2026-01-26 14:33:34,ergo pro warranty,17,15,1,/support/warranty,1,No,,desktop,referral,No,No,No
+SRCH-00411,4f4709303cd041,U487764,2025-11-30 23:33:17,lumbar support pillow,21,8,2,/products/ergo-pro-900,1,No,,tablet,social,No,No,No
+SRCH-00412,152906ca2d3844,U200984,2026-01-09 19:28:23,ergonomic chair under 400,25,17,3,/blog/best-ergonomic-chairs-2026,3,No,,tablet,paid_search,No,No,No
+SRCH-00413,28ca72c3d55140,U368353,2026-03-09 01:29:18,chair mat,9,12,2,/support/assembly,1,No,,mobile,organic_search,Yes,Yes,No
+SRCH-00414,301399d6eebc43,U547296,2025-12-24 17:39:30,ergo pro vs herman miller,25,0,0,,,No,,mobile,organic_search,No,No,Yes
+SRCH-00415,dac3a5c7e49546,U246609,2026-02-23 23:45:32,ergonomic chair under 400,25,9,2,/products/ergo-pro-900,1,No,,mobile,social,No,No,No
+SRCH-00416,28781a33f43f49,U419810,2026-01-21 20:08:31,chair with headrest,19,17,0,,,Yes,ergo pro chair review,tablet,paid_search,No,No,No
+SRCH-00417,5a36eb5de71447,U528724,2025-11-14 00:49:06,tall person office chair,24,13,3,/products/ergo-pro-500,2,No,,mobile,organic_search,No,No,No
+SRCH-00418,170b812208ea46,U386496,2026-02-19 18:27:47,office chair lumbar support,27,8,0,,,Yes,ergo pro 200,desktop,organic_search,No,No,No
+SRCH-00419,6cd5ad5b516f44,U683674,2026-01-11 14:39:34,lumbar support pillow,21,0,0,,,No,,desktop,paid_search,No,No,Yes
+SRCH-00420,665b6dfe199544,U630241,2025-10-16 07:09:29,gaming chair vs office chair,28,15,4,/blog/best-ergonomic-chairs-2026,2,Yes,ergo pro 200,desktop,organic_search,No,No,No
+SRCH-00421,dd4ce192365148,U666543,2026-02-04 01:15:21,lumbar support pillow,21,2,1,/products/ergo-pro-200,1,Yes,gaming chair vs office chair,tablet,organic_search,No,No,No
+SRCH-00422,3ebcd76b5ddf47,U329060,2025-12-25 09:43:00,ergonomic chair,15,12,3,/support/warranty,2,No,,tablet,paid_search,No,No,No
+SRCH-00423,d3773f1c3b304e,U511674,2025-10-05 04:08:28,chair for back pain,19,5,4,/products/ergo-pro-900,4,No,,desktop,referral,No,No,No
+SRCH-00424,03950e167b5a45,U683501,2025-11-14 01:28:23,office chair lumbar support,27,17,4,/support/assembly,3,No,,desktop,social,No,No,No
+SRCH-00425,e9ab732d109a43,U168159,2025-10-10 03:46:10,chair for back pain,19,13,3,/compare,2,No,,desktop,organic_search,No,No,No
+SRCH-00426,76606562ed8941,U704706,2026-02-01 07:24:41,best office chair 2026,22,13,0,,,No,,mobile,referral,No,No,No
+SRCH-00427,74b9bb3ee20940,U288570,2026-02-16 14:18:19,ergo pro 200,12,11,3,/support/assembly,1,No,,mobile,organic_search,Yes,No,No
+SRCH-00428,ceda6d978e3d40,U175191,2026-02-09 05:52:07,ergo pro assembly,17,14,1,/compare,1,No,,desktop,paid_search,No,No,No
+SRCH-00429,a7420b686d9f40,U320129,2026-03-16 16:18:47,best chair for programmers,26,8,4,,2,Yes,ergo pro 500 vs 900,desktop,affiliate,No,No,No
+SRCH-00430,a6a71dc69ec94f,U160499,2026-01-24 02:59:40,best chair for programmers,26,13,3,/products/ergo-pro-900,3,No,,mobile,email,No,No,No
+SRCH-00431,04311fcf81a442,U781565,2026-02-27 22:36:53,ergo pro 900 leather,20,6,1,/support/assembly,1,No,,desktop,direct,No,No,No
+SRCH-00432,beee9864a4854b,U902757,2026-01-29 16:42:06,office chair lumbar support,27,12,5,/support/warranty,2,No,,desktop,email,No,No,No
+SRCH-00433,00b676feed1043,U180351,2026-03-02 19:06:41,best chair for working from home,32,16,4,/products/ergo-pro-900,1,No,,mobile,organic_search,No,No,No
+SRCH-00434,d6e0ec6946c94d,U910149,2026-02-13 15:35:30,gaming chair vs office chair,28,9,0,,,No,,mobile,email,No,No,No
+SRCH-00435,5d02438476eb42,U689512,2025-10-15 13:13:21,best office chair 2026,22,16,0,,,Yes,office chair 300 lbs capacity,desktop,paid_search,No,No,No
+SRCH-00436,55088b5e802244,U211241,2025-12-21 09:27:44,gaming chair vs office chair,28,14,2,/support/warranty,2,No,,desktop,organic_search,No,No,No
+SRCH-00437,f5141919b6ae41,U481896,2025-11-14 09:30:21,tall person office chair,24,14,4,/support/warranty,3,No,,tablet,direct,Yes,No,No
+SRCH-00438,5a7eeb9351ac4c,U139508,2026-03-08 13:19:23,ergonomic chair under 400,25,3,1,/products/ergo-pro-900,1,No,,tablet,email,No,No,No
+SRCH-00439,ac7da81985e34c,U310910,2025-10-04 16:52:16,ergo pro vs herman miller,25,14,1,/support/warranty,1,No,,desktop,paid_search,No,No,No
+SRCH-00440,01061e358a854a,U687210,2025-10-10 17:20:29,gaming chair vs office chair,28,3,2,/products/ergo-pro-500,1,No,,desktop,social,No,No,No
+SRCH-00441,c7d0cbd259b84c,U824752,2025-10-27 15:39:32,best chair for programmers,26,0,0,,,Yes,best chair for programmers,tablet,paid_search,No,No,Yes
+SRCH-00442,30265d077cb74c,U752104,2026-01-10 07:02:55,best chair for working from home,32,9,5,/products/ergo-pro-900,4,No,,desktop,referral,No,No,No
+SRCH-00443,3245db5eb1ae45,U525559,2026-01-28 03:45:52,office chair lumbar support,27,10,2,/compare,1,Yes,lumbar support pillow,desktop,email,No,No,No
+SRCH-00444,fa21affeba2744,U237017,2026-01-29 14:07:18,ergo pro accessories,20,3,2,/compare,1,Yes,best chair for working from home,desktop,paid_search,No,No,No
+SRCH-00445,a915881b91434f,U913441,2026-03-06 03:16:41,ergonomic chair under 400,25,17,3,,3,No,,mobile,organic_search,No,No,No
+SRCH-00446,c59492c93cd14a,U181112,2026-02-20 17:51:44,gaming chair vs office chair,28,5,4,,1,No,,tablet,paid_search,No,No,No
+SRCH-00447,739b21189a3546,U210310,2025-12-03 10:45:50,ergo pro 900 leather,20,10,4,/compare,1,Yes,ergo pro accessories,desktop,social,No,No,No
+SRCH-00448,55feb8f7a6f945,U406489,2026-03-28 14:10:11,ergo pro vs herman miller,25,11,2,,2,No,,desktop,email,No,No,No
+SRCH-00449,930ed0ba999f48,U527503,2026-02-18 17:28:03,ergo pro discount code,22,10,0,,,Yes,chair with headrest,desktop,referral,No,No,No
+SRCH-00450,8dcb7b667efb4a,U794946,2025-10-28 17:35:51,chair mat,9,15,5,/products/ergo-pro-900,5,No,,tablet,social,No,No,No
+SRCH-00451,41dde164c4cf4f,U438985,2026-03-21 17:02:28,ergonomic chair under 400,25,9,3,/compare,2,No,,desktop,paid_search,No,No,No
+SRCH-00452,43fc038bfef143,U793102,2025-10-11 09:15:40,ergo pro warranty,17,2,2,/products/ergo-pro-200,1,No,,tablet,direct,No,No,No
+SRCH-00453,44dccf3878ef46,U707990,2025-11-13 13:05:34,ergo pro 500 vs 900,19,13,1,/compare,1,No,,mobile,organic_search,Yes,No,No
+SRCH-00454,159e6292b9d240,U573034,2025-10-26 01:01:02,mesh office chair,17,13,5,/support/warranty,2,No,,desktop,social,No,No,No
+SRCH-00455,ce930e795fdf44,U339823,2026-03-06 06:31:22,chair with headrest,19,13,2,/support/warranty,1,No,,mobile,social,No,No,No
+SRCH-00456,afad7f49aa884a,U504359,2025-10-05 23:35:32,ergonomic chair under 400,25,3,2,/support/assembly,1,No,,desktop,organic_search,No,No,No
+SRCH-00457,33a8e425f0a54d,U632121,2026-01-02 16:28:58,ergo pro 200 review,19,6,2,/products/ergo-pro-500,2,No,,desktop,direct,No,No,No
+SRCH-00458,cf6beaba018b4f,U837979,2025-10-05 22:44:16,best chair for programmers,26,7,0,,,No,,mobile,paid_search,No,No,No
+SRCH-00459,4bbdf1f00cf745,U973582,2026-01-06 13:35:56,ergo pro accessories,20,2,1,/support/assembly,1,No,,desktop,organic_search,No,No,No
+SRCH-00460,280d260b6a124a,U931884,2025-11-26 18:44:32,chair with headrest,19,3,0,,,Yes,office chair 300 lbs capacity,tablet,referral,No,No,No
+SRCH-00461,6f65385bf54341,U485369,2026-03-26 21:32:49,ergo pro chair review,21,5,5,/support/warranty,5,No,,mobile,organic_search,No,No,No
+SRCH-00462,19cf2b1efad44a,U961643,2025-12-28 12:51:35,ergo pro vs herman miller,25,6,1,/support/assembly,1,No,,desktop,organic_search,No,No,No
+SRCH-00463,bc7f4b88500449,U647560,2026-01-30 10:53:56,ergo pro accessories,20,18,0,,,Yes,office chair 300 lbs capacity,mobile,paid_search,No,No,No
+SRCH-00464,98bea299ecb743,U470171,2025-12-24 12:10:51,best chair for programmers,26,14,4,/products/ergo-pro-900,1,No,,mobile,organic_search,Yes,No,No
+SRCH-00465,1c89b2ca610341,U141033,2026-01-18 07:32:55,ergo pro discount code,22,9,5,/support/warranty,5,No,,tablet,paid_search,No,No,No
+SRCH-00466,7573327e80b44b,U860673,2026-01-10 13:39:16,ergo pro 500 vs 900,19,8,1,/blog/best-ergonomic-chairs-2026,1,No,,mobile,paid_search,No,No,No
+SRCH-00467,c8c4a7ad082a48,U648073,2025-12-14 02:28:30,chair mat,9,12,0,,,No,,tablet,referral,No,No,No
+SRCH-00468,fbb09d5507da45,U378370,2025-10-14 22:26:18,best chair for programmers,26,11,5,,1,Yes,ergo pro warranty,desktop,organic_search,No,No,No
+SRCH-00469,d663719c58af43,U642762,2025-10-16 03:25:10,ergo pro chair review,21,6,3,/products/ergo-pro-200,2,No,,desktop,organic_search,No,No,No
+SRCH-00470,c818fdafca9d4a,U896575,2026-03-05 13:43:38,ergonomic chair under 400,25,2,1,/products/ergo-pro-900,1,Yes,chair with headrest,mobile,email,No,No,No
+SRCH-00471,cefe75a1a7b947,U783383,2026-03-08 06:37:20,best office chair 2026,22,7,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00472,bedab1acda504c,U568616,2025-12-26 07:19:47,chair for back pain,19,6,3,/products/ergo-pro-900,3,No,,desktop,paid_search,No,No,No
+SRCH-00473,ffd4cbf8e60449,U586356,2026-03-29 19:14:10,gaming chair vs office chair,28,13,4,/compare,3,No,,desktop,referral,No,No,No
+SRCH-00474,1a94f7ec6df044,U953583,2026-03-27 01:17:47,ergo pro 500 vs 900,19,8,5,/blog/best-ergonomic-chairs-2026,1,No,,mobile,paid_search,No,No,No
+SRCH-00475,ed543fad186a4c,U162937,2025-11-29 20:27:06,ergo pro chair review,21,11,3,,2,No,,desktop,direct,Yes,No,No
+SRCH-00476,77878f3b8c3147,U824104,2025-11-11 13:24:54,ergo pro chair review,21,6,0,,,No,,desktop,organic_search,No,No,No
+SRCH-00477,3cfde781a5334c,U823143,2025-10-03 16:20:05,ergo pro chair review,21,4,4,,2,No,,mobile,social,Yes,No,No
+SRCH-00478,49e0e69234d543,U841902,2026-02-02 04:56:33,ergo pro accessories,20,10,4,/products/ergo-pro-900,4,Yes,best office chair 2026,mobile,social,No,No,No
+SRCH-00479,6fbae83c5ab841,U338580,2025-12-30 08:15:38,ergo pro chair review,21,15,3,/support/assembly,1,No,,desktop,social,No,No,No
+SRCH-00480,44b36d25322f41,U247595,2025-10-31 17:44:12,chair for back pain,19,15,4,/compare,4,No,,desktop,social,No,No,No
+SRCH-00481,e37299d951474a,U292710,2026-02-11 12:03:18,chair mat,9,17,5,/products/ergo-pro-200,4,Yes,lumbar support pillow,tablet,social,No,No,No
+SRCH-00482,c74313d815c84c,U609936,2026-03-21 16:46:11,chair mat,9,11,1,/products/ergo-pro-900,1,No,,mobile,organic_search,No,No,No
+SRCH-00483,21a6b7736d3d42,U868006,2026-01-09 11:16:27,tall person office chair,24,17,4,,1,No,,desktop,referral,No,No,No
+SRCH-00484,0a02498faaa842,U425588,2026-01-04 06:53:36,best office chair 2026,22,13,5,,4,No,,mobile,social,No,No,No
+SRCH-00485,a9887b1489394e,U985751,2025-11-23 17:18:54,ergo pro 200 review,19,13,1,/blog/best-ergonomic-chairs-2026,1,Yes,chair with headrest,tablet,paid_search,No,No,No
+SRCH-00486,02885d08528e49,U624409,2026-01-16 18:40:51,ergo pro return policy,22,12,1,/support/warranty,1,No,,desktop,paid_search,No,No,No
+SRCH-00487,31acca7f9d9849,U875953,2026-01-08 19:38:47,chair mat,9,14,3,/blog/best-ergonomic-chairs-2026,1,No,,desktop,paid_search,No,No,No
+SRCH-00488,70894cc07a6c4f,U604259,2025-11-17 02:00:38,tall person office chair,24,4,4,/products/ergo-pro-200,4,No,,mobile,paid_search,No,No,No
+SRCH-00489,c0a04ecc8b9d49,U277423,2026-01-29 04:00:16,mesh office chair,17,10,1,/products/ergo-pro-500,1,Yes,best chair for programmers,mobile,email,Yes,No,No
+SRCH-00490,8de7a40bdb4e49,U477461,2026-03-27 04:19:22,ergo pro accessories,20,9,5,/products/ergo-pro-200,2,Yes,ergo pro 500 vs 900,desktop,organic_search,No,No,No
+SRCH-00491,c7f74cc5c02d48,U926685,2025-12-15 11:55:31,best chair for programmers,26,9,1,/compare,1,No,,mobile,direct,No,No,No
+SRCH-00492,96af339a85ea45,U437254,2025-11-21 06:32:50,gaming chair vs office chair,28,8,5,/products/ergo-pro-900,1,No,,tablet,paid_search,No,No,No
+SRCH-00493,2175af886ddf4b,U928202,2025-10-21 05:20:06,ergo pro assembly,17,5,5,/compare,5,No,,desktop,paid_search,No,No,No
+SRCH-00494,5f3a43738d984f,U241337,2026-01-01 00:22:03,ergo pro vs herman miller,25,9,5,,1,No,,desktop,email,Yes,Yes,No
+SRCH-00495,95e54fbf9c1641,U312345,2025-10-26 19:53:41,ergo pro warranty,17,4,2,/support/warranty,1,No,,desktop,paid_search,No,No,No
+SRCH-00496,2f3cdfd17d8248,U793878,2025-12-27 03:09:26,mesh office chair,17,8,0,,,No,,tablet,organic_search,No,No,No
+SRCH-00497,48d6f612e2a84e,U645050,2025-10-04 12:04:17,ergo pro 900 leather,20,18,2,/products/ergo-pro-200,2,No,,desktop,organic_search,No,No,No
+SRCH-00498,a1fe7d0bef3141,U272337,2025-11-17 13:47:57,best chair for working from home,32,15,5,/products/ergo-pro-200,1,No,,tablet,organic_search,Yes,Yes,No
+SRCH-00499,b830b7d558074d,U275828,2025-10-24 10:05:43,office chair lumbar support,27,8,4,,1,No,,tablet,email,No,No,No
+SRCH-00500,2d8237b0cf0741,U476652,2025-12-07 15:35:49,ergo pro 200 review,19,5,4,,4,No,,mobile,organic_search,Yes,Yes,No

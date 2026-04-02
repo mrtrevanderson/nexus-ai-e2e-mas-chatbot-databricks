@@ -1,0 +1,180 @@
+# ErgoPro Supervisor — Sample Prompts
+# Use these to demo the multi-agent system and validate routing accuracy.
+# Organized by: single-agent, multi-agent, LinkedIn demo, and stress tests.
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SINGLE-AGENT PROMPTS
+# Good for showing delegation to a specific agent
+# ═══════════════════════════════════════════════════════════════════════════════
+
+single_agent:
+
+  product_research:
+    - "Which competitor brand has the highest average rating in the premium segment?"
+    - "What are the top 3 features that appear most often across competitor products?"
+    - "Which categories are growing fastest year over year?"
+    - "How does Herman Miller price their ergonomic chairs vs the market average?"
+
+  inventory_management:
+    - "Which SKU is at greatest risk of stockout before the launch date?"
+    - "What is our total available EP-500 inventory across all warehouses?"
+    - "Which warehouse has the lowest weeks of supply for EP-900?"
+    - "How many EP-200 units do we have below reorder point right now?"
+
+  pricing_promotions:
+    - "Which promo type drives the highest ROI for EP-200?"
+    - "How does our EP-500 price compare to competitors across channels?"
+    - "What is the average discount depth that maximizes units sold without hurting margin?"
+    - "Which channel returns the best promo ROI overall?"
+
+  marketing_copy:
+    - "Which headline copy has the highest CTR on paid search?"
+    - "How does aspirational tone perform vs professional tone on email?"
+    - "Which A/B variant is winning for EP-900 product descriptions?"
+    - "How many copy assets are still pending review?"
+
+  customer_support:
+    - "What are the top 3 support issues for EP-900?"
+    - "What is our average CSAT score by SKU?"
+    - "Which issue type has the highest escalation rate?"
+    - "Which region generates the most support tickets?"
+
+  order_fulfillment:
+    - "What is our on-time delivery rate for FedEx Freight shipments?"
+    - "Which SKU has the highest return rate and in which region?"
+    - "What is the average shipping cost as a percentage of order value?"
+    - "How many orders are currently showing a delivery exception?"
+
+  website_performance:
+    - "Which channel drives the highest conversion rate on our website?"
+    - "Where do most users drop off in the EP-900 checkout funnel?"
+    - "What are the top 5 on-site search queries with zero results?"
+    - "What is the ROAS for our launch_announcement email campaign?"
+    - "How does mobile add-to-cart rate compare to desktop for EP-500?"
+
+  knowledge_assistant:
+    - "What is the seat height range for the EP-900?"
+    - "How long does assembly take for the EP-500 and what tools are needed?"
+    - "What does the ErgoPro warranty cover for mesh upholstery?"
+    - "What is the MAP price for each SKU and what happens if a reseller goes below it?"
+    - "How should a sales rep respond when a customer says they can get a chair for $200?"
+    - "What is the correct carrier for EP-900 and why can't we use UPS Ground?"
+
+  web_search:
+    - "What are Herman Miller and Steelcase doing with pricing right now?"
+    - "Are there any recent ergonomic chair recalls or safety notices?"
+    - "What are consumers saying about lumbar support chairs on Reddit and review sites?"
+    - "What are the latest trends in the home office furniture market in 2026?"
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# MULTI-AGENT PROMPTS
+# Good for showing parallel delegation and synthesis
+# ═══════════════════════════════════════════════════════════════════════════════
+
+multi_agent:
+
+  launch_readiness:
+    - "Are we ready to launch EP-900 next month? Check stock, fulfillment,
+       pricing, and website readiness."
+
+    - "Give me a full ErgoPro launch readiness report across all domains."
+
+    - "What are the top 3 risks to a successful May launch?"
+
+  cross_domain_analysis:
+    - "Why is our EP-900 conversion rate lower than EP-200? Look at pricing,
+       website behavior, and customer support data."
+
+    - "Which SKU should we prioritize in our launch marketing spend and why?
+       Consider inventory levels, margin, web engagement, and copy performance."
+
+    - "We're seeing high cart abandonment on EP-500. What's causing it and
+       what should we do about it?"
+
+  competitive_intelligence:
+    - "How do we stack up against Herman Miller on price, warranty, and
+       features? Use both our internal data and current web information."
+
+    - "Should we adjust our EP-900 pricing before launch? Check competitor
+       positioning, our elasticity data, and current market trends."
+
+  operational:
+    - "Which warehouse should we redistribute EP-200 stock from to reduce
+       stockout risk in the Northeast? Check inventory and fulfillment data."
+
+    - "Our email campaign is underperforming. Look at copy CTR, campaign
+       attribution ROAS, and funnel drop-off for email traffic."
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# LINKEDIN DEMO PROMPTS
+# These are the money shots — use these in your video walkthrough
+# ═══════════════════════════════════════════════════════════════════════════════
+
+linkedin_demo:
+
+  opening_hook:
+    prompt: "We're launching three new ergonomic chairs next month. Give me a
+             complete go-to-market readiness assessment."
+    why: "Triggers all 9 agents simultaneously — great visual for showing
+          the supervisor delegation pattern."
+
+  competitive_moment:
+    prompt: "A customer just told our sales team that Herman Miller has a
+             better warranty than us. Is that true, and how should we respond?"
+    why: "Hits Knowledge Assistant (warranty policy) + Product Research
+          (competitor data) + You.com (latest Herman Miller info) —
+          three agent types in one question."
+
+  problem_solving:
+    prompt: "Our EP-900 is our most expensive chair but has the lowest
+             conversion rate on the website. What's going on and what
+             should we do?"
+    why: "Shows analytical depth — Website + Pricing + Support + Knowledge
+          Assistant all contribute different angles."
+
+  ops_alert:
+    prompt: "Which SKUs are at risk of stockout before the May 1 launch
+             and what's our recommended action?"
+    why: "Clean single-domain demo of Inventory Agent + structured
+          recommendation format."
+
+  full_demo:
+    prompt: "Give me an executive summary of where we stand on the ErgoPro
+             launch — market position, inventory health, pricing readiness,
+             digital performance, and any red flags I should know about."
+    why: "This is the closer — every agent contributes, ends with
+          traffic-light summary. Perfect last slide of the demo."
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# STRESS TEST PROMPTS
+# Use these to validate edge cases and routing accuracy
+# ═══════════════════════════════════════════════════════════════════════════════
+
+stress_tests:
+
+  ambiguity:
+    - "How is EP-500 performing?"
+      # Should route to Website (funnel) + Pricing (promo) + Support (tickets)
+      # NOT just one agent — test that supervisor asks a clarifying question
+      # or makes a reasonable multi-agent call
+
+    - "What's our pricing situation?"
+      # Could be Pricing Agent (promo data) or Knowledge Assistant (MAP policy)
+      # or Web Search (vs competitors) — supervisor should cover all three
+
+  boundary:
+    - "What is 2 + 2?"
+      # Should answer directly without delegating to any agent
+
+    - "Write me a poem about ergonomic chairs."
+      # Should respond helpfully without unnecessary agent calls
+
+  specificity:
+    - "Give me the exact bin location for EP-900 at WH-LAX."
+      # Tests Inventory Agent precision — should return actual bin codes
+
+    - "What is the exact warranty period for the gas lift on EP-500?"
+      # Tests Knowledge Assistant citation accuracy — should cite doc + section

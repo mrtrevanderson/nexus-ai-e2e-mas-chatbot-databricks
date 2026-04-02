@@ -1,0 +1,155 @@
+# ErgoPro — LinkedIn Marketing Content
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# LINKEDIN POST — LAUNCH ANNOUNCEMENT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+post_launch:
+  hook: |
+    I built a multi-agent AI supervisor on Databricks that coordinates 9
+    specialized agents simultaneously — and it changed how I think about
+    enterprise AI architecture. 🧠
+
+  body: |
+    Most AI demos show one agent answering one question.
+
+    Real business questions don't work that way.
+
+    "Are we ready to launch?" requires:
+    → Inventory data (do we have stock?)
+    → Pricing data (are our promos set?)
+    → Website data (is the funnel converting?)
+    → Fulfillment data (can we ship on time?)
+    → Documentation (do we have the right policies?)
+    → Live web intel (what are competitors doing?)
+
+    That's 6 different data sources, 6 different agents — all coordinated
+    by a single supervisor that delegates, waits for results, and synthesizes
+    a single coherent answer.
+
+    Here's the architecture I built using Databricks Agent Bricks:
+
+    🔍 Product Research Agent — competitor analysis from structured data
+    📦 Inventory Management Agent — stock levels across 5 warehouses
+    💰 Pricing & Promotions Agent — promo ROI and price elasticity
+    ✍️ Marketing Copy Agent — CTR, CVR, and A/B performance
+    💬 Customer Support Agent — CSAT, escalations, issue trends
+    🚚 Order Fulfillment Agent — carrier performance and on-time rates
+    🌐 Website Performance Agent — sessions, funnel, attribution, ROAS
+    📚 Knowledge Assistant — 7 internal PDFs (specs, SOPs, playbooks)
+    🔎 You.com Web Search — live competitive intelligence
+
+    One question → Supervisor → 9 agents in parallel → One synthesized answer.
+
+    The demo uses a fictional ergonomic chair brand (ErgoPro) with fully
+    synthetic data — but the architecture maps directly to real e-commerce,
+    retail, and CPG use cases.
+
+    Full repo linked below. Happy to walk through the architecture
+    with anyone building something similar. 👇
+
+  hashtags: |
+    #Databricks #AIAgents #MultiAgent #AgentBricks #DataEngineering
+    #ArtificialIntelligence #MLOps #Ecommerce #LLM #MCP #GenerativeAI
+    #DataScience #MachineLearning #EnterpriseAI #LinkedInLearning
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# LINKEDIN POST — ARCHITECTURE DEEP DIVE (follow-up post)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+post_architecture:
+  hook: |
+    The hardest part of building a multi-agent system isn't the agents.
+    It's teaching the supervisor when to use which one. 🎯
+
+  body: |
+    A few things I learned building the ErgoPro supervisor on Databricks:
+
+    1/ The Description field does the heavy lifting
+    Agent Bricks splits "Description" (routing logic) from "Instructions"
+    (response format). Most people underuse the Description. That's where
+    you define your full agent roster, delegation triggers, and priority rules.
+    Instructions should only cover tone and format.
+
+    2/ Table comments are a multiplier for Genie accuracy
+    Before configuring any Genie space, add SQL comments to every table.
+    One line per table explaining what it contains and what the join keys are.
+    Genie uses this metadata to generate dramatically better SQL.
+
+    3/ Example SQL queries are the single biggest quality lever
+    Each Genie space accepts up to 100 example queries. The more you add,
+    the better Genie understands your data patterns. I added 5–10 per agent
+    covering the most common question types — the improvement is significant.
+
+    4/ Three layers of knowledge is the real power
+    Structured data (Genie) + Unstructured docs (Knowledge Assistant) +
+    Live web (You.com MCP) = a system that can answer questions no single
+    source could answer alone.
+
+    5/ Benchmark questions before you ship
+    Agent Bricks lets you add benchmark questions with expected answers.
+    Use them to validate routing accuracy before wiring the supervisor to
+    a production app. It's the difference between a demo and a product.
+
+    Full repo and configs are on my GitHub — link in the comments.
+
+  hashtags: |
+    #Databricks #AgentBricks #MultiAgent #RAG #KnowledgeAssistant
+    #DataEngineering #AIArchitecture #MCP #GenieSql #EnterpriseAI
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# VIDEO DEMO SCRIPT (for screen recording)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+demo_script:
+  duration: "60–90 seconds recommended for LinkedIn"
+
+  scene_1:
+    title: "Show the architecture diagram"
+    narration: |
+      "This is a multi-agent supervisor system built entirely on Databricks.
+      One supervisor coordinates 9 specialized agents — 7 Genie spaces for
+      structured data, a Knowledge Assistant for internal documents, and
+      You.com for live web search."
+    duration: "10 seconds"
+
+  scene_2:
+    title: "Show the supervisor in Agent Bricks UI"
+    narration: |
+      "The supervisor lives in Agent Bricks. It reads the incoming question,
+      decides which agents to delegate to, and synthesizes the results."
+    duration: "10 seconds"
+
+  scene_3:
+    title: "Type the money-shot prompt"
+    prompt: "Give me an executive summary of where we stand on the ErgoPro
+             launch — market position, inventory health, pricing readiness,
+             digital performance, and any red flags I should know about."
+    narration: |
+      "Watch what happens when I ask one complex question..."
+    duration: "5 seconds"
+
+  scene_4:
+    title: "Show the delegation happening"
+    narration: |
+      "The supervisor delegates to all 9 agents simultaneously — you can
+      see it routing to inventory, pricing, website analytics, the knowledge
+      base, and the web search agent all at once."
+    duration: "15 seconds"
+
+  scene_5:
+    title: "Show the synthesized response with traffic-light summary"
+    narration: |
+      "And here's the result — a single synthesized executive briefing
+      with clear attribution to each data source, and a traffic-light
+      summary showing what's ready and what needs attention."
+    duration: "15 seconds"
+
+  scene_6:
+    title: "Show the repo / close"
+    narration: |
+      "Full repo, sample data, and all agent configs are on GitHub.
+      Link in the comments."
+    duration: "5 seconds"

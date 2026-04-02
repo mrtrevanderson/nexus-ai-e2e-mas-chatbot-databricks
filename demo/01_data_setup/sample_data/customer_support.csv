@@ -1,0 +1,101 @@
+ticket_id,created_date,sku,product_name,tier,issue_type,issue_summary,channel,priority,first_response_hrs,resolution_hrs,resolution_type,csat_score,agent_id,escalated,repeat_contact,order_age_days,region,sentiment_score
+TKT-0001,2026-02-04,EP-900,ErgoPro 900,Premium,assembly_question,Customer needs help assembling ErgoPro 900 — gas lift installation unclear,social,urgent,14.7,50.5,refund_processed,4,AGT-002,Yes,Yes,113,Northeast,-0.444
+TKT-0002,2025-10-15,EP-900,ErgoPro 900,Premium,warranty_claim,Mesh backrest tearing on ErgoPro 900 after 8 months,phone,low,1.4,12.5,escalated_to_tier2,1,AGT-011,No,No,118,West,-0.902
+TKT-0003,2025-10-13,EP-500,ErgoPro 500,Mid,missing_part,ErgoPro 500 arrived missing armrest bolts (qty 4),chat,urgent,4.0,24.8,callback_scheduled,5,AGT-006,Yes,Yes,99,Midwest,-0.354
+TKT-0004,2026-03-15,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,phone,urgent,18.3,79.1,escalated_to_tier2,1,AGT-012,No,No,68,Southeast,0.049
+TKT-0005,2025-10-21,EP-900,ErgoPro 900,Premium,warranty_claim,Mesh backrest tearing on ErgoPro 900 after 8 months,email,urgent,14.8,23.1,callback_scheduled,5,AGT-015,No,No,78,Midwest,-0.481
+TKT-0006,2025-11-24,EP-900,ErgoPro 900,Premium,product_defect,Seat cushion sinking on ErgoPro 900 within 30 days of purchase,social,urgent,22.3,66.7,escalated_to_tier2,5,AGT-004,No,Yes,1,West,-0.952
+TKT-0007,2025-10-25,EP-900,ErgoPro 900,Premium,return_request,Customer wants to return ErgoPro 900 — does not fit workspace,social,urgent,17.8,33.1,resolved_first_contact,3,AGT-006,No,Yes,82,Southwest,0.38
+TKT-0008,2026-01-08,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,email,low,7.5,44.2,callback_scheduled,3,AGT-006,No,No,73,Northeast,0.92
+TKT-0009,2025-10-10,EP-200,ErgoPro 200,Entry,warranty_claim,Mesh backrest tearing on ErgoPro 200 after 8 months,social,urgent,8.1,32.8,resolved_first_contact,2,AGT-008,No,No,59,Northeast,0.792
+TKT-0010,2025-11-18,EP-500,ErgoPro 500,Mid,sizing_question,"Customer asking if ErgoPro 500 fits users over 6'2""",phone,high,22.3,26.8,knowledge_base_link,5,AGT-001,No,No,88,Midwest,0.599
+TKT-0011,2026-03-24,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,phone,urgent,23.3,43.9,callback_scheduled,5,AGT-014,No,No,78,Southeast,-0.625
+TKT-0012,2026-03-23,EP-200,ErgoPro 200,Entry,delivery_delay,Order for ErgoPro 200 shows delivered but not received,phone,urgent,17.0,40.0,resolved_first_contact,4,AGT-015,No,No,58,Midwest,-0.568
+TKT-0013,2026-02-08,EP-500,ErgoPro 500,Mid,missing_part,ErgoPro 500 arrived missing armrest bolts (qty 4),email,urgent,2.9,59.5,knowledge_base_link,1,AGT-013,No,No,20,Southwest,-0.32
+TKT-0014,2026-03-06,EP-500,ErgoPro 500,Mid,delivery_delay,Order for ErgoPro 500 shows delivered but not received,chat,medium,18.7,29.4,callback_scheduled,1,AGT-008,No,No,111,Northeast,-0.768
+TKT-0015,2026-03-09,EP-500,ErgoPro 500,Mid,assembly_question,Customer needs help assembling ErgoPro 500 — gas lift installation unclear,phone,urgent,16.6,59.6,resolved_first_contact,1,AGT-009,No,Yes,74,Midwest,0.278
+TKT-0016,2025-11-15,EP-200,ErgoPro 200,Entry,product_defect,Seat cushion sinking on ErgoPro 200 within 30 days of purchase,phone,urgent,5.0,26.0,callback_scheduled,1,AGT-005,No,Yes,36,West,-0.969
+TKT-0017,2026-01-09,EP-900,ErgoPro 900,Premium,return_request,Customer wants to return ErgoPro 900 — does not fit workspace,phone,medium,5.1,30.6,callback_scheduled,3,AGT-010,No,Yes,10,Midwest,0.227
+TKT-0018,2025-10-10,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,email,low,1.4,4.0,refund_processed,1,AGT-002,No,No,23,Northeast,0.783
+TKT-0019,2026-02-09,EP-900,ErgoPro 900,Premium,adjustment_help,Lumbar support position unclear on ErgoPro 900,email,urgent,14.9,37.7,knowledge_base_link,2,AGT-002,No,Yes,59,Midwest,0.369
+TKT-0020,2026-02-23,EP-900,ErgoPro 900,Premium,adjustment_help,Lumbar support position unclear on ErgoPro 900,phone,high,11.4,79.6,refund_processed,2,AGT-012,No,No,59,Southeast,-0.939
+TKT-0021,2026-02-16,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,phone,high,8.6,42.1,knowledge_base_link,5,AGT-003,Yes,No,105,West,-0.348
+TKT-0022,2025-12-19,EP-900,ErgoPro 900,Premium,return_request,Customer wants to return ErgoPro 900 — does not fit workspace,social,medium,19.1,57.7,knowledge_base_link,2,AGT-009,No,No,50,West,-0.319
+TKT-0023,2026-01-03,EP-900,ErgoPro 900,Premium,sizing_question,"Customer asking if ErgoPro 900 fits users over 6'2""",chat,medium,18.9,50.5,callback_scheduled,1,AGT-012,No,Yes,76,Northeast,-0.074
+TKT-0024,2025-12-18,EP-900,ErgoPro 900,Premium,return_request,Customer wants to return ErgoPro 900 — does not fit workspace,email,low,19.8,32.9,callback_scheduled,5,AGT-013,No,No,64,West,-0.819
+TKT-0025,2025-12-06,EP-200,ErgoPro 200,Entry,assembly_question,Customer needs help assembling ErgoPro 200 — gas lift installation unclear,phone,urgent,18.2,66.0,knowledge_base_link,5,AGT-008,No,Yes,88,Midwest,-0.401
+TKT-0026,2026-01-02,EP-900,ErgoPro 900,Premium,delivery_delay,Order for ErgoPro 900 shows delivered but not received,email,low,22.1,89.6,knowledge_base_link,5,AGT-007,No,No,8,Midwest,0.802
+TKT-0027,2025-12-30,EP-200,ErgoPro 200,Entry,assembly_question,Customer needs help assembling ErgoPro 200 — gas lift installation unclear,email,high,16.9,76.1,resolved_first_contact,2,AGT-007,No,No,41,Southeast,-0.188
+TKT-0028,2026-02-11,EP-500,ErgoPro 500,Mid,warranty_claim,Mesh backrest tearing on ErgoPro 500 after 8 months,social,high,16.0,50.5,refund_processed,2,AGT-005,No,Yes,2,West,0.297
+TKT-0029,2026-02-25,EP-200,ErgoPro 200,Entry,adjustment_help,Lumbar support position unclear on ErgoPro 200,email,medium,15.9,86.1,callback_scheduled,4,AGT-014,No,No,78,Southeast,0.246
+TKT-0030,2025-12-31,EP-500,ErgoPro 500,Mid,sizing_question,"Customer asking if ErgoPro 500 fits users over 6'2""",chat,medium,13.3,46.0,refund_processed,5,AGT-001,No,No,31,Northeast,-0.461
+TKT-0031,2025-11-28,EP-900,ErgoPro 900,Premium,product_defect,Seat cushion sinking on ErgoPro 900 within 30 days of purchase,phone,low,1.0,4.2,knowledge_base_link,4,AGT-012,Yes,Yes,94,Northeast,0.967
+TKT-0032,2025-10-26,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,email,medium,12.5,50.4,refund_processed,1,AGT-011,No,No,7,Midwest,0.07
+TKT-0033,2025-11-05,EP-200,ErgoPro 200,Entry,adjustment_help,Lumbar support position unclear on ErgoPro 200,phone,urgent,11.0,76.3,replacement_sent,3,AGT-005,No,Yes,89,Northeast,0.499
+TKT-0034,2026-02-16,EP-900,ErgoPro 900,Premium,delivery_delay,Order for ErgoPro 900 shows delivered but not received,email,high,1.7,36.0,callback_scheduled,5,AGT-001,No,No,11,Southwest,0.011
+TKT-0035,2026-01-25,EP-500,ErgoPro 500,Mid,delivery_delay,Order for ErgoPro 500 shows delivered but not received,email,low,3.4,24.0,knowledge_base_link,2,AGT-015,No,No,58,Midwest,0.616
+TKT-0036,2026-03-23,EP-500,ErgoPro 500,Mid,warranty_claim,Mesh backrest tearing on ErgoPro 500 after 8 months,phone,low,11.7,69.4,escalated_to_tier2,5,AGT-015,No,No,97,Southeast,0.541
+TKT-0037,2025-11-04,EP-200,ErgoPro 200,Entry,adjustment_help,Lumbar support position unclear on ErgoPro 200,phone,low,17.5,30.0,callback_scheduled,3,AGT-013,Yes,Yes,22,Southeast,-0.203
+TKT-0038,2025-11-15,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,chat,urgent,18.0,72.3,callback_scheduled,4,AGT-008,No,Yes,68,Southeast,-0.976
+TKT-0039,2025-10-08,EP-500,ErgoPro 500,Mid,sizing_question,"Customer asking if ErgoPro 500 fits users over 6'2""",email,low,16.3,85.6,knowledge_base_link,3,AGT-014,No,No,118,Midwest,-0.33
+TKT-0040,2025-12-03,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,chat,medium,6.3,48.6,knowledge_base_link,3,AGT-011,No,No,71,West,0.346
+TKT-0041,2025-10-07,EP-200,ErgoPro 200,Entry,assembly_question,Customer needs help assembling ErgoPro 200 — gas lift installation unclear,social,high,10.0,48.1,escalated_to_tier2,3,AGT-005,No,Yes,4,Northeast,-0.816
+TKT-0042,2026-03-01,EP-900,ErgoPro 900,Premium,warranty_claim,Mesh backrest tearing on ErgoPro 900 after 8 months,email,medium,22.8,68.9,refund_processed,5,AGT-013,No,Yes,90,Southwest,-0.493
+TKT-0043,2026-01-20,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,social,high,15.4,81.9,replacement_sent,2,AGT-013,Yes,No,100,West,-0.234
+TKT-0044,2026-02-14,EP-500,ErgoPro 500,Mid,assembly_question,Customer needs help assembling ErgoPro 500 — gas lift installation unclear,social,low,6.3,64.9,refund_processed,2,AGT-010,No,Yes,83,Southeast,-0.783
+TKT-0045,2025-12-08,EP-900,ErgoPro 900,Premium,sizing_question,"Customer asking if ErgoPro 900 fits users over 6'2""",phone,low,5.4,51.9,resolved_first_contact,1,AGT-002,No,No,3,Southeast,-0.702
+TKT-0046,2026-01-22,EP-900,ErgoPro 900,Premium,assembly_question,Customer needs help assembling ErgoPro 900 — gas lift installation unclear,chat,high,22.4,70.4,refund_processed,5,AGT-001,No,No,56,Southeast,0.688
+TKT-0047,2025-11-28,EP-200,ErgoPro 200,Entry,warranty_claim,Mesh backrest tearing on ErgoPro 200 after 8 months,email,high,0.3,69.0,replacement_sent,3,AGT-007,Yes,No,83,West,-0.269
+TKT-0048,2026-01-16,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,chat,medium,20.2,75.1,knowledge_base_link,1,AGT-007,No,No,90,Southeast,0.793
+TKT-0049,2025-12-09,EP-900,ErgoPro 900,Premium,product_defect,Seat cushion sinking on ErgoPro 900 within 30 days of purchase,chat,medium,11.8,75.6,resolved_first_contact,2,AGT-001,No,No,50,West,0.585
+TKT-0050,2025-12-06,EP-900,ErgoPro 900,Premium,delivery_delay,Order for ErgoPro 900 shows delivered but not received,email,low,12.1,81.6,replacement_sent,1,AGT-006,Yes,No,16,Southwest,0.614
+TKT-0051,2025-11-14,EP-900,ErgoPro 900,Premium,adjustment_help,Lumbar support position unclear on ErgoPro 900,chat,medium,22.6,85.3,resolved_first_contact,1,AGT-012,No,No,84,West,-0.058
+TKT-0052,2026-03-28,EP-900,ErgoPro 900,Premium,assembly_question,Customer needs help assembling ErgoPro 900 — gas lift installation unclear,chat,low,6.0,52.9,replacement_sent,1,AGT-008,No,No,9,West,-0.772
+TKT-0053,2026-01-04,EP-900,ErgoPro 900,Premium,warranty_claim,Mesh backrest tearing on ErgoPro 900 after 8 months,social,high,1.7,16.7,resolved_first_contact,5,AGT-009,No,No,108,Southwest,0.528
+TKT-0054,2026-02-23,EP-900,ErgoPro 900,Premium,missing_part,ErgoPro 900 arrived missing armrest bolts (qty 4),social,medium,8.2,17.3,callback_scheduled,3,AGT-009,No,No,32,Northeast,-0.919
+TKT-0055,2025-11-27,EP-200,ErgoPro 200,Entry,sizing_question,"Customer asking if ErgoPro 200 fits users over 6'2""",email,low,18.7,20.3,resolved_first_contact,2,AGT-015,Yes,No,84,Northeast,0.774
+TKT-0056,2025-10-19,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,phone,urgent,16.7,31.9,refund_processed,2,AGT-003,Yes,No,24,Southeast,0.224
+TKT-0057,2026-01-30,EP-200,ErgoPro 200,Entry,delivery_delay,Order for ErgoPro 200 shows delivered but not received,chat,low,8.5,9.3,knowledge_base_link,1,AGT-010,No,No,65,Southwest,-0.072
+TKT-0058,2026-02-21,EP-900,ErgoPro 900,Premium,warranty_claim,Mesh backrest tearing on ErgoPro 900 after 8 months,social,urgent,6.8,21.2,escalated_to_tier2,2,AGT-011,Yes,Yes,83,Midwest,-0.43
+TKT-0059,2025-12-05,EP-500,ErgoPro 500,Mid,delivery_delay,Order for ErgoPro 500 shows delivered but not received,email,low,8.2,66.3,callback_scheduled,1,AGT-015,No,Yes,101,West,-0.03
+TKT-0060,2025-10-31,EP-200,ErgoPro 200,Entry,return_request,Customer wants to return ErgoPro 200 — does not fit workspace,phone,urgent,21.5,73.6,escalated_to_tier2,3,AGT-004,Yes,No,30,West,-0.526
+TKT-0061,2025-12-01,EP-500,ErgoPro 500,Mid,warranty_claim,Mesh backrest tearing on ErgoPro 500 after 8 months,social,low,9.1,25.4,refund_processed,2,AGT-004,No,Yes,50,Midwest,-0.727
+TKT-0062,2026-02-08,EP-900,ErgoPro 900,Premium,warranty_claim,Mesh backrest tearing on ErgoPro 900 after 8 months,phone,medium,15.2,85.5,resolved_first_contact,5,AGT-001,No,Yes,15,Southeast,-0.083
+TKT-0063,2026-02-19,EP-200,ErgoPro 200,Entry,product_defect,Seat cushion sinking on ErgoPro 200 within 30 days of purchase,chat,medium,5.4,27.0,resolved_first_contact,4,AGT-014,No,Yes,76,Southeast,0.674
+TKT-0064,2026-01-27,EP-500,ErgoPro 500,Mid,assembly_question,Customer needs help assembling ErgoPro 500 — gas lift installation unclear,chat,high,17.6,70.7,refund_processed,5,AGT-004,No,No,115,West,-0.164
+TKT-0065,2025-11-22,EP-200,ErgoPro 200,Entry,assembly_question,Customer needs help assembling ErgoPro 200 — gas lift installation unclear,email,urgent,23.8,76.7,knowledge_base_link,4,AGT-008,Yes,No,64,Southwest,-0.834
+TKT-0066,2026-01-15,EP-200,ErgoPro 200,Entry,sizing_question,"Customer asking if ErgoPro 200 fits users over 6'2""",chat,low,22.8,32.8,resolved_first_contact,4,AGT-011,No,Yes,91,Southeast,0.716
+TKT-0067,2026-02-24,EP-900,ErgoPro 900,Premium,assembly_question,Customer needs help assembling ErgoPro 900 — gas lift installation unclear,social,medium,23.4,57.1,replacement_sent,4,AGT-012,Yes,No,10,Southeast,0.787
+TKT-0068,2025-10-04,EP-500,ErgoPro 500,Mid,assembly_question,Customer needs help assembling ErgoPro 500 — gas lift installation unclear,chat,low,7.3,61.6,knowledge_base_link,3,AGT-012,Yes,No,117,Midwest,0.776
+TKT-0069,2025-12-28,EP-200,ErgoPro 200,Entry,sizing_question,"Customer asking if ErgoPro 200 fits users over 6'2""",phone,medium,8.9,53.7,callback_scheduled,5,AGT-012,Yes,No,91,Southwest,-0.723
+TKT-0070,2025-11-03,EP-500,ErgoPro 500,Mid,warranty_claim,Mesh backrest tearing on ErgoPro 500 after 8 months,chat,medium,13.0,59.9,replacement_sent,3,AGT-015,No,No,88,Southeast,-0.446
+TKT-0071,2025-11-17,EP-200,ErgoPro 200,Entry,product_defect,Seat cushion sinking on ErgoPro 200 within 30 days of purchase,email,urgent,8.4,43.7,callback_scheduled,5,AGT-011,No,No,80,Midwest,0.6
+TKT-0072,2026-03-09,EP-900,ErgoPro 900,Premium,return_request,Customer wants to return ErgoPro 900 — does not fit workspace,email,urgent,4.7,68.4,escalated_to_tier2,3,AGT-002,Yes,Yes,36,West,0.394
+TKT-0073,2025-10-22,EP-500,ErgoPro 500,Mid,missing_part,ErgoPro 500 arrived missing armrest bolts (qty 4),email,high,21.0,58.7,refund_processed,5,AGT-015,No,No,45,Southeast,-0.112
+TKT-0074,2026-01-31,EP-900,ErgoPro 900,Premium,assembly_question,Customer needs help assembling ErgoPro 900 — gas lift installation unclear,phone,urgent,7.1,12.1,knowledge_base_link,3,AGT-011,No,No,76,Northeast,0.684
+TKT-0075,2026-01-12,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,chat,high,7.4,17.3,escalated_to_tier2,4,AGT-006,No,Yes,19,Midwest,-0.431
+TKT-0076,2026-02-15,EP-200,ErgoPro 200,Entry,missing_part,ErgoPro 200 arrived missing armrest bolts (qty 4),chat,medium,17.1,38.0,escalated_to_tier2,1,AGT-001,No,No,17,Southeast,-0.479
+TKT-0077,2026-01-09,EP-200,ErgoPro 200,Entry,warranty_claim,Mesh backrest tearing on ErgoPro 200 after 8 months,phone,medium,13.6,16.6,replacement_sent,4,AGT-009,No,No,39,West,0.841
+TKT-0078,2026-01-09,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,chat,low,18.5,86.8,callback_scheduled,5,AGT-009,No,No,91,Midwest,-0.052
+TKT-0079,2025-12-08,EP-500,ErgoPro 500,Mid,missing_part,ErgoPro 500 arrived missing armrest bolts (qty 4),phone,low,19.2,71.8,callback_scheduled,4,AGT-015,Yes,Yes,87,Northeast,-0.766
+TKT-0080,2025-12-30,EP-200,ErgoPro 200,Entry,sizing_question,"Customer asking if ErgoPro 200 fits users over 6'2""",email,high,14.9,31.2,resolved_first_contact,5,AGT-011,No,No,68,Southwest,0.563
+TKT-0081,2025-12-07,EP-500,ErgoPro 500,Mid,warranty_claim,Mesh backrest tearing on ErgoPro 500 after 8 months,email,urgent,0.7,39.7,escalated_to_tier2,4,AGT-006,Yes,No,47,Southeast,-0.704
+TKT-0082,2026-01-02,EP-500,ErgoPro 500,Mid,product_defect,Seat cushion sinking on ErgoPro 500 within 30 days of purchase,phone,high,9.4,10.8,refund_processed,5,AGT-002,No,No,114,Southeast,0.483
+TKT-0083,2025-12-13,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,social,medium,7.1,65.2,knowledge_base_link,5,AGT-002,No,Yes,39,Southeast,0.977
+TKT-0084,2025-12-25,EP-900,ErgoPro 900,Premium,product_defect,Seat cushion sinking on ErgoPro 900 within 30 days of purchase,email,low,1.8,70.9,refund_processed,3,AGT-007,No,No,60,Northeast,0.51
+TKT-0085,2025-11-10,EP-200,ErgoPro 200,Entry,warranty_claim,Mesh backrest tearing on ErgoPro 200 after 8 months,social,low,4.6,32.4,replacement_sent,5,AGT-005,No,No,95,Southeast,-0.551
+TKT-0086,2025-10-20,EP-200,ErgoPro 200,Entry,missing_part,ErgoPro 200 arrived missing armrest bolts (qty 4),social,low,6.5,75.4,callback_scheduled,3,AGT-007,No,No,117,Southwest,-0.943
+TKT-0087,2025-12-29,EP-500,ErgoPro 500,Mid,adjustment_help,Lumbar support position unclear on ErgoPro 500,social,urgent,23.9,29.2,replacement_sent,4,AGT-012,Yes,No,66,Northeast,-0.965
+TKT-0088,2025-12-03,EP-500,ErgoPro 500,Mid,missing_part,ErgoPro 500 arrived missing armrest bolts (qty 4),chat,high,14.0,24.9,escalated_to_tier2,1,AGT-005,No,No,82,Midwest,-0.903
+TKT-0089,2026-02-13,EP-500,ErgoPro 500,Mid,return_request,Customer wants to return ErgoPro 500 — does not fit workspace,email,medium,12.4,67.7,knowledge_base_link,3,AGT-014,No,No,103,Midwest,-0.457
+TKT-0090,2026-02-23,EP-900,ErgoPro 900,Premium,product_defect,Seat cushion sinking on ErgoPro 900 within 30 days of purchase,email,medium,2.5,44.5,knowledge_base_link,3,AGT-006,No,No,44,Southwest,-0.795
+TKT-0091,2025-11-08,EP-200,ErgoPro 200,Entry,warranty_claim,Mesh backrest tearing on ErgoPro 200 after 8 months,email,urgent,20.0,77.4,refund_processed,1,AGT-002,No,Yes,62,Midwest,-0.377
+TKT-0092,2025-10-30,EP-500,ErgoPro 500,Mid,missing_part,ErgoPro 500 arrived missing armrest bolts (qty 4),phone,medium,19.6,83.7,callback_scheduled,3,AGT-001,Yes,Yes,17,Southwest,0.376
+TKT-0093,2025-12-13,EP-500,ErgoPro 500,Mid,missing_part,ErgoPro 500 arrived missing armrest bolts (qty 4),email,low,5.2,75.8,resolved_first_contact,4,AGT-013,No,Yes,26,West,-0.934
+TKT-0094,2026-03-20,EP-900,ErgoPro 900,Premium,assembly_question,Customer needs help assembling ErgoPro 900 — gas lift installation unclear,email,high,11.4,76.9,callback_scheduled,1,AGT-013,Yes,Yes,118,Northeast,-0.589
+TKT-0095,2026-02-22,EP-200,ErgoPro 200,Entry,missing_part,ErgoPro 200 arrived missing armrest bolts (qty 4),phone,high,16.2,18.8,replacement_sent,2,AGT-014,No,No,73,West,-0.802
+TKT-0096,2026-01-18,EP-900,ErgoPro 900,Premium,assembly_question,Customer needs help assembling ErgoPro 900 — gas lift installation unclear,chat,low,12.8,64.5,callback_scheduled,1,AGT-015,No,No,109,Southeast,-0.267
+TKT-0097,2026-02-13,EP-900,ErgoPro 900,Premium,missing_part,ErgoPro 900 arrived missing armrest bolts (qty 4),phone,urgent,10.7,79.7,refund_processed,2,AGT-009,No,No,15,Midwest,-0.753
+TKT-0098,2026-01-17,EP-200,ErgoPro 200,Entry,missing_part,ErgoPro 200 arrived missing armrest bolts (qty 4),email,low,12.0,38.3,replacement_sent,4,AGT-002,No,No,59,Northeast,0.472
+TKT-0099,2025-12-12,EP-900,ErgoPro 900,Premium,adjustment_help,Lumbar support position unclear on ErgoPro 900,chat,low,5.6,35.2,refund_processed,3,AGT-003,Yes,No,63,West,-0.207
+TKT-0100,2025-10-05,EP-900,ErgoPro 900,Premium,return_request,Customer wants to return ErgoPro 900 — does not fit workspace,email,medium,3.0,31.7,resolved_first_contact,3,AGT-004,No,Yes,77,Southeast,-0.754

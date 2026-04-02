@@ -1,0 +1,189 @@
+# ErgoPro Brand Guidelines
+# For use in demos, LinkedIn content, and documentation
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BRAND IDENTITY
+# ═══════════════════════════════════════════════════════════════════════════════
+
+brand:
+  name: ErgoPro
+  tagline: "Work smarter, sit better."
+  description: |
+    ErgoPro is a fictional direct-to-consumer ergonomic office chair brand
+    used as the demo context for this multi-agent supervisor application.
+    It is intentionally designed to mirror real-world e-commerce brands
+    to make the architecture demo as realistic as possible.
+
+product_line:
+  - sku: EP-200
+    name: ErgoPro 200
+    tier: Entry
+    msrp: 349
+    map: 299
+    tagline: "Ergonomic comfort that fits any budget."
+    target: "Students, home office users, budget-conscious buyers"
+
+  - sku: EP-500
+    name: ErgoPro 500
+    tier: Mid
+    msrp: 649
+    map: 549
+    tagline: "Built for the way you work."
+    target: "Full-time remote professionals, 6–8 hrs/day users"
+
+  - sku: EP-900
+    name: ErgoPro 900
+    tier: Premium
+    msrp: 999
+    map: 849
+    tagline: "The last chair you'll ever buy."
+    target: "Executives, power users, tall users (6'2\"+)"
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# COLOR PALETTE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+colors:
+  primary:
+    name: ErgoPro Teal
+    hex: "#0F6E56"
+    usage: "Primary brand color — headers, CTAs, key UI elements"
+
+  primary_light:
+    name: ErgoPro Teal Light
+    hex: "#E1F5EE"
+    usage: "Background fills, callout boxes, highlights"
+
+  secondary:
+    name: ErgoPro Charcoal
+    hex: "#2C2C2A"
+    usage: "Body text, headings"
+
+  muted:
+    name: ErgoPro Gray
+    hex: "#5F5E5A"
+    usage: "Secondary text, captions, metadata"
+
+  background:
+    name: ErgoPro Warm White
+    hex: "#F1EFE8"
+    usage: "Page backgrounds, alternating table rows"
+
+  accent_blue:
+    name: Info Blue
+    hex: "#185FA5"
+    usage: "Links, informational callouts"
+
+  accent_amber:
+    name: Warning Amber
+    hex: "#854F0B"
+    usage: "Warnings, at-risk indicators"
+
+  tier_entry:
+    hex: "#378ADD"
+    usage: "EP-200 Entry tier badge color"
+
+  tier_mid:
+    hex: "#1D9E75"
+    usage: "EP-500 Mid tier badge color"
+
+  tier_premium:
+    hex: "#534AB7"
+    usage: "EP-900 Premium tier badge color"
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TYPOGRAPHY
+# ═══════════════════════════════════════════════════════════════════════════════
+
+typography:
+  primary_font: "Helvetica Neue / Helvetica / Arial (system sans-serif)"
+  document_font: "Helvetica (used in all generated PDFs)"
+  code_font: "Courier New / monospace"
+
+  scale:
+    h1: "26px / Bold — document titles"
+    h2: "16px / Bold — section headers"
+    h3: "13px / Bold — subsection headers"
+    body: "10px / Regular — document body (PDF)"
+    caption: "8px / Italic — footnotes, captions"
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# NAMING CONVENTIONS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+naming:
+  agents:
+    pattern: "ErgoPro {Domain} Agent"
+    examples:
+      - "ErgoPro Product Research Agent"
+      - "ErgoPro Inventory Management Agent"
+      - "ErgoPro Pricing & Promotions Agent"
+      - "ErgoPro Marketing Copy Agent"
+      - "ErgoPro Customer Support Agent"
+      - "ErgoPro Order Fulfillment Agent"
+      - "ErgoPro Website Performance Agent"
+      - "ErgoPro Knowledge Assistant"
+
+  supervisor:
+    name: "ErgoPro Launch Supervisor"
+
+  delta_tables:
+    catalog: "ius_unity_prod"
+    schema: "sandbox"
+    tables:
+      - product_research
+      - inventory_management
+      - pricing_promotions
+      - marketing_copy
+      - customer_support
+      - order_fulfillment
+      - web_sessions
+      - product_page_interactions
+      - checkout_funnel
+      - site_search_queries
+      - campaign_attribution
+
+  documents:
+    pattern: "{NN}_ergo_{document_name}.pdf"
+    examples:
+      - "01_ergo_product_spec_sheets.pdf"
+      - "02_ergo_assembly_setup_guide.pdf"
+      - "03_ergo_warranty_returns_policy.pdf"
+      - "04_ergo_pricing_promotions_playbook.pdf"
+      - "05_ergo_customer_support_faq.pdf"
+      - "06_ergo_sales_enablement.pdf"
+      - "07_ergo_fulfillment_shipping_sop.pdf"
+
+  volume_path: "/Volumes/s3/hma_prod/hma_data_storage_prod/sandbox/ergo_launch_sample/"
+  docs_path: "/Volumes/s3/hma_prod/hma_data_storage_prod/sandbox/ergo_launch_sample/docs/"
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TONE OF VOICE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+tone:
+  brand_voice: |
+    ErgoPro speaks like a knowledgeable friend who happens to be an expert
+    in ergonomics. Confident but not arrogant. Technical when needed but
+    always accessible. Focused on the human benefit, not the spec sheet.
+
+  supervisor_voice: |
+    The supervisor agent speaks like a senior business analyst briefing
+    an executive. Direct, data-driven, and action-oriented. Leads with
+    the insight, not the methodology. Always ends with a clear takeaway.
+
+  do:
+    - Lead with the most important information
+    - Use specific numbers and cite sources
+    - Give a clear recommendation when asked
+    - Acknowledge trade-offs honestly
+
+  dont:
+    - Use filler phrases ("Great question!", "Certainly!")
+    - Show raw SQL or technical query logic
+    - Give unrounded numbers (42% not 41.87%)
+    - Leave responses without a clear takeaway

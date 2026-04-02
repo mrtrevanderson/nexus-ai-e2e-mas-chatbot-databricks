@@ -1,0 +1,501 @@
+attribution_id,session_id,user_id,visit_timestamp,channel,utm_source,utm_medium,utm_campaign,utm_content,utm_term,landing_page,sku_viewed,device_type,region,sessions,pageviews,bounce,converted,revenue_usd,cost_usd,roas,cpc_usd,ctr_pct,impression_share_pct,attribution_model
+ATT-00001,5acf53963b4b4c,U509533,2025-11-07 10:22:22,direct,(direct),(none),(none),hero_banner,ergonomic chair,/products/ergo-pro-200,ErgoPro 500,mobile,Southwest,1,5,No,No,0,0,0,0,3.93,59.8,first_click
+ATT-00002,fc0e69b6f87642,U910376,2025-11-12 23:39:17,email,klaviyo,email,launch_announcement,carousel_ad,,/about,ErgoPro 500,tablet,Southeast,1,4,No,No,0,1.2,0,0,2.63,17.4,linear
+ATT-00003,bd4842058dc844,U438158,2026-01-13 02:02:45,organic_search,bing,organic,(none),text_ad,,/about,ErgoPro 500,mobile,West,1,6,No,Yes,649,0,0,0,6.49,34.7,linear
+ATT-00004,7bc295ad5f7f41,U937356,2025-10-22 00:41:41,email,mailchimp,email,launch_announcement,carousel_ad,ergonomic chair,/compare,ErgoPro 500,mobile,West,1,3,No,No,0,1.92,0,0,2.55,26.8,linear
+ATT-00005,a82c92a6a64e4e,U573955,2026-03-04 08:31:19,referral,wirecutter.com,referral,(none),reel,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,tablet,Midwest,1,8,Yes,No,0,0,0,0,2.28,14.8,linear
+ATT-00006,e6b0165f85f345,U553199,2025-10-15 11:08:20,email,mailchimp,email,launch_announcement,,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,West,1,8,Yes,No,0,0.38,0,0,3.28,62.4,last_click
+ATT-00007,8ff3f23977814f,U238018,2026-02-09 23:33:29,social,tiktok,social,ugc_repost,hero_banner,ergonomic chair,/about,ErgoPro 500,desktop,West,1,8,No,No,0,1.21,0,0,5.38,12.3,time_decay
+ATT-00008,784a3ab20f5844,U735343,2026-01-16 17:32:10,social,facebook,social,influencer_collab,story_ad,ergonomic chair,/blog,ErgoPro 500,desktop,Southeast,1,4,Yes,No,0,1.06,0,0,3.31,20.5,first_click
+ATT-00009,87833714f00846,U342667,2025-12-21 06:02:41,paid_search,bing_ads,cpc,ergo_chair_brand,reel,ergo chair,/blog,ErgoPro 500,mobile,Southwest,1,6,No,No,0,3.93,0,0.79,4.92,82.8,first_click
+ATT-00010,dd90529130034a,U734773,2026-01-19 12:05:53,direct,(direct),(none),(none),carousel_ad,ergonomic chair,/compare,ErgoPro 200,desktop,West,1,3,No,No,0,0,0,0,2.11,60.9,first_click
+ATT-00011,88ba59de1b7647,U685557,2025-11-14 22:56:47,organic_search,google,organic,(none),hero_banner,ergo chair,/products/ergo-pro-500,ErgoPro 500,mobile,Southeast,1,3,No,No,0,0,0,0,1.04,68.4,time_decay
+ATT-00012,661a334ce08349,U523246,2025-11-19 12:14:11,social,tiktok,social,product_demo,html_email,ergonomic chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,mobile,Northeast,1,2,Yes,No,0,0.56,0,0,4.84,69.7,first_click
+ATT-00013,bf26d7401fdd45,U886712,2026-03-10 13:15:19,paid_search,bing_ads,cpc,ergo_chair_generic,story_ad,lumbar support chair,/blog,ErgoPro 200,tablet,Southeast,1,1,Yes,No,0,1.2,0,0.3,2.03,44.1,time_decay
+ATT-00014,d0ecdfe742574c,U165179,2025-11-02 19:47:17,organic_search,google,organic,(none),html_email,,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,West,1,7,Yes,No,0,0,0,0,4.47,74.9,first_click
+ATT-00015,100978ce880341,U225912,2025-11-04 23:34:34,referral,wirecutter.com,referral,(none),carousel_ad,,/compare,ErgoPro 500,desktop,West,1,8,No,No,0,0,0,0,5.44,11.1,linear
+ATT-00016,957fd7ff884a48,U197042,2025-11-09 19:48:25,paid_search,bing_ads,cpc,competitor_conquest,,,/about,ErgoPro 500,desktop,Midwest,1,4,No,No,0,1.32,0,0.33,4.03,39.0,linear
+ATT-00017,4d7e7adf250f4a,U945734,2025-10-21 13:26:59,social,linkedin,social,launch_reel,hero_banner,office chair,/,ErgoPro 200,desktop,Southwest,1,8,Yes,No,0,1.04,0,0,6.24,41.8,linear
+ATT-00018,8bda5c827d2045,U820869,2025-12-28 15:02:51,organic_search,google,organic,(none),text_ad,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Northeast,1,6,No,No,0,0,0,0,4.59,26.1,data_driven
+ATT-00019,09f014b3afad4a,U922534,2026-01-18 17:13:29,email,mailchimp,email,weekly_newsletter,text_ad,ergonomic chair,/products/ergo-pro-200,ErgoPro 500,desktop,West,1,6,Yes,No,0,0.36,0,0,6.46,28.2,first_click
+ATT-00020,5bc4be1cc40e46,U389399,2026-02-05 21:41:37,organic_search,google,organic,(none),,best chair,/blog,ErgoPro 500,desktop,Southeast,1,8,Yes,No,0,0,0,0,5.07,58.3,data_driven
+ATT-00021,5e42b2efc9064a,U388605,2026-01-22 08:57:11,organic_search,bing,organic,(none),carousel_ad,,/about,ErgoPro 200,desktop,Southwest,1,6,No,No,0,0,0,0,3.71,72.5,first_click
+ATT-00022,56f6d4f2437c4e,U608165,2026-03-30 20:09:02,direct,(direct),(none),(none),carousel_ad,ergo chair,/compare,ErgoPro 500,mobile,Southeast,1,8,No,No,0,0,0,0,1.94,68.9,data_driven
+ATT-00023,1682962c49ee4e,U550695,2025-11-04 17:47:46,paid_search,bing_ads,cpc,ergo_chair_generic,html_email,ergo chair,/products/ergo-pro-900,ErgoPro 500,mobile,Midwest,1,2,No,No,0,4.88,0,2.44,1.03,83.8,time_decay
+ATT-00024,75a31acc22a849,U109682,2026-02-22 17:19:19,social,facebook,social,launch_reel,hero_banner,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Northeast,1,2,No,No,0,1.85,0,0,3.04,23.0,last_click
+ATT-00025,d9cc7e8d1d974d,U230317,2025-12-11 06:06:40,organic_search,google,organic,(none),reel,office chair,/products/ergo-pro-900,ErgoPro 500,mobile,Southeast,1,8,No,No,0,0,0,0,4.53,79.5,last_click
+ATT-00026,70cc2d886faf4a,U133060,2026-02-20 07:17:09,email,klaviyo,email,vip_early_access,text_ad,,/compare,ErgoPro 900,desktop,Southwest,1,6,No,No,0,1.18,0,0,1.86,19.7,last_click
+ATT-00027,04dd16a348f941,U425327,2025-12-06 00:10:12,affiliate,shareasale,affiliate,launch_promo,,ergonomic chair,/products/ergo-pro-200,ErgoPro 900,tablet,Northeast,1,8,No,No,0,0.78,0,0,2.48,50.2,last_click
+ATT-00028,64c73adee2c14e,U909761,2025-12-08 12:00:25,paid_search,google_ads,cpc,ergo_chair_generic,text_ad,,/products,ErgoPro 200,desktop,Northeast,1,6,No,No,0,1.09,0,0.55,6.38,11.1,time_decay
+ATT-00029,245e893b5e544d,U686870,2025-10-21 10:17:27,organic_search,bing,organic,(none),,,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southwest,1,5,No,No,0,0,0,0,2.34,56.0,last_click
+ATT-00030,503ec5ab8b5b4c,U402276,2025-12-29 12:03:53,social,instagram,social,influencer_collab,text_ad,best chair,/products/ergo-pro-200,ErgoPro 900,desktop,West,1,3,Yes,No,0,1.83,0,0,5.28,64.2,time_decay
+ATT-00031,94737381faa24c,U995458,2026-03-31 09:03:02,email,mailchimp,email,vip_early_access,,ergonomic chair,/compare,ErgoPro 200,desktop,Southeast,1,7,No,No,0,1.45,0,0,4.0,81.6,first_click
+ATT-00032,44020c1ddf674e,U102110,2026-03-28 11:54:48,direct,(direct),(none),(none),html_email,,/products/ergo-pro-900,ErgoPro 200,mobile,Southwest,1,3,No,No,0,0,0,0,1.47,34.6,last_click
+ATT-00033,42ab7e5e97ac47,U546748,2026-03-28 17:47:21,referral,rtings.com,referral,(none),hero_banner,ergonomic chair,/products/ergo-pro-500,ErgoPro 500,desktop,Southeast,1,7,No,No,0,0,0,0,6.5,46.0,data_driven
+ATT-00034,5392c8be4ce749,U686747,2025-12-29 05:36:04,email,klaviyo,email,launch_announcement,,,/products/ergo-pro-200,ErgoPro 200,tablet,Southeast,1,7,No,No,0,1.45,0,0,3.65,30.2,linear
+ATT-00035,f0c558c9a0c644,U425490,2026-01-07 23:06:42,paid_search,bing_ads,cpc,competitor_conquest,story_ad,,/,ErgoPro 500,desktop,West,1,3,No,No,0,7.35,0,1.84,3.52,12.2,data_driven
+ATT-00036,bdb30a611f8441,U403700,2025-10-18 16:37:44,social,facebook,social,launch_reel,reel,office chair,/products/ergo-pro-900,ErgoPro 900,tablet,Southeast,1,1,No,No,0,1.49,0,0,5.78,31.0,first_click
+ATT-00037,4b9e0b88047940,U391549,2025-12-15 19:03:07,social,linkedin,social,launch_reel,,lumbar support chair,/products,ErgoPro 200,tablet,Southeast,1,2,No,No,0,1.67,0,0,4.11,38.6,data_driven
+ATT-00038,42d21593ca4b40,U131050,2025-11-20 21:05:43,organic_search,google,organic,(none),plain_text_email,best chair,/about,ErgoPro 200,desktop,Midwest,1,6,Yes,No,0,0,0,0,4.75,15.5,time_decay
+ATT-00039,ebd77edce41e4e,U803008,2026-01-13 13:24:33,direct,(direct),(none),(none),hero_banner,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,desktop,Southeast,1,2,Yes,Yes,2997,0,0,0,5.15,61.3,last_click
+ATT-00040,1a40ab9a57f64c,U683735,2025-11-21 16:10:11,organic_search,bing,organic,(none),,ergonomic chair,/products/ergo-pro-500,ErgoPro 900,desktop,Midwest,1,2,No,No,0,0,0,0,2.28,55.2,last_click
+ATT-00041,22b48c42d29e4e,U815096,2026-02-14 03:11:51,organic_search,google,organic,(none),plain_text_email,ergonomic chair,/,ErgoPro 500,desktop,Northeast,1,6,Yes,No,0,0,0,0,1.94,29.6,first_click
+ATT-00042,e611dfec79e44f,U949352,2025-10-03 23:47:04,paid_search,bing_ads,cpc,competitor_conquest,story_ad,lumbar support chair,/products/ergo-pro-500,ErgoPro 200,desktop,Southeast,1,8,Yes,No,0,0.59,0,0.15,3.32,68.7,first_click
+ATT-00043,e971bdcaaa614c,U468815,2025-12-04 06:21:57,affiliate,shareasale,affiliate,launch_promo,reel,ergonomic chair,/,ErgoPro 900,mobile,West,1,1,No,No,0,1.97,0,0,3.32,45.9,first_click
+ATT-00044,0233d1a291aa40,U926179,2025-10-28 19:45:42,organic_search,google,organic,(none),carousel_ad,,/blog,ErgoPro 500,mobile,Northeast,1,2,Yes,No,0,0,0,0,1.25,65.8,time_decay
+ATT-00045,9166faa1418943,U599317,2025-11-17 04:59:54,direct,(direct),(none),(none),text_ad,ergo chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,tablet,Southwest,1,7,Yes,No,0,0,0,0,2.8,65.2,time_decay
+ATT-00046,1751e6fe1edb4b,U244666,2026-03-29 16:28:53,email,klaviyo,email,launch_announcement,story_ad,office chair,/products/ergo-pro-900,ErgoPro 500,mobile,Midwest,1,3,Yes,No,0,0.88,0,0,4.42,13.3,last_click
+ATT-00047,e2f382f12c254b,U503907,2026-03-09 04:26:45,paid_search,google_ads,cpc,ergo_chair_generic,plain_text_email,best chair,/products/ergo-pro-200,ErgoPro 900,mobile,Midwest,1,3,Yes,Yes,999,7.6,131.45,7.6,1.74,82.7,last_click
+ATT-00048,3745618b780b4c,U419370,2026-03-29 06:08:45,email,mailchimp,email,abandoned_cart,reel,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Southeast,1,8,Yes,No,0,0.33,0,0,6.06,22.0,data_driven
+ATT-00049,e9c801c10bb745,U764075,2025-11-10 13:40:17,affiliate,shareasale,affiliate,launch_promo,,best chair,/blog,ErgoPro 200,desktop,Midwest,1,8,No,No,0,1.09,0,0,4.54,43.4,time_decay
+ATT-00050,486e13538bce41,U617713,2026-02-16 11:15:30,referral,wirecutter.com,referral,(none),html_email,,/products/ergo-pro-500,ErgoPro 500,desktop,West,1,7,No,No,0,0,0,0,4.21,73.4,linear
+ATT-00051,ca928f7d224a49,U368805,2025-12-28 13:00:22,email,mailchimp,email,abandoned_cart,reel,ergo chair,/products/ergo-pro-500,ErgoPro 900,mobile,Northeast,1,7,No,No,0,1.71,0,0,4.37,53.9,time_decay
+ATT-00052,031a37237ff641,U561717,2025-10-15 04:47:27,direct,(direct),(none),(none),hero_banner,,/,ErgoPro 200,desktop,Northeast,1,3,Yes,No,0,0,0,0,5.01,14.3,time_decay
+ATT-00053,9b044f8cbb1246,U986548,2026-01-27 22:55:22,paid_search,google_ads,cpc,competitor_conquest,text_ad,best chair,/products/ergo-pro-500,ErgoPro 200,mobile,Midwest,1,8,No,No,0,7.33,0,7.33,1.52,75.2,last_click
+ATT-00054,a7dfc7de2b6248,U434887,2025-12-09 16:10:53,social,linkedin,social,launch_reel,story_ad,office chair,/products/ergo-pro-500,ErgoPro 500,desktop,West,1,1,No,No,0,0.45,0,0,2.3,58.7,data_driven
+ATT-00055,3ce04ee4ae3f40,U238601,2025-11-12 10:42:02,organic_search,bing,organic,(none),story_ad,ergo chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,desktop,Southwest,1,6,No,No,0,0,0,0,3.88,74.7,last_click
+ATT-00056,f8f6a6dc2b8943,U628020,2025-10-30 10:14:08,paid_search,google_ads,cpc,ergo_chair_generic,reel,ergo chair,/compare,ErgoPro 900,mobile,Southwest,1,8,No,No,0,6.35,0,1.27,6.36,16.0,first_click
+ATT-00057,0b3cc90cce5645,U371738,2025-11-28 11:53:34,paid_search,bing_ads,cpc,ergo_chair_generic,,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,mobile,Northeast,1,3,No,No,0,8.41,0,1.68,5.7,56.0,time_decay
+ATT-00058,b965f757c72d4a,U722880,2025-11-03 01:28:33,paid_search,google_ads,cpc,competitor_conquest,text_ad,,/compare,ErgoPro 500,desktop,Southeast,1,7,Yes,No,0,5.75,0,1.92,5.57,47.8,last_click
+ATT-00059,beb83e65879044,U193491,2025-12-19 06:41:24,organic_search,google,organic,(none),carousel_ad,ergonomic chair,/,ErgoPro 500,desktop,West,1,5,Yes,No,0,0,0,0,3.23,40.0,first_click
+ATT-00060,c4169c8cad6746,U248316,2026-02-01 15:54:55,paid_search,bing_ads,cpc,ergo_chair_generic,hero_banner,ergonomic chair,/products,ErgoPro 200,mobile,Southeast,1,7,Yes,No,0,0.63,0,0.13,1.27,29.2,first_click
+ATT-00061,6c3b8b4c071141,U996843,2026-01-30 10:04:07,email,mailchimp,email,weekly_newsletter,,best chair,/products/ergo-pro-500,ErgoPro 900,mobile,Southwest,1,3,No,No,0,0.37,0,0,6.21,66.3,data_driven
+ATT-00062,f908d081e1d940,U975676,2026-01-09 07:23:38,paid_search,bing_ads,cpc,ergo_chair_generic,text_ad,ergonomic chair,/compare,ErgoPro 900,desktop,Southeast,1,5,No,No,0,7.4,0,7.4,3.99,27.3,data_driven
+ATT-00063,aa48c31c8a7646,U733129,2026-01-11 08:29:17,organic_search,bing,organic,(none),text_ad,,/products,ErgoPro 900,mobile,West,1,7,No,No,0,0,0,0,1.88,79.9,first_click
+ATT-00064,1ad4c73cb5424d,U506963,2026-02-03 14:09:16,social,instagram,social,influencer_collab,reel,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,mobile,Midwest,1,2,Yes,No,0,0.91,0,0,6.24,16.0,linear
+ATT-00065,d0549eb5bed64b,U839223,2025-12-10 02:41:29,direct,(direct),(none),(none),story_ad,,/blog,ErgoPro 500,mobile,Southwest,1,4,No,No,0,0,0,0,5.87,71.9,data_driven
+ATT-00066,5158644301c047,U762549,2025-12-14 11:27:34,social,instagram,social,launch_reel,carousel_ad,ergo chair,/compare,ErgoPro 500,mobile,West,1,2,No,No,0,0.94,0,0,2.59,34.5,linear
+ATT-00067,4911861562ec42,U709511,2025-12-09 20:03:50,organic_search,google,organic,(none),story_ad,best chair,/products/ergo-pro-200,ErgoPro 200,mobile,Midwest,1,4,No,No,0,0,0,0,5.95,47.1,first_click
+ATT-00068,e86c862d608e4a,U756807,2025-11-19 01:12:34,organic_search,google,organic,(none),story_ad,ergonomic chair,/blog,ErgoPro 500,tablet,Southeast,1,8,No,No,0,0,0,0,1.78,50.1,first_click
+ATT-00069,a3c1c523fa0747,U329597,2025-10-12 05:03:28,social,linkedin,social,product_demo,reel,,/,ErgoPro 200,desktop,West,1,3,Yes,No,0,0.16,0,0,6.14,36.0,time_decay
+ATT-00070,913001f781064e,U312286,2025-11-26 22:52:21,referral,wirecutter.com,referral,(none),story_ad,,/products/ergo-pro-500,ErgoPro 200,mobile,Southeast,1,7,No,No,0,0,0,0,3.13,73.7,linear
+ATT-00071,99a3dce922f942,U351189,2025-10-04 07:59:40,organic_search,bing,organic,(none),hero_banner,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,West,1,1,No,No,0,0,0,0,4.05,60.5,first_click
+ATT-00072,7588b1164b594c,U513343,2025-11-07 02:50:20,email,klaviyo,email,launch_announcement,text_ad,office chair,/products/ergo-pro-900,ErgoPro 200,mobile,Midwest,1,3,Yes,No,0,0.58,0,0,1.51,43.7,last_click
+ATT-00073,d478905d41fe4e,U349728,2025-10-16 06:55:02,paid_search,bing_ads,cpc,ergo_chair_generic,story_ad,,/compare,ErgoPro 900,mobile,West,1,8,No,No,0,3.37,0,0.84,3.36,60.8,last_click
+ATT-00074,f4154f5f633948,U818500,2025-12-03 14:30:27,social,tiktok,social,product_demo,reel,ergonomic chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,tablet,West,1,7,No,No,0,0.41,0,0,5.19,45.5,linear
+ATT-00075,38e0c34d467040,U892519,2025-11-18 15:39:47,referral,wirecutter.com,referral,(none),hero_banner,office chair,/products/ergo-pro-200,ErgoPro 200,desktop,Southeast,1,4,Yes,No,0,0,0,0,1.23,46.0,time_decay
+ATT-00076,256eff6bf01d4f,U309250,2025-11-08 01:43:01,organic_search,bing,organic,(none),html_email,best chair,/products,ErgoPro 200,mobile,Southwest,1,3,No,No,0,0,0,0,2.04,76.4,last_click
+ATT-00077,8fd70aa6a7fc44,U714220,2025-11-26 20:54:55,social,instagram,social,launch_reel,text_ad,,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southeast,1,6,Yes,No,0,0.35,0,0,3.44,53.1,linear
+ATT-00078,3e735677571848,U126661,2025-12-03 10:19:31,organic_search,bing,organic,(none),reel,ergonomic chair,/compare,ErgoPro 200,desktop,Southwest,1,7,No,No,0,0,0,0,2.38,43.4,linear
+ATT-00079,32423dc8afb44e,U992733,2025-11-25 02:48:22,organic_search,bing,organic,(none),reel,best chair,/blog,ErgoPro 900,desktop,Midwest,1,6,Yes,No,0,0,0,0,2.53,61.6,linear
+ATT-00080,1e43fa2bc2a444,U256333,2026-01-22 06:35:58,paid_search,google_ads,cpc,ergo_chair_brand,story_ad,office chair,/products/ergo-pro-900,ErgoPro 900,desktop,Southwest,1,1,No,No,0,3.4,0,3.4,4.41,84.5,first_click
+ATT-00081,2425a7e2419747,U944761,2026-01-24 11:46:52,social,tiktok,social,ugc_repost,,best chair,/products,ErgoPro 500,desktop,West,1,6,No,No,0,0.64,0,0,2.18,22.8,linear
+ATT-00082,a825389538d94c,U725118,2026-02-08 20:02:45,paid_search,bing_ads,cpc,ergo_chair_brand,story_ad,ergonomic chair,/blog,ErgoPro 900,desktop,Midwest,1,8,Yes,No,0,8.36,0,1.67,2.49,64.8,time_decay
+ATT-00083,fa9e08f08f484c,U904604,2025-10-16 23:29:34,direct,(direct),(none),(none),html_email,ergonomic chair,/about,ErgoPro 900,tablet,Northeast,1,2,Yes,Yes,1998,0,0,0,4.58,68.3,last_click
+ATT-00084,b8d706ffbaa14a,U138349,2026-02-28 18:38:54,paid_search,bing_ads,cpc,competitor_conquest,hero_banner,,/about,ErgoPro 500,mobile,Southeast,1,8,No,No,0,6.53,0,6.53,2.26,79.3,data_driven
+ATT-00085,0ebdde1481444c,U558817,2026-02-07 22:00:51,direct,(direct),(none),(none),story_ad,,/products/ergo-pro-500,ErgoPro 500,desktop,Southeast,1,6,Yes,No,0,0,0,0,2.87,36.8,time_decay
+ATT-00086,cb84f71df84e4a,U614968,2025-11-18 19:30:38,organic_search,bing,organic,(none),html_email,,/blog,ErgoPro 200,desktop,Southwest,1,2,No,No,0,0,0,0,3.76,56.0,first_click
+ATT-00087,95911fcad1e645,U125417,2026-01-09 18:20:52,email,mailchimp,email,weekly_newsletter,reel,ergo chair,/products/ergo-pro-500,ErgoPro 500,mobile,West,1,6,No,No,0,1.08,0,0,5.33,47.5,last_click
+ATT-00088,5695f96409e74d,U983728,2026-01-01 02:36:29,paid_search,google_ads,cpc,competitor_conquest,text_ad,,/products/ergo-pro-500,ErgoPro 500,desktop,Northeast,1,6,Yes,No,0,2.85,0,1.43,1.12,47.1,time_decay
+ATT-00089,45af42cf802246,U586709,2026-01-20 18:16:22,paid_search,google_ads,cpc,competitor_conquest,story_ad,ergo chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,Midwest,1,8,No,No,0,7.63,0,3.81,6.35,64.7,data_driven
+ATT-00090,35c54048fc294f,U162468,2025-11-08 01:09:23,email,klaviyo,email,weekly_newsletter,story_ad,ergo chair,/compare,ErgoPro 900,desktop,Southwest,1,2,No,No,0,1.62,0,0,4.02,32.9,last_click
+ATT-00091,1f409146a5b244,U802723,2025-12-06 14:17:25,organic_search,google,organic,(none),html_email,office chair,/blog,ErgoPro 200,mobile,Southwest,1,1,Yes,No,0,0,0,0,5.95,47.5,first_click
+ATT-00092,d3b740919a6c4b,U224980,2025-10-20 13:26:38,organic_search,google,organic,(none),,,/about,ErgoPro 900,desktop,Southwest,1,8,Yes,No,0,0,0,0,2.74,23.6,linear
+ATT-00093,12f35263986545,U268463,2026-03-09 00:46:54,referral,rtings.com,referral,(none),text_ad,lumbar support chair,/blog,ErgoPro 200,tablet,Northeast,1,3,No,No,0,0,0,0,2.02,37.1,last_click
+ATT-00094,b4f13277e97441,U100565,2026-02-09 20:00:00,paid_search,bing_ads,cpc,ergo_chair_brand,reel,ergonomic chair,/about,ErgoPro 900,tablet,Northeast,1,1,No,No,0,4.69,0,4.69,6.09,71.8,last_click
+ATT-00095,db49c892b1ca46,U795098,2026-03-13 14:03:45,email,mailchimp,email,vip_early_access,plain_text_email,,/blog,ErgoPro 500,tablet,Southeast,1,1,No,No,0,0.64,0,0,3.36,44.7,first_click
+ATT-00096,a3bd5d782fdc4f,U884366,2025-10-06 03:51:52,organic_search,google,organic,(none),,lumbar support chair,/products,ErgoPro 200,desktop,Southeast,1,3,No,No,0,0,0,0,6.45,12.5,data_driven
+ATT-00097,b8fc45c5edc14b,U802766,2026-02-03 10:46:27,email,mailchimp,email,vip_early_access,story_ad,,/products/ergo-pro-200,ErgoPro 200,desktop,Northeast,1,6,No,No,0,1.26,0,0,4.63,51.7,first_click
+ATT-00098,d96bed315f1540,U683500,2026-03-28 21:05:07,paid_search,bing_ads,cpc,ergo_chair_brand,,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Southeast,1,3,No,No,0,0.51,0,0.1,2.78,12.9,linear
+ATT-00099,3823707b24ce49,U373403,2026-03-29 19:41:52,direct,(direct),(none),(none),reel,office chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southeast,1,3,Yes,No,0,0,0,0,4.08,33.5,last_click
+ATT-00100,d4d2f1989cf44a,U316849,2026-01-09 16:47:56,organic_search,google,organic,(none),,ergo chair,/products/ergo-pro-900,ErgoPro 200,desktop,West,1,6,No,No,0,0,0,0,6.48,26.6,linear
+ATT-00101,21bd174a604f43,U188349,2025-10-10 03:06:53,referral,rtings.com,referral,(none),carousel_ad,lumbar support chair,/compare,ErgoPro 500,desktop,West,1,8,No,No,0,0,0,0,3.31,54.3,time_decay
+ATT-00102,4618ddc8bb5345,U357290,2026-02-01 23:42:34,direct,(direct),(none),(none),,ergo chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Southeast,1,5,No,No,0,0,0,0,4.28,42.5,time_decay
+ATT-00103,69d6a66be31b4a,U608865,2026-03-08 08:43:10,organic_search,google,organic,(none),story_ad,,/products/ergo-pro-500,ErgoPro 500,mobile,Southwest,1,6,No,No,0,0,0,0,6.08,35.0,linear
+ATT-00104,2b03668dd8de43,U326231,2025-12-06 19:35:45,organic_search,google,organic,(none),plain_text_email,,/compare,ErgoPro 500,tablet,Southwest,1,1,No,No,0,0,0,0,5.52,64.7,linear
+ATT-00105,f776c9e3f32040,U817408,2025-11-18 18:14:33,social,facebook,social,ugc_repost,html_email,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Midwest,1,4,No,No,0,1.95,0,0,2.82,28.8,linear
+ATT-00106,654a09c9523c47,U380409,2026-01-29 14:05:55,paid_search,google_ads,cpc,competitor_conquest,reel,,/products/ergo-pro-200,ErgoPro 900,desktop,Midwest,1,5,No,No,0,6.02,0,1.2,5.43,64.2,last_click
+ATT-00107,5dcc60997fd949,U961893,2026-02-12 02:40:15,social,tiktok,social,ugc_repost,carousel_ad,lumbar support chair,/products/ergo-pro-900,ErgoPro 900,desktop,Southeast,1,2,No,No,0,0.66,0,0,6.46,10.6,first_click
+ATT-00108,6a4a0bcf5ac74e,U256155,2026-02-26 10:32:38,organic_search,google,organic,(none),text_ad,,/products/ergo-pro-200,ErgoPro 900,desktop,Southwest,1,8,No,No,0,0,0,0,4.05,73.7,linear
+ATT-00109,3043e1eb0b8a46,U726707,2025-11-23 14:33:42,organic_search,bing,organic,(none),,,/blog,ErgoPro 200,mobile,Midwest,1,2,No,No,0,0,0,0,1.29,55.0,first_click
+ATT-00110,e3c0c62fa4d94b,U970798,2026-03-02 22:59:10,organic_search,google,organic,(none),reel,,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,Southeast,1,6,No,No,0,0,0,0,3.55,14.2,data_driven
+ATT-00111,f22f262de7064d,U321471,2025-11-14 13:08:20,organic_search,google,organic,(none),html_email,office chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,Southwest,1,7,No,No,0,0,0,0,4.32,83.9,linear
+ATT-00112,3e2b1b5b190f4c,U719010,2026-03-18 16:19:32,organic_search,google,organic,(none),text_ad,,/about,ErgoPro 500,desktop,Midwest,1,8,No,No,0,0,0,0,2.4,28.5,first_click
+ATT-00113,e6c01a9c09894c,U902987,2025-11-17 11:11:02,paid_search,google_ads,cpc,competitor_conquest,plain_text_email,lumbar support chair,/products,ErgoPro 200,desktop,Northeast,1,5,Yes,No,0,8.14,0,2.71,6.06,68.3,linear
+ATT-00114,1565da02afc344,U468869,2025-10-27 02:15:51,referral,rtings.com,referral,(none),carousel_ad,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,tablet,Southeast,1,4,Yes,No,0,0,0,0,1.13,52.6,first_click
+ATT-00115,cae73acae9f848,U380202,2026-02-05 08:49:32,organic_search,bing,organic,(none),carousel_ad,,/products,ErgoPro 500,tablet,Southwest,1,3,No,Yes,1947,0,0,0,5.96,39.5,last_click
+ATT-00116,d1d76e72bb3e48,U231372,2025-10-23 12:52:07,organic_search,google,organic,(none),story_ad,office chair,/blog,ErgoPro 200,mobile,Southeast,1,7,Yes,No,0,0,0,0,1.38,42.4,last_click
+ATT-00117,6fc2746fe4e743,U733878,2025-10-17 15:32:42,direct,(direct),(none),(none),,,/blog/best-ergonomic-chairs-2026,ErgoPro 200,tablet,Midwest,1,5,No,No,0,0,0,0,3.33,40.4,first_click
+ATT-00118,3e0e144be16047,U320386,2025-12-03 17:42:09,paid_search,google_ads,cpc,ergo_chair_generic,reel,,/blog,ErgoPro 200,desktop,Southwest,1,3,No,No,0,6.8,0,6.8,0.86,65.7,data_driven
+ATT-00119,93b5960e86674f,U905647,2026-01-17 00:42:09,direct,(direct),(none),(none),html_email,ergo chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Northeast,1,3,Yes,No,0,0,0,0,2.21,50.8,time_decay
+ATT-00120,e402673d152246,U908919,2026-02-25 13:05:43,email,mailchimp,email,abandoned_cart,reel,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,desktop,Southwest,1,5,Yes,No,0,0.42,0,0,3.4,40.1,data_driven
+ATT-00121,dd631149b56c43,U969493,2026-03-14 01:05:01,organic_search,bing,organic,(none),,lumbar support chair,/blog,ErgoPro 200,desktop,Midwest,1,5,No,No,0,0,0,0,4.34,52.1,last_click
+ATT-00122,c8923d83b09749,U344752,2026-03-29 04:19:05,paid_search,google_ads,cpc,ergo_chair_generic,plain_text_email,ergo chair,/about,ErgoPro 900,desktop,West,1,8,No,No,0,5.57,0,1.39,5.29,36.9,last_click
+ATT-00123,d5aab866a16141,U303338,2026-03-21 16:27:58,paid_search,google_ads,cpc,ergo_chair_brand,story_ad,,/,ErgoPro 200,mobile,Southeast,1,2,No,No,0,1.4,0,0.35,2.65,72.3,data_driven
+ATT-00124,1461958788464c,U824301,2025-11-24 06:10:02,paid_search,bing_ads,cpc,competitor_conquest,hero_banner,lumbar support chair,/products/ergo-pro-900,ErgoPro 900,mobile,West,1,3,Yes,No,0,8.09,0,1.62,5.99,72.4,time_decay
+ATT-00125,e198c32f656b49,U208669,2026-01-30 02:37:32,paid_search,google_ads,cpc,ergo_chair_brand,text_ad,,/products/ergo-pro-500,ErgoPro 200,tablet,West,1,2,No,No,0,2.43,0,1.22,4.93,17.2,data_driven
+ATT-00126,0eb856f96d2248,U948388,2026-02-12 20:47:30,affiliate,shareasale,affiliate,launch_promo,,ergonomic chair,/products,ErgoPro 500,mobile,Southeast,1,1,No,No,0,1.79,0,0,3.21,58.2,last_click
+ATT-00127,c0952101ecf444,U625480,2025-11-05 23:41:26,paid_search,bing_ads,cpc,competitor_conquest,hero_banner,ergonomic chair,/compare,ErgoPro 200,mobile,Northeast,1,3,Yes,Yes,698,1.2,581.67,0.4,5.67,32.1,data_driven
+ATT-00128,8926f1a7e12342,U498777,2025-12-26 21:11:58,paid_search,google_ads,cpc,ergo_chair_brand,story_ad,ergo chair,/products/ergo-pro-200,ErgoPro 500,tablet,Northeast,1,3,Yes,No,0,1.84,0,0.61,3.98,47.3,linear
+ATT-00129,14c71f706bc445,U242135,2026-01-15 08:56:45,paid_search,google_ads,cpc,ergo_chair_generic,story_ad,lumbar support chair,/products/ergo-pro-200,ErgoPro 500,mobile,Southeast,1,6,No,No,0,6.83,0,1.37,1.93,17.3,data_driven
+ATT-00130,403b0796bd7344,U801692,2025-11-02 00:44:11,email,klaviyo,email,abandoned_cart,plain_text_email,ergonomic chair,/compare,ErgoPro 500,mobile,Northeast,1,6,No,No,0,1.01,0,0,2.76,11.0,first_click
+ATT-00131,065ac5cfa28e4e,U971304,2025-11-13 16:30:11,email,mailchimp,email,launch_announcement,text_ad,best chair,/compare,ErgoPro 900,desktop,West,1,8,No,No,0,0.13,0,0,3.15,62.0,first_click
+ATT-00132,4f5c0f42c13f49,U218609,2026-02-07 13:55:33,paid_search,bing_ads,cpc,ergo_chair_brand,hero_banner,lumbar support chair,/,ErgoPro 900,mobile,Southwest,1,3,Yes,Yes,1998,7.54,264.99,1.51,5.83,33.4,linear
+ATT-00133,084154057bc641,U771161,2026-01-31 23:16:18,referral,wirecutter.com,referral,(none),,office chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,tablet,Southwest,1,3,No,No,0,0,0,0,4.69,71.9,first_click
+ATT-00134,45a20c5b47b343,U386927,2026-02-02 08:47:29,organic_search,google,organic,(none),carousel_ad,,/compare,ErgoPro 200,desktop,West,1,4,Yes,No,0,0,0,0,0.83,22.4,first_click
+ATT-00135,5664fda1385f4b,U591240,2026-02-19 18:28:12,paid_search,bing_ads,cpc,ergo_chair_generic,,lumbar support chair,/blog,ErgoPro 900,mobile,Southwest,1,7,No,No,0,4.83,0,1.61,2.26,49.8,data_driven
+ATT-00136,e8c7943c071249,U912373,2026-03-09 19:24:56,referral,thewirecutter.com,referral,(none),text_ad,office chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,mobile,Northeast,1,1,No,No,0,0,0,0,6.46,34.3,data_driven
+ATT-00137,e6d890eba36f40,U538152,2025-12-04 15:46:39,organic_search,bing,organic,(none),reel,ergonomic chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,West,1,6,Yes,No,0,0,0,0,5.94,79.9,linear
+ATT-00138,0c89ccc6f54145,U467299,2025-12-10 11:55:55,paid_search,google_ads,cpc,competitor_conquest,text_ad,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,West,1,1,No,No,0,8.5,0,1.7,2.74,28.5,first_click
+ATT-00139,2af489a2694945,U853800,2025-10-08 20:49:57,social,tiktok,social,ugc_repost,reel,lumbar support chair,/,ErgoPro 500,desktop,Northeast,1,4,No,No,0,1.2,0,0,6.32,40.6,time_decay
+ATT-00140,4af1d427fd5c4c,U308530,2026-01-09 00:04:29,email,klaviyo,email,abandoned_cart,text_ad,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southeast,1,2,No,No,0,0.79,0,0,4.67,11.0,time_decay
+ATT-00141,ab723d8d06904b,U376231,2025-11-08 22:38:48,direct,(direct),(none),(none),carousel_ad,,/products/ergo-pro-200,ErgoPro 500,desktop,Southwest,1,5,No,No,0,0,0,0,6.34,67.4,linear
+ATT-00142,2797de9684d144,U616395,2025-11-10 05:24:10,email,klaviyo,email,vip_early_access,html_email,best chair,/,ErgoPro 900,mobile,West,1,5,No,No,0,1.66,0,0,6.31,64.4,time_decay
+ATT-00143,2e9c7777ef9b49,U585554,2025-10-29 17:47:51,direct,(direct),(none),(none),reel,ergonomic chair,/products,ErgoPro 500,tablet,West,1,3,No,No,0,0,0,0,1.52,37.2,first_click
+ATT-00144,8646f1f867dc40,U536277,2026-03-27 06:01:21,social,facebook,social,influencer_collab,story_ad,office chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southeast,1,4,No,No,0,0.96,0,0,2.22,54.2,first_click
+ATT-00145,7a5af4e46f4d46,U454509,2026-03-22 05:58:25,organic_search,bing,organic,(none),carousel_ad,,/blog,ErgoPro 500,mobile,Northeast,1,4,No,No,0,0,0,0,5.95,27.4,time_decay
+ATT-00146,54399494968d46,U513588,2026-03-19 15:48:54,organic_search,google,organic,(none),reel,,/,ErgoPro 500,tablet,Southeast,1,2,Yes,No,0,0,0,0,6.11,15.0,data_driven
+ATT-00147,0e1d31bb1d524a,U781868,2026-03-27 10:49:29,organic_search,google,organic,(none),story_ad,,/products/ergo-pro-200,ErgoPro 200,desktop,Midwest,1,5,Yes,No,0,0,0,0,2.44,32.8,last_click
+ATT-00148,6d8ca09c7b4443,U524070,2026-02-13 21:00:36,paid_search,bing_ads,cpc,competitor_conquest,html_email,best chair,/products,ErgoPro 500,desktop,Southeast,1,8,Yes,No,0,4.36,0,4.36,5.98,31.9,first_click
+ATT-00149,edb45ebba48c48,U455480,2026-03-03 09:33:49,organic_search,google,organic,(none),plain_text_email,lumbar support chair,/compare,ErgoPro 500,tablet,Northeast,1,5,No,No,0,0,0,0,5.03,57.1,first_click
+ATT-00150,67c4760b4ae547,U569786,2026-02-06 22:18:15,paid_search,bing_ads,cpc,competitor_conquest,,ergo chair,/products/ergo-pro-500,ErgoPro 900,mobile,Southeast,1,7,No,No,0,7.1,0,2.37,2.18,53.5,first_click
+ATT-00151,3452b1b1ef234c,U124457,2025-12-08 09:00:31,organic_search,bing,organic,(none),reel,lumbar support chair,/products/ergo-pro-900,ErgoPro 500,mobile,Midwest,1,2,No,No,0,0,0,0,1.49,69.6,time_decay
+ATT-00152,7a779b52b47f43,U790516,2026-03-14 16:51:37,direct,(direct),(none),(none),html_email,ergo chair,/products/ergo-pro-500,ErgoPro 900,desktop,Southwest,1,5,No,No,0,0,0,0,0.99,11.0,data_driven
+ATT-00153,d0b48d58f3024f,U316314,2025-10-04 02:59:05,paid_search,bing_ads,cpc,competitor_conquest,,office chair,/compare,ErgoPro 900,desktop,West,1,3,No,No,0,2.92,0,2.92,5.24,52.9,data_driven
+ATT-00154,a8962f605f1847,U952133,2026-02-25 21:47:49,organic_search,google,organic,(none),,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,desktop,Midwest,1,2,Yes,No,0,0,0,0,0.81,11.8,data_driven
+ATT-00155,900c766ed1134e,U909417,2025-12-07 16:39:59,direct,(direct),(none),(none),reel,best chair,/products/ergo-pro-200,ErgoPro 500,mobile,Northeast,1,2,Yes,No,0,0,0,0,5.24,53.0,first_click
+ATT-00156,c5cbed15b63c4d,U356526,2026-03-27 10:55:41,paid_search,bing_ads,cpc,ergo_chair_brand,hero_banner,lumbar support chair,/products/ergo-pro-500,ErgoPro 500,desktop,West,1,3,Yes,No,0,2.97,0,1.49,0.86,76.7,first_click
+ATT-00157,1f17a19803f24d,U431632,2025-12-24 14:46:26,organic_search,bing,organic,(none),html_email,office chair,/,ErgoPro 900,mobile,Southeast,1,6,Yes,No,0,0,0,0,3.64,78.5,last_click
+ATT-00158,826ab366a98943,U860082,2025-11-12 11:54:17,paid_search,bing_ads,cpc,ergo_chair_generic,plain_text_email,best chair,/products/ergo-pro-200,ErgoPro 200,tablet,Southeast,1,6,Yes,No,0,1.85,0,0.46,4.95,11.7,time_decay
+ATT-00159,6ab8634c6d9549,U291803,2026-01-23 03:55:28,organic_search,google,organic,(none),reel,best chair,/products/ergo-pro-500,ErgoPro 500,mobile,Northeast,1,2,Yes,No,0,0,0,0,3.04,18.6,last_click
+ATT-00160,4f4a23f188f943,U884100,2025-12-20 12:52:21,email,klaviyo,email,launch_announcement,text_ad,,/about,ErgoPro 500,tablet,Southeast,1,7,Yes,No,0,1.93,0,0,3.55,79.3,data_driven
+ATT-00161,2a0e52df02a643,U562503,2026-02-01 03:28:29,organic_search,bing,organic,(none),html_email,office chair,/products/ergo-pro-500,ErgoPro 500,desktop,Northeast,1,6,No,No,0,0,0,0,4.55,78.5,first_click
+ATT-00162,4b6a65f4b4b546,U295710,2025-11-11 14:46:17,paid_search,bing_ads,cpc,ergo_chair_generic,story_ad,best chair,/products/ergo-pro-200,ErgoPro 900,desktop,Southwest,1,1,Yes,No,0,1.99,0,0.4,5.36,67.5,last_click
+ATT-00163,3d019a0d1f104a,U740308,2025-11-21 02:47:47,paid_search,bing_ads,cpc,competitor_conquest,html_email,,/products/ergo-pro-500,ErgoPro 900,mobile,Northeast,1,8,No,No,0,2.94,0,0.59,3.61,71.2,first_click
+ATT-00164,9a4e9dde623f40,U857523,2025-12-07 02:36:11,paid_search,bing_ads,cpc,competitor_conquest,story_ad,lumbar support chair,/products,ErgoPro 200,desktop,Southwest,1,7,No,No,0,2.64,0,2.64,0.9,28.0,first_click
+ATT-00165,b4b18eeab6f346,U779431,2026-02-18 07:12:28,organic_search,google,organic,(none),carousel_ad,best chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Southwest,1,5,No,No,0,0,0,0,1.72,14.2,linear
+ATT-00166,d25395fbd93744,U213187,2026-02-08 13:52:04,direct,(direct),(none),(none),carousel_ad,lumbar support chair,/compare,ErgoPro 200,desktop,Southwest,1,8,No,No,0,0,0,0,1.32,44.8,data_driven
+ATT-00167,790a8128057442,U117525,2026-03-24 07:56:36,organic_search,bing,organic,(none),carousel_ad,best chair,/products/ergo-pro-200,ErgoPro 500,tablet,Northeast,1,4,Yes,No,0,0,0,0,3.7,59.7,data_driven
+ATT-00168,8b74c10c775c45,U740482,2025-11-02 14:45:59,paid_search,google_ads,cpc,ergo_chair_generic,html_email,ergo chair,/products,ErgoPro 200,mobile,Southwest,1,4,Yes,No,0,0.73,0,0.18,2.28,36.5,linear
+ATT-00169,cf8ca1b50cd947,U194178,2026-02-04 12:09:17,organic_search,bing,organic,(none),html_email,,/products/ergo-pro-500,ErgoPro 500,desktop,Northeast,1,4,Yes,No,0,0,0,0,2.6,75.3,last_click
+ATT-00170,34ec976c9baf43,U785733,2025-10-25 18:40:04,direct,(direct),(none),(none),hero_banner,ergonomic chair,/,ErgoPro 500,mobile,Midwest,1,7,No,No,0,0,0,0,4.77,79.4,last_click
+ATT-00171,aef13e95d85042,U549422,2026-02-03 15:52:36,social,facebook,social,ugc_repost,reel,office chair,/about,ErgoPro 900,mobile,Southwest,1,4,No,No,0,1.28,0,0,5.29,53.1,first_click
+ATT-00172,8aa05cbf38144d,U567965,2026-02-18 02:53:59,direct,(direct),(none),(none),reel,,/products/ergo-pro-200,ErgoPro 200,mobile,Northeast,1,2,Yes,No,0,0,0,0,4.79,73.4,linear
+ATT-00173,c8099a81ffa145,U730928,2025-12-27 21:02:54,organic_search,google,organic,(none),html_email,,/blog/best-ergonomic-chairs-2026,ErgoPro 200,desktop,Southwest,1,7,No,No,0,0,0,0,1.99,62.6,first_click
+ATT-00174,424f424345504f,U334929,2026-03-21 12:39:57,social,facebook,social,ugc_repost,text_ad,,/,ErgoPro 500,desktop,West,1,7,No,No,0,1.23,0,0,3.46,38.2,last_click
+ATT-00175,9736955ad94d40,U639445,2026-03-08 10:01:56,social,instagram,social,influencer_collab,,,/blog,ErgoPro 500,desktop,Southeast,1,7,No,No,0,1.76,0,0,1.97,63.1,linear
+ATT-00176,48638342b28746,U367899,2025-12-30 19:22:48,direct,(direct),(none),(none),text_ad,,/blog/how-to-set-up-your-home-office,ErgoPro 500,tablet,Northeast,1,8,No,No,0,0,0,0,3.25,55.8,data_driven
+ATT-00177,83c92195ab0c49,U369320,2025-11-28 20:27:42,direct,(direct),(none),(none),hero_banner,ergonomic chair,/,ErgoPro 500,tablet,West,1,1,No,No,0,0,0,0,5.6,70.8,data_driven
+ATT-00178,95a3c18da68247,U485323,2025-11-15 09:31:17,paid_search,bing_ads,cpc,competitor_conquest,plain_text_email,office chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Southwest,1,4,No,No,0,2.75,0,1.38,6.25,36.0,first_click
+ATT-00179,5a98f4e00fa346,U836802,2025-12-21 14:10:02,social,tiktok,social,product_demo,plain_text_email,ergonomic chair,/,ErgoPro 200,desktop,West,1,2,Yes,No,0,1.87,0,0,5.49,33.4,first_click
+ATT-00180,e13c92120b1d49,U165738,2026-03-06 03:02:24,direct,(direct),(none),(none),plain_text_email,best chair,/about,ErgoPro 500,desktop,West,1,4,No,No,0,0,0,0,5.31,66.4,last_click
+ATT-00181,2efa7814b36e4e,U458881,2026-03-08 20:19:26,organic_search,bing,organic,(none),,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,tablet,Midwest,1,5,Yes,No,0,0,0,0,1.96,32.1,last_click
+ATT-00182,ee1de0581f4247,U511383,2025-12-28 21:48:55,paid_search,google_ads,cpc,ergo_chair_generic,plain_text_email,ergo chair,/products/ergo-pro-200,ErgoPro 200,mobile,Northeast,1,3,Yes,No,0,4.14,0,0.83,4.55,17.1,time_decay
+ATT-00183,aff67fa24c5d4d,U429519,2025-10-04 04:43:04,organic_search,google,organic,(none),hero_banner,ergonomic chair,/compare,ErgoPro 200,tablet,Southwest,1,7,No,No,0,0,0,0,6.4,79.2,linear
+ATT-00184,da9335b732ba40,U866982,2025-11-28 07:36:04,paid_search,google_ads,cpc,competitor_conquest,hero_banner,,/compare,ErgoPro 500,desktop,Southwest,1,1,No,No,0,3.45,0,3.45,6.11,63.5,last_click
+ATT-00185,1c6199a0215c4a,U598805,2026-03-21 06:11:15,organic_search,google,organic,(none),,office chair,/,ErgoPro 900,mobile,Southwest,1,3,No,No,0,0,0,0,2.35,74.3,data_driven
+ATT-00186,28b589d7b90d42,U330753,2026-02-21 08:05:04,organic_search,bing,organic,(none),carousel_ad,,/about,ErgoPro 200,desktop,West,1,5,No,No,0,0,0,0,5.28,37.9,time_decay
+ATT-00187,cd36e7c3a1e341,U912077,2025-11-12 03:08:52,organic_search,google,organic,(none),text_ad,,/products/ergo-pro-500,ErgoPro 500,desktop,Midwest,1,3,No,No,0,0,0,0,2.24,22.7,first_click
+ATT-00188,d7ea69c645554e,U308673,2025-12-03 14:04:56,direct,(direct),(none),(none),,,/blog/how-to-set-up-your-home-office,ErgoPro 200,mobile,Northeast,1,8,No,No,0,0,0,0,2.03,18.4,first_click
+ATT-00189,3bd6f95cea1e47,U622353,2025-10-17 14:25:57,organic_search,google,organic,(none),text_ad,,/products/ergo-pro-500,ErgoPro 900,mobile,Northeast,1,2,No,No,0,0,0,0,5.12,69.7,linear
+ATT-00190,479b7f37a21641,U782384,2026-03-31 14:10:04,paid_search,google_ads,cpc,ergo_chair_generic,html_email,ergo chair,/products/ergo-pro-500,ErgoPro 500,tablet,Southeast,1,7,Yes,No,0,7.51,0,2.5,5.43,13.1,data_driven
+ATT-00191,204af3c50d6c49,U758209,2025-11-26 02:46:20,direct,(direct),(none),(none),carousel_ad,ergo chair,/products/ergo-pro-500,ErgoPro 200,desktop,Southwest,1,5,No,No,0,0,0,0,1.02,55.7,last_click
+ATT-00192,1767a9e2747d4a,U696108,2025-11-20 15:49:39,affiliate,shareasale,affiliate,launch_promo,reel,best chair,/products,ErgoPro 500,desktop,Southeast,1,5,No,No,0,1.89,0,0,6.02,73.3,first_click
+ATT-00193,0b81aedadc6c49,U187884,2026-02-25 21:25:07,organic_search,bing,organic,(none),html_email,ergonomic chair,/products/ergo-pro-500,ErgoPro 200,tablet,Southeast,1,8,No,No,0,0,0,0,5.83,69.3,last_click
+ATT-00194,843f0f25c21944,U211362,2026-01-31 12:27:08,organic_search,bing,organic,(none),html_email,,/products/ergo-pro-500,ErgoPro 900,desktop,Northeast,1,5,Yes,No,0,0,0,0,4.28,73.8,first_click
+ATT-00195,9a738bd61d6947,U440483,2025-12-16 07:09:59,email,mailchimp,email,launch_announcement,plain_text_email,best chair,/about,ErgoPro 500,desktop,Northeast,1,1,No,No,0,1.39,0,0,3.82,66.1,data_driven
+ATT-00196,e16447727b8042,U953571,2025-12-05 08:08:44,social,facebook,social,ugc_repost,text_ad,ergo chair,/products/ergo-pro-200,ErgoPro 500,desktop,Midwest,1,8,No,No,0,0.22,0,0,6.39,20.2,last_click
+ATT-00197,e8e648b8b51b42,U414109,2026-02-12 23:08:47,paid_search,bing_ads,cpc,ergo_chair_brand,text_ad,best chair,/,ErgoPro 500,desktop,Southwest,1,8,Yes,No,0,4.52,0,1.13,2.65,41.7,time_decay
+ATT-00198,268b4be9ef3043,U838233,2026-02-02 13:40:49,email,mailchimp,email,launch_announcement,hero_banner,office chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,West,1,6,No,No,0,0.31,0,0,4.72,24.2,linear
+ATT-00199,474e497d97ad4f,U950371,2025-11-02 08:42:06,social,linkedin,social,launch_reel,story_ad,,/,ErgoPro 200,desktop,Southeast,1,3,Yes,No,0,1.52,0,0,0.9,84.1,linear
+ATT-00200,e83d719c934940,U833174,2026-03-31 05:02:40,organic_search,bing,organic,(none),plain_text_email,ergonomic chair,/compare,ErgoPro 200,desktop,Southwest,1,7,No,No,0,0,0,0,1.25,10.9,linear
+ATT-00201,8e933cead91c49,U960432,2025-12-23 09:03:56,referral,wirecutter.com,referral,(none),plain_text_email,,/about,ErgoPro 900,desktop,Southwest,1,1,Yes,No,0,0,0,0,3.25,75.7,last_click
+ATT-00202,542c37daa6874d,U243718,2025-11-18 10:45:18,social,linkedin,social,ugc_repost,plain_text_email,,/,ErgoPro 900,tablet,Northeast,1,7,No,No,0,0.36,0,0,5.62,34.4,first_click
+ATT-00203,4c02d50d54be4e,U623031,2026-01-30 06:40:10,affiliate,shareasale,affiliate,launch_promo,plain_text_email,,/products/ergo-pro-500,ErgoPro 200,mobile,West,1,4,No,No,0,0.18,0,0,1.08,44.3,linear
+ATT-00204,7265ce29bd274a,U888679,2025-11-21 08:23:36,organic_search,google,organic,(none),hero_banner,,/blog,ErgoPro 200,mobile,West,1,3,No,No,0,0,0,0,1.78,26.3,last_click
+ATT-00205,b44c1dfc5b5e45,U986531,2026-01-05 06:53:38,organic_search,google,organic,(none),text_ad,ergo chair,/blog,ErgoPro 200,desktop,Southwest,1,2,No,No,0,0,0,0,5.87,35.7,last_click
+ATT-00206,0b1f1a836c6247,U725430,2026-02-01 09:18:02,paid_search,bing_ads,cpc,ergo_chair_generic,reel,,/compare,ErgoPro 500,desktop,Southeast,1,8,Yes,No,0,3.87,0,3.87,5.35,14.3,last_click
+ATT-00207,65c318eef6704d,U563148,2026-03-07 14:13:32,affiliate,cj_affiliate,affiliate,launch_promo,reel,office chair,/blog,ErgoPro 500,desktop,Southwest,1,7,Yes,No,0,1.63,0,0,5.34,61.2,linear
+ATT-00208,c5575ff292994c,U766111,2025-12-16 03:44:45,paid_search,google_ads,cpc,competitor_conquest,story_ad,ergo chair,/products/ergo-pro-500,ErgoPro 500,desktop,Midwest,1,3,No,No,0,6.78,0,3.39,5.23,28.8,first_click
+ATT-00209,2524157fa7ae46,U613045,2026-03-11 11:23:35,organic_search,google,organic,(none),story_ad,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,Southeast,1,7,No,No,0,0,0,0,0.98,37.5,first_click
+ATT-00210,5259b30be0e848,U537336,2025-10-22 18:01:21,paid_search,bing_ads,cpc,ergo_chair_generic,text_ad,ergonomic chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,desktop,Northeast,1,6,No,No,0,1.62,0,0.54,4.09,73.3,last_click
+ATT-00211,6fb157ff4a824b,U150537,2026-03-23 18:45:26,email,klaviyo,email,weekly_newsletter,text_ad,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,Midwest,1,4,Yes,No,0,0.9,0,0,5.42,42.2,time_decay
+ATT-00212,ba4bb6526f4f40,U260244,2025-11-02 04:51:37,organic_search,google,organic,(none),story_ad,,/products/ergo-pro-900,ErgoPro 900,mobile,Northeast,1,5,No,No,0,0,0,0,3.97,66.3,data_driven
+ATT-00213,2fdbffc2d85448,U659525,2025-12-24 11:01:30,organic_search,bing,organic,(none),html_email,,/,ErgoPro 500,mobile,Northeast,1,4,Yes,No,0,0,0,0,5.93,54.6,linear
+ATT-00214,83ae3c29b6164a,U448989,2026-03-02 11:52:15,paid_search,bing_ads,cpc,competitor_conquest,plain_text_email,,/products/ergo-pro-200,ErgoPro 900,desktop,West,1,8,Yes,No,0,6.51,0,2.17,4.26,80.4,last_click
+ATT-00215,be7a807026044b,U457068,2026-01-13 17:47:12,organic_search,google,organic,(none),html_email,best chair,/,ErgoPro 900,desktop,West,1,3,No,No,0,0,0,0,2.74,59.6,first_click
+ATT-00216,eae086e290e040,U684866,2025-10-15 14:02:14,paid_search,google_ads,cpc,ergo_chair_generic,plain_text_email,office chair,/products/ergo-pro-500,ErgoPro 500,desktop,Midwest,1,8,No,No,0,1.86,0,0.47,3.18,12.6,time_decay
+ATT-00217,e2e55b9913fe46,U311983,2025-11-09 20:12:58,paid_search,google_ads,cpc,ergo_chair_generic,text_ad,,/about,ErgoPro 500,mobile,Southwest,1,2,No,No,0,4.07,0,2.04,2.87,43.0,first_click
+ATT-00218,d11826617e224b,U621771,2026-03-14 07:31:24,paid_search,bing_ads,cpc,ergo_chair_generic,carousel_ad,,/blog/how-to-set-up-your-home-office,ErgoPro 500,tablet,Southwest,1,1,No,No,0,6.0,0,1.2,2.84,35.6,time_decay
+ATT-00219,8b05b63598ac40,U632345,2025-12-07 22:01:35,organic_search,google,organic,(none),plain_text_email,,/about,ErgoPro 200,mobile,Northeast,1,5,No,No,0,0,0,0,2.15,79.7,linear
+ATT-00220,b93f2f3b60504c,U586745,2026-01-04 13:47:08,organic_search,google,organic,(none),plain_text_email,office chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Southwest,1,6,No,No,0,0,0,0,5.7,43.3,last_click
+ATT-00221,650f72f06d2f41,U423514,2025-12-18 22:39:07,direct,(direct),(none),(none),html_email,best chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,mobile,Southwest,1,6,Yes,No,0,0,0,0,2.67,82.7,linear
+ATT-00222,db4eab4a139342,U137505,2025-10-03 06:07:34,social,tiktok,social,influencer_collab,hero_banner,,/blog/how-to-set-up-your-home-office,ErgoPro 200,mobile,Northeast,1,5,No,No,0,1.18,0,0,3.53,37.1,linear
+ATT-00223,4b36f26d951a40,U901296,2025-12-13 08:13:04,referral,rtings.com,referral,(none),plain_text_email,best chair,/blog,ErgoPro 200,desktop,Southeast,1,4,No,No,0,0,0,0,4.78,84.9,first_click
+ATT-00224,988af712834f4d,U220965,2025-12-17 02:13:55,organic_search,bing,organic,(none),hero_banner,ergo chair,/,ErgoPro 900,desktop,Southwest,1,3,Yes,No,0,0,0,0,4.39,72.9,last_click
+ATT-00225,48bfe108e9f846,U769246,2026-02-03 02:07:03,paid_search,google_ads,cpc,ergo_chair_generic,story_ad,best chair,/products/ergo-pro-900,ErgoPro 900,tablet,Southeast,1,4,Yes,No,0,6.47,0,1.62,5.69,41.6,linear
+ATT-00226,ad6d98fcf59a40,U233787,2025-11-24 04:09:11,direct,(direct),(none),(none),story_ad,,/products/ergo-pro-900,ErgoPro 200,desktop,West,1,1,No,No,0,0,0,0,6.21,61.6,first_click
+ATT-00227,06f17d95cad34d,U135393,2026-01-26 04:44:15,social,tiktok,social,launch_reel,,lumbar support chair,/compare,ErgoPro 900,desktop,Southeast,1,3,No,No,0,1.08,0,0,4.23,28.7,time_decay
+ATT-00228,78b440e9285547,U925909,2025-12-22 05:01:31,email,mailchimp,email,abandoned_cart,text_ad,ergonomic chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Southwest,1,7,No,No,0,0.25,0,0,5.15,41.7,first_click
+ATT-00229,1259159ec69b4b,U495582,2026-03-01 20:03:50,social,linkedin,social,launch_reel,,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,tablet,Northeast,1,7,No,No,0,0.77,0,0,5.35,67.9,time_decay
+ATT-00230,5937f637623141,U680822,2026-02-23 03:36:51,social,linkedin,social,product_demo,text_ad,office chair,/blog,ErgoPro 500,mobile,West,1,6,No,No,0,1.32,0,0,5.2,79.1,last_click
+ATT-00231,22ec1cf141f64b,U889281,2025-10-16 16:31:48,email,mailchimp,email,launch_announcement,plain_text_email,,/products/ergo-pro-500,ErgoPro 900,tablet,Midwest,1,3,No,No,0,1.41,0,0,3.32,17.1,linear
+ATT-00232,5c0aebbc8de545,U701871,2026-02-12 15:21:58,organic_search,google,organic,(none),story_ad,,/products/ergo-pro-200,ErgoPro 500,mobile,Southeast,1,2,Yes,No,0,0,0,0,2.08,40.9,last_click
+ATT-00233,c4a76b24668847,U805374,2025-12-14 01:22:12,direct,(direct),(none),(none),reel,,/products,ErgoPro 500,desktop,Southwest,1,7,No,No,0,0,0,0,3.43,79.9,data_driven
+ATT-00234,8ac47738b1db47,U317347,2025-12-08 13:30:15,social,tiktok,social,ugc_repost,,,/products/ergo-pro-500,ErgoPro 200,mobile,Midwest,1,7,No,No,0,1.99,0,0,2.01,45.8,linear
+ATT-00235,41f729d6c77848,U148684,2025-12-23 15:50:51,paid_search,bing_ads,cpc,ergo_chair_generic,,ergo chair,/products/ergo-pro-500,ErgoPro 500,mobile,West,1,5,No,No,0,1.07,0,0.27,3.15,14.3,data_driven
+ATT-00236,155cec7457d04e,U552034,2026-02-09 15:05:37,organic_search,bing,organic,(none),text_ad,,/products/ergo-pro-900,ErgoPro 500,tablet,Midwest,1,1,No,No,0,0,0,0,1.85,21.2,data_driven
+ATT-00237,ca56b606a65949,U544032,2025-12-20 17:32:12,organic_search,bing,organic,(none),html_email,lumbar support chair,/blog,ErgoPro 200,tablet,Northeast,1,2,No,Yes,1047,0,0,0,2.48,18.8,time_decay
+ATT-00238,9a912fef0d1d47,U993658,2026-03-22 15:28:26,organic_search,google,organic,(none),reel,best chair,/products/ergo-pro-900,ErgoPro 900,mobile,Northeast,1,4,No,No,0,0,0,0,5.48,46.6,time_decay
+ATT-00239,7562cf0680a742,U408956,2026-01-08 06:53:40,organic_search,bing,organic,(none),carousel_ad,office chair,/,ErgoPro 500,mobile,Southwest,1,6,Yes,No,0,0,0,0,6.29,76.5,time_decay
+ATT-00240,83b17adf94064c,U920894,2026-01-19 04:51:18,direct,(direct),(none),(none),reel,lumbar support chair,/blog,ErgoPro 900,desktop,Midwest,1,1,No,No,0,0,0,0,1.58,67.1,linear
+ATT-00241,93aa018f747443,U682349,2025-11-25 00:21:24,direct,(direct),(none),(none),hero_banner,lumbar support chair,/products,ErgoPro 200,mobile,Northeast,1,2,Yes,No,0,0,0,0,2.48,74.3,data_driven
+ATT-00242,3e93aec95afb4d,U569594,2025-11-11 23:36:13,email,klaviyo,email,vip_early_access,story_ad,,/blog,ErgoPro 200,tablet,Southwest,1,1,No,No,0,1.15,0,0,1.85,59.3,linear
+ATT-00243,611743862c0741,U729617,2025-12-22 13:26:34,paid_search,bing_ads,cpc,competitor_conquest,reel,lumbar support chair,/products/ergo-pro-900,ErgoPro 500,tablet,Southwest,1,3,No,No,0,1.82,0,1.82,4.42,60.0,time_decay
+ATT-00244,08ce66311f1545,U121528,2026-03-29 19:50:02,direct,(direct),(none),(none),story_ad,,/about,ErgoPro 200,desktop,Southeast,1,6,No,No,0,0,0,0,3.91,30.8,data_driven
+ATT-00245,4902b0ed15d845,U839874,2026-01-15 14:45:04,paid_search,google_ads,cpc,competitor_conquest,,ergo chair,/products/ergo-pro-500,ErgoPro 200,desktop,West,1,7,No,No,0,1.5,0,1.5,6.07,58.7,linear
+ATT-00246,554eca454bc943,U307817,2026-01-03 08:11:12,direct,(direct),(none),(none),story_ad,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,desktop,West,1,1,Yes,No,0,0,0,0,1.41,37.5,linear
+ATT-00247,2bae9189cab947,U491457,2025-11-16 04:45:14,referral,wirecutter.com,referral,(none),text_ad,ergonomic chair,/about,ErgoPro 200,tablet,Northeast,1,3,No,No,0,0,0,0,1.81,21.7,linear
+ATT-00248,868dae6712d14f,U233930,2026-01-03 04:15:47,organic_search,bing,organic,(none),reel,,/compare,ErgoPro 500,desktop,West,1,2,No,No,0,0,0,0,5.85,78.6,first_click
+ATT-00249,7171cc521ac248,U199326,2025-12-27 18:43:23,referral,thewirecutter.com,referral,(none),reel,office chair,/products/ergo-pro-900,ErgoPro 500,mobile,Southeast,1,2,No,No,0,0,0,0,1.69,50.3,time_decay
+ATT-00250,35259997a62c4d,U217228,2026-03-23 05:20:43,direct,(direct),(none),(none),text_ad,ergonomic chair,/products/ergo-pro-500,ErgoPro 900,tablet,Southeast,1,1,Yes,No,0,0,0,0,2.47,58.8,last_click
+ATT-00251,01e47fcd7cc44a,U852564,2026-02-07 06:11:02,paid_search,google_ads,cpc,competitor_conquest,,office chair,/products/ergo-pro-900,ErgoPro 500,mobile,Midwest,1,7,No,No,0,0.63,0,0.13,1.82,59.1,data_driven
+ATT-00252,a6ab4dfdc4db4d,U642551,2025-12-30 02:14:05,organic_search,google,organic,(none),text_ad,lumbar support chair,/blog,ErgoPro 200,mobile,Southwest,1,4,Yes,No,0,0,0,0,1.78,48.0,last_click
+ATT-00253,6a7f331bd7c240,U532306,2025-11-22 16:15:56,direct,(direct),(none),(none),,ergo chair,/products/ergo-pro-500,ErgoPro 500,mobile,Northeast,1,8,No,No,0,0,0,0,0.86,78.4,linear
+ATT-00254,610379d0e14c44,U668009,2025-11-16 10:40:49,social,linkedin,social,launch_reel,,lumbar support chair,/products/ergo-pro-500,ErgoPro 500,desktop,Southwest,1,3,Yes,No,0,1.07,0,0,3.14,40.7,data_driven
+ATT-00255,9a7421baf3fa48,U254224,2025-11-16 12:50:58,direct,(direct),(none),(none),plain_text_email,ergonomic chair,/products/ergo-pro-900,ErgoPro 200,desktop,West,1,3,No,No,0,0,0,0,0.92,14.4,first_click
+ATT-00256,d4a38c6b70d141,U556914,2025-12-23 02:56:47,direct,(direct),(none),(none),carousel_ad,ergo chair,/blog,ErgoPro 900,desktop,Midwest,1,4,No,No,0,0,0,0,4.05,32.0,data_driven
+ATT-00257,b8fecd9d940f42,U368194,2026-03-13 17:18:31,email,mailchimp,email,vip_early_access,,best chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southeast,1,1,No,No,0,0.86,0,0,3.21,15.0,data_driven
+ATT-00258,9cb499d352b346,U453958,2025-11-10 23:06:05,email,klaviyo,email,abandoned_cart,story_ad,,/blog/how-to-set-up-your-home-office,ErgoPro 200,mobile,Northeast,1,8,Yes,Yes,1047,1.46,717.12,0,1.94,56.0,first_click
+ATT-00259,30b78280463045,U701317,2026-03-06 20:07:15,paid_search,google_ads,cpc,ergo_chair_generic,plain_text_email,ergo chair,/,ErgoPro 200,desktop,Northeast,1,1,No,No,0,3.83,0,3.83,5.14,14.5,time_decay
+ATT-00260,28e492da3aa34f,U156100,2025-10-25 22:47:38,paid_search,google_ads,cpc,competitor_conquest,plain_text_email,lumbar support chair,/products,ErgoPro 200,mobile,Northeast,1,4,Yes,No,0,3.34,0,1.11,4.11,69.5,time_decay
+ATT-00261,2e4eb16438614e,U620914,2025-11-25 11:08:22,paid_search,bing_ads,cpc,competitor_conquest,hero_banner,ergo chair,/blog,ErgoPro 200,mobile,Midwest,1,6,No,No,0,1.32,0,1.32,4.39,40.1,data_driven
+ATT-00262,598eedf16c924d,U785569,2026-01-11 00:18:00,organic_search,google,organic,(none),carousel_ad,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Northeast,1,2,No,No,0,0,0,0,5.66,32.7,time_decay
+ATT-00263,b9160c5282e743,U752153,2025-12-11 18:03:43,email,klaviyo,email,launch_announcement,text_ad,,/products/ergo-pro-500,ErgoPro 200,tablet,Midwest,1,2,No,No,0,0.5,0,0,2.17,68.9,data_driven
+ATT-00264,34520075989644,U182512,2025-10-20 19:30:11,affiliate,cj_affiliate,affiliate,launch_promo,plain_text_email,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Midwest,1,2,No,No,0,1.57,0,0,5.0,20.0,time_decay
+ATT-00265,2b9235fcaac548,U717475,2026-03-05 23:15:11,direct,(direct),(none),(none),plain_text_email,ergonomic chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,mobile,Southwest,1,4,No,No,0,0,0,0,5.08,63.2,time_decay
+ATT-00266,9c4a33d4396148,U565078,2026-02-16 17:40:55,organic_search,bing,organic,(none),hero_banner,ergo chair,/products/ergo-pro-500,ErgoPro 200,mobile,Northeast,1,7,No,No,0,0,0,0,5.22,84.9,time_decay
+ATT-00267,b32136b3ebca42,U477818,2026-01-21 18:51:00,organic_search,google,organic,(none),text_ad,best chair,/blog,ErgoPro 500,mobile,Southeast,1,2,No,No,0,0,0,0,3.22,35.4,first_click
+ATT-00268,5629e50c764c49,U788683,2026-01-14 17:42:27,referral,rtings.com,referral,(none),text_ad,,/compare,ErgoPro 900,tablet,West,1,5,No,No,0,0,0,0,5.11,35.9,time_decay
+ATT-00269,e6da4ebd24ee41,U897703,2025-12-20 17:44:46,email,klaviyo,email,launch_announcement,story_ad,ergo chair,/products,ErgoPro 200,desktop,West,1,5,No,No,0,1.71,0,0,3.27,32.5,last_click
+ATT-00270,78f111593d4945,U201828,2025-10-02 23:49:39,paid_search,google_ads,cpc,ergo_chair_generic,html_email,office chair,/products/ergo-pro-500,ErgoPro 900,mobile,Southwest,1,7,No,No,0,5.08,0,5.08,4.55,77.3,last_click
+ATT-00271,a72147bc486149,U644564,2026-03-28 22:27:09,social,linkedin,social,launch_reel,text_ad,office chair,/,ErgoPro 500,desktop,Northeast,1,8,Yes,No,0,1.99,0,0,1.63,51.0,first_click
+ATT-00272,2ce713159fa044,U357609,2025-10-24 17:24:33,social,linkedin,social,launch_reel,story_ad,,/products/ergo-pro-500,ErgoPro 500,tablet,West,1,6,No,No,0,0.25,0,0,6.5,23.3,first_click
+ATT-00273,20250d554b1a48,U111351,2026-02-03 22:51:00,paid_search,bing_ads,cpc,ergo_chair_brand,carousel_ad,ergo chair,/products/ergo-pro-500,ErgoPro 900,desktop,West,1,7,Yes,No,0,2.67,0,0.67,3.47,69.1,first_click
+ATT-00274,eb9be008b8c84f,U618857,2025-11-09 23:12:03,email,klaviyo,email,weekly_newsletter,,ergo chair,/products/ergo-pro-500,ErgoPro 500,desktop,Midwest,1,6,No,No,0,1.94,0,0,4.8,79.6,last_click
+ATT-00275,464bf9ca68274a,U202220,2026-02-16 11:04:26,referral,wirecutter.com,referral,(none),carousel_ad,ergonomic chair,/products/ergo-pro-900,ErgoPro 900,desktop,Northeast,1,8,No,No,0,0,0,0,4.56,32.3,last_click
+ATT-00276,7dd325dd4fad47,U588694,2025-11-20 17:12:56,organic_search,google,organic,(none),plain_text_email,office chair,/about,ErgoPro 900,desktop,Southwest,1,6,Yes,No,0,0,0,0,3.97,32.2,linear
+ATT-00277,c9bac990a4ea42,U959357,2026-01-08 18:22:28,email,klaviyo,email,vip_early_access,story_ad,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,tablet,Midwest,1,8,No,No,0,1.02,0,0,5.19,18.8,first_click
+ATT-00278,f4557140734e40,U511317,2026-03-28 15:38:39,email,mailchimp,email,launch_announcement,plain_text_email,,/products/ergo-pro-900,ErgoPro 500,tablet,West,1,4,No,No,0,1.21,0,0,3.55,78.1,linear
+ATT-00279,48187509d5b549,U132978,2026-01-19 07:59:20,email,mailchimp,email,weekly_newsletter,story_ad,,/about,ErgoPro 200,mobile,Midwest,1,6,No,No,0,0.49,0,0,1.36,21.7,first_click
+ATT-00280,3a5088422f3e48,U145003,2026-01-16 15:30:21,organic_search,bing,organic,(none),plain_text_email,,/products/ergo-pro-200,ErgoPro 200,mobile,West,1,6,Yes,No,0,0,0,0,2.0,21.3,linear
+ATT-00281,1783170403dc44,U985637,2026-01-29 12:05:18,organic_search,bing,organic,(none),reel,,/,ErgoPro 500,desktop,Midwest,1,2,No,No,0,0,0,0,1.33,67.8,first_click
+ATT-00282,2c9e7e2ecab445,U160821,2026-03-23 20:50:04,affiliate,cj_affiliate,affiliate,launch_promo,hero_banner,,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southeast,1,2,No,No,0,1.61,0,0,1.38,84.8,first_click
+ATT-00283,b7855130495945,U888800,2025-10-24 17:20:46,organic_search,google,organic,(none),hero_banner,ergonomic chair,/blog,ErgoPro 200,mobile,West,1,1,No,No,0,0,0,0,5.87,75.2,time_decay
+ATT-00284,5d8151552c094b,U538206,2026-03-10 18:08:07,organic_search,bing,organic,(none),story_ad,,/blog,ErgoPro 900,desktop,Southwest,1,3,No,No,0,0,0,0,6.22,36.6,first_click
+ATT-00285,dc67748f430644,U970066,2025-12-27 18:23:46,organic_search,google,organic,(none),reel,best chair,/products/ergo-pro-200,ErgoPro 900,desktop,Midwest,1,4,No,No,0,0,0,0,0.97,65.9,first_click
+ATT-00286,ac4399c90c2d46,U631261,2025-12-29 20:36:38,direct,(direct),(none),(none),hero_banner,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,Northeast,1,8,No,No,0,0,0,0,1.39,19.6,linear
+ATT-00287,d0fcf42c99cb4f,U700159,2025-11-28 16:28:02,email,klaviyo,email,weekly_newsletter,carousel_ad,,/compare,ErgoPro 900,desktop,West,1,7,No,No,0,1.86,0,0,5.69,84.7,first_click
+ATT-00288,392fd1c449c442,U549221,2026-01-28 02:26:15,paid_search,google_ads,cpc,ergo_chair_brand,story_ad,,/products/ergo-pro-200,ErgoPro 200,tablet,Southwest,1,8,No,No,0,1.19,0,1.19,2.9,30.1,linear
+ATT-00289,a0b2fd37157847,U542668,2026-02-01 07:10:57,organic_search,google,organic,(none),html_email,,/,ErgoPro 200,tablet,Midwest,1,4,No,No,0,0,0,0,2.22,19.7,data_driven
+ATT-00290,ed4d3179559340,U398552,2026-01-27 16:36:04,direct,(direct),(none),(none),,lumbar support chair,/products/ergo-pro-200,ErgoPro 500,desktop,Southwest,1,4,No,No,0,0,0,0,1.91,76.9,last_click
+ATT-00291,757c6fcf350144,U528336,2025-10-23 01:49:56,affiliate,shareasale,affiliate,launch_promo,html_email,,/products,ErgoPro 200,desktop,Southeast,1,3,No,No,0,1.37,0,0,5.91,43.5,linear
+ATT-00292,6a80924104d74c,U864839,2025-12-12 19:07:51,organic_search,bing,organic,(none),reel,office chair,/,ErgoPro 200,tablet,Southeast,1,3,Yes,No,0,0,0,0,1.95,64.8,data_driven
+ATT-00293,d60c1a316e7c48,U804322,2025-12-15 09:07:20,paid_search,google_ads,cpc,ergo_chair_brand,hero_banner,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,tablet,West,1,6,No,No,0,2.96,0,0.99,1.37,77.5,last_click
+ATT-00294,1dc7d6eef20f4f,U146399,2025-10-11 06:51:52,organic_search,bing,organic,(none),text_ad,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Midwest,1,3,No,No,0,0,0,0,3.51,37.8,last_click
+ATT-00295,d4114066a90840,U579543,2025-10-05 00:32:05,organic_search,google,organic,(none),text_ad,,/compare,ErgoPro 900,tablet,Midwest,1,2,Yes,No,0,0,0,0,6.3,38.2,data_driven
+ATT-00296,6e98cbb009ed49,U596069,2025-10-24 00:24:18,social,linkedin,social,ugc_repost,html_email,ergonomic chair,/compare,ErgoPro 200,tablet,West,1,8,Yes,No,0,1.67,0,0,1.02,51.5,data_driven
+ATT-00297,8dc1f476640a43,U522360,2025-11-11 00:23:27,social,tiktok,social,ugc_repost,story_ad,ergo chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,Southwest,1,8,No,No,0,0.61,0,0,5.27,74.4,time_decay
+ATT-00298,838c6180e9b64a,U530460,2026-03-17 09:25:59,referral,wirecutter.com,referral,(none),story_ad,best chair,/products/ergo-pro-900,ErgoPro 500,desktop,Southeast,1,5,Yes,No,0,0,0,0,1.17,56.8,time_decay
+ATT-00299,650871d6d87845,U630917,2026-02-05 10:46:31,organic_search,bing,organic,(none),story_ad,lumbar support chair,/products,ErgoPro 200,tablet,West,1,8,No,No,0,0,0,0,1.31,25.8,time_decay
+ATT-00300,1206ad4a079b42,U561976,2026-03-26 06:34:23,direct,(direct),(none),(none),reel,ergo chair,/products/ergo-pro-500,ErgoPro 900,mobile,Southwest,1,5,Yes,Yes,2997,0,0,0,3.77,71.4,last_click
+ATT-00301,599ed8ad0cb249,U292857,2026-01-12 03:05:14,organic_search,google,organic,(none),reel,ergo chair,/products/ergo-pro-200,ErgoPro 500,tablet,Midwest,1,2,No,No,0,0,0,0,2.76,39.9,first_click
+ATT-00302,d01bedf19e7844,U321325,2025-12-30 05:06:34,email,mailchimp,email,launch_announcement,story_ad,office chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,desktop,Northeast,1,7,Yes,No,0,0.92,0,0,5.18,62.4,time_decay
+ATT-00303,0741a9c7455748,U808412,2026-03-30 18:58:47,social,facebook,social,influencer_collab,plain_text_email,ergonomic chair,/products/ergo-pro-900,ErgoPro 200,mobile,West,1,2,Yes,No,0,1.18,0,0,3.8,71.6,last_click
+ATT-00304,391a414cff8f4f,U266891,2025-12-03 19:16:28,email,klaviyo,email,abandoned_cart,,,/blog,ErgoPro 500,mobile,West,1,2,No,No,0,1.34,0,0,5.1,12.9,data_driven
+ATT-00305,e87609289d3844,U976309,2025-12-02 19:03:09,organic_search,bing,organic,(none),,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,tablet,Midwest,1,2,Yes,No,0,0,0,0,6.15,14.1,linear
+ATT-00306,61e0538b963743,U744785,2025-12-06 19:08:15,organic_search,bing,organic,(none),,best chair,/,ErgoPro 200,tablet,Southwest,1,1,Yes,No,0,0,0,0,1.19,10.3,linear
+ATT-00307,20c11c9308da4a,U948692,2025-11-20 07:37:34,paid_search,bing_ads,cpc,ergo_chair_brand,carousel_ad,best chair,/products,ErgoPro 900,mobile,West,1,4,Yes,No,0,7.48,0,1.87,2.06,70.9,first_click
+ATT-00308,cc06e5db03b54b,U380145,2025-11-21 16:50:46,referral,rtings.com,referral,(none),,best chair,/products,ErgoPro 900,mobile,Southwest,1,6,No,No,0,0,0,0,2.88,76.6,last_click
+ATT-00309,c61f43beed524a,U751421,2026-02-03 16:28:59,email,klaviyo,email,launch_announcement,carousel_ad,best chair,/products/ergo-pro-900,ErgoPro 200,desktop,West,1,1,No,No,0,1.88,0,0,3.99,60.4,linear
+ATT-00310,e3de8b4c63ac4d,U458204,2025-10-28 20:06:01,social,tiktok,social,influencer_collab,story_ad,office chair,/blog,ErgoPro 900,tablet,Southwest,1,7,Yes,No,0,1.24,0,0,3.43,41.0,last_click
+ATT-00311,b937601b3b4f47,U981880,2026-03-04 00:18:00,organic_search,bing,organic,(none),html_email,office chair,/products/ergo-pro-500,ErgoPro 200,desktop,Southeast,1,7,No,No,0,0,0,0,3.01,84.2,time_decay
+ATT-00312,35f68fb4fdf047,U818423,2025-11-06 23:22:29,email,klaviyo,email,vip_early_access,reel,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,desktop,Midwest,1,7,No,No,0,0.96,0,0,3.77,15.7,linear
+ATT-00313,0698b3eba70840,U398460,2026-03-13 05:35:53,organic_search,google,organic,(none),hero_banner,best chair,/products/ergo-pro-900,ErgoPro 200,desktop,Southwest,1,6,No,No,0,0,0,0,4.13,62.8,linear
+ATT-00314,06c0ac27887843,U235320,2025-12-18 03:40:40,email,mailchimp,email,launch_announcement,html_email,ergo chair,/products/ergo-pro-500,ErgoPro 900,mobile,West,1,6,No,No,0,0.38,0,0,2.6,83.4,time_decay
+ATT-00315,363de4ddcadc4d,U352551,2026-01-25 16:16:44,social,linkedin,social,ugc_repost,carousel_ad,ergonomic chair,/products/ergo-pro-900,ErgoPro 500,mobile,Southwest,1,5,No,No,0,0.34,0,0,1.75,27.8,linear
+ATT-00316,982ea21d36d940,U546405,2025-12-01 19:14:16,social,instagram,social,ugc_repost,reel,,/products/ergo-pro-900,ErgoPro 500,desktop,Midwest,1,4,No,No,0,0.26,0,0,2.25,20.9,time_decay
+ATT-00317,552ec89a79d54a,U557563,2026-01-27 00:54:43,paid_search,bing_ads,cpc,ergo_chair_brand,,ergo chair,/products/ergo-pro-500,ErgoPro 500,mobile,Southeast,1,8,Yes,No,0,6.68,0,1.67,1.94,27.9,data_driven
+ATT-00318,325a242b86664d,U534231,2026-03-03 17:21:22,email,mailchimp,email,vip_early_access,,,/products/ergo-pro-500,ErgoPro 900,desktop,Northeast,1,2,No,No,0,0.18,0,0,6.23,36.0,last_click
+ATT-00319,aa5d98973b6c45,U406491,2025-10-26 08:26:57,affiliate,shareasale,affiliate,launch_promo,carousel_ad,,/about,ErgoPro 500,mobile,Southeast,1,5,No,No,0,1.79,0,0,2.53,37.4,first_click
+ATT-00320,82940d1ecc404f,U868062,2026-01-19 17:07:42,organic_search,google,organic,(none),reel,,/products/ergo-pro-900,ErgoPro 900,desktop,West,1,4,No,No,0,0,0,0,3.69,77.4,last_click
+ATT-00321,cfd67fc8e63f45,U773862,2026-03-29 16:10:07,organic_search,bing,organic,(none),hero_banner,lumbar support chair,/products/ergo-pro-900,ErgoPro 500,tablet,West,1,5,Yes,No,0,0,0,0,5.14,18.4,linear
+ATT-00322,3da80c51244f46,U492614,2025-12-12 06:18:27,email,klaviyo,email,vip_early_access,carousel_ad,,/,ErgoPro 200,mobile,Midwest,1,3,No,No,0,0.6,0,0,2.99,37.2,data_driven
+ATT-00323,b48237b07cad4d,U893833,2026-02-07 12:47:51,referral,wirecutter.com,referral,(none),html_email,lumbar support chair,/products,ErgoPro 200,tablet,Southeast,1,6,No,No,0,0,0,0,2.84,57.9,first_click
+ATT-00324,be92779f16914a,U286605,2025-10-21 05:22:47,organic_search,google,organic,(none),,ergo chair,/products/ergo-pro-900,ErgoPro 500,tablet,Southwest,1,8,No,No,0,0,0,0,0.83,77.9,data_driven
+ATT-00325,05e2d5b4258749,U670805,2026-02-20 11:20:21,organic_search,google,organic,(none),,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,Northeast,1,8,No,No,0,0,0,0,6.24,26.6,first_click
+ATT-00326,58db7a6fb1c74b,U570830,2026-02-05 08:29:56,email,mailchimp,email,weekly_newsletter,html_email,office chair,/products/ergo-pro-900,ErgoPro 900,tablet,Midwest,1,5,Yes,No,0,0.34,0,0,5.89,70.6,first_click
+ATT-00327,47000e7fff6448,U945806,2025-12-05 13:57:50,social,tiktok,social,influencer_collab,hero_banner,ergo chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,mobile,Northeast,1,5,Yes,No,0,0.98,0,0,4.16,10.2,linear
+ATT-00328,0c886459ba0a49,U641527,2026-03-29 09:33:40,direct,(direct),(none),(none),plain_text_email,,/products/ergo-pro-200,ErgoPro 200,mobile,Southeast,1,2,Yes,No,0,0,0,0,4.55,32.2,data_driven
+ATT-00329,a1a393bfcfdf4b,U504951,2025-10-18 21:10:25,organic_search,bing,organic,(none),html_email,lumbar support chair,/compare,ErgoPro 200,desktop,West,1,6,No,No,0,0,0,0,4.46,57.5,time_decay
+ATT-00330,829778176c784a,U271310,2026-01-27 19:11:18,organic_search,bing,organic,(none),text_ad,,/about,ErgoPro 200,desktop,Southwest,1,4,No,No,0,0,0,0,5.26,44.1,data_driven
+ATT-00331,87e3383109a748,U459557,2025-10-24 07:10:30,paid_search,google_ads,cpc,competitor_conquest,hero_banner,,/blog,ErgoPro 500,mobile,Midwest,1,7,Yes,No,0,2.49,0,1.25,6.4,52.3,last_click
+ATT-00332,89326851f67547,U867699,2026-01-15 19:48:05,email,klaviyo,email,abandoned_cart,story_ad,,/products/ergo-pro-900,ErgoPro 200,mobile,West,1,7,Yes,No,0,1.86,0,0,2.97,18.4,linear
+ATT-00333,024ae64884f14e,U678932,2025-12-18 10:28:46,social,linkedin,social,influencer_collab,carousel_ad,,/compare,ErgoPro 500,desktop,West,1,5,No,No,0,1.75,0,0,5.14,44.8,first_click
+ATT-00334,8e89ea4ef5a84b,U991868,2026-03-30 18:58:52,paid_search,bing_ads,cpc,ergo_chair_brand,,best chair,/,ErgoPro 900,desktop,Northeast,1,7,No,No,0,5.23,0,5.23,2.44,46.3,linear
+ATT-00335,068fadbc819545,U542254,2025-11-29 10:56:20,referral,rtings.com,referral,(none),html_email,,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Midwest,1,6,No,No,0,0,0,0,4.48,72.0,last_click
+ATT-00336,b3f713e2d8a044,U780934,2025-12-02 11:07:12,social,linkedin,social,product_demo,reel,lumbar support chair,/blog,ErgoPro 900,desktop,Southwest,1,6,No,No,0,1.84,0,0,5.28,60.2,first_click
+ATT-00337,aada75fcf8b245,U903249,2025-10-07 01:54:53,social,instagram,social,launch_reel,hero_banner,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,tablet,Southeast,1,2,Yes,No,0,0.35,0,0,4.79,11.1,data_driven
+ATT-00338,c6f42c4df57741,U880977,2026-01-23 04:29:51,paid_search,google_ads,cpc,ergo_chair_brand,story_ad,best chair,/compare,ErgoPro 900,desktop,Midwest,1,6,No,No,0,8.0,0,8.0,1.83,43.0,linear
+ATT-00339,bdfba12f4a1944,U647403,2025-11-27 14:18:36,referral,wirecutter.com,referral,(none),plain_text_email,,/blog/how-to-set-up-your-home-office,ErgoPro 900,tablet,Northeast,1,2,Yes,No,0,0,0,0,1.63,21.4,linear
+ATT-00340,8d2cb026266e40,U972463,2026-03-03 16:37:43,email,mailchimp,email,launch_announcement,plain_text_email,ergo chair,/,ErgoPro 900,mobile,Southeast,1,6,No,No,0,1.77,0,0,4.65,32.1,last_click
+ATT-00341,ed268331194542,U485873,2025-12-11 06:12:23,email,mailchimp,email,vip_early_access,hero_banner,lumbar support chair,/products,ErgoPro 900,desktop,Midwest,1,6,No,No,0,0.33,0,0,6.24,11.4,first_click
+ATT-00342,d7ba6d08f0074d,U786503,2026-03-22 18:22:24,organic_search,google,organic,(none),text_ad,,/,ErgoPro 900,desktop,Southwest,1,8,No,No,0,0,0,0,2.65,25.3,linear
+ATT-00343,5637996ccd9144,U406797,2025-10-06 22:58:13,referral,wirecutter.com,referral,(none),text_ad,lumbar support chair,/about,ErgoPro 500,desktop,West,1,6,No,No,0,0,0,0,4.26,55.8,time_decay
+ATT-00344,c9773746b47c4f,U846704,2026-01-21 10:42:22,direct,(direct),(none),(none),carousel_ad,ergonomic chair,/products/ergo-pro-900,ErgoPro 900,tablet,West,1,5,Yes,No,0,0,0,0,1.77,61.1,data_driven
+ATT-00345,dd5a92044e8d45,U319476,2025-11-21 14:59:13,organic_search,bing,organic,(none),plain_text_email,office chair,/blog,ErgoPro 200,tablet,Midwest,1,5,Yes,No,0,0,0,0,4.31,70.8,data_driven
+ATT-00346,2307796dcf634b,U869665,2026-01-21 01:59:32,organic_search,bing,organic,(none),plain_text_email,,/products/ergo-pro-900,ErgoPro 900,desktop,Southeast,1,4,No,No,0,0,0,0,6.22,74.8,last_click
+ATT-00347,1e1978d799b745,U493325,2025-11-12 20:12:30,direct,(direct),(none),(none),hero_banner,,/compare,ErgoPro 500,desktop,West,1,5,No,No,0,0,0,0,1.02,31.6,last_click
+ATT-00348,fc321ec7d26149,U620468,2026-03-17 07:52:20,organic_search,google,organic,(none),text_ad,ergo chair,/about,ErgoPro 500,desktop,Southeast,1,6,Yes,No,0,0,0,0,3.86,65.4,first_click
+ATT-00349,cf508144d8f840,U603162,2025-10-08 19:32:03,organic_search,bing,organic,(none),text_ad,lumbar support chair,/products/ergo-pro-900,ErgoPro 900,mobile,Northeast,1,2,No,No,0,0,0,0,5.79,57.9,last_click
+ATT-00350,b1b64e2e75ff4a,U901220,2025-10-03 01:07:37,direct,(direct),(none),(none),text_ad,,/products,ErgoPro 900,mobile,West,1,1,Yes,No,0,0,0,0,2.42,34.0,linear
+ATT-00351,a83eb7d1e77040,U915588,2026-03-22 19:02:49,paid_search,google_ads,cpc,ergo_chair_generic,reel,,/compare,ErgoPro 900,desktop,West,1,3,No,No,0,3.46,0,1.73,5.65,61.2,last_click
+ATT-00352,44b8032ed25040,U532849,2026-01-20 11:34:05,direct,(direct),(none),(none),reel,ergo chair,/,ErgoPro 900,mobile,West,1,6,Yes,No,0,0,0,0,1.27,80.3,time_decay
+ATT-00353,afee0517ccc640,U830172,2025-11-23 07:14:06,organic_search,google,organic,(none),carousel_ad,ergo chair,/products/ergo-pro-900,ErgoPro 900,tablet,Southeast,1,8,Yes,No,0,0,0,0,0.95,60.0,first_click
+ATT-00354,45563da5d5344c,U925646,2026-03-27 14:02:51,organic_search,bing,organic,(none),carousel_ad,ergonomic chair,/products/ergo-pro-900,ErgoPro 500,mobile,West,1,8,Yes,No,0,0,0,0,3.79,64.7,time_decay
+ATT-00355,50c903f60f2a48,U450994,2026-01-15 09:14:24,paid_search,google_ads,cpc,ergo_chair_brand,story_ad,,/products/ergo-pro-500,ErgoPro 500,desktop,West,1,8,No,No,0,3.99,0,1.0,0.89,24.2,time_decay
+ATT-00356,1bd617a0116b49,U860428,2026-03-31 00:34:22,organic_search,google,organic,(none),plain_text_email,lumbar support chair,/products/ergo-pro-500,ErgoPro 900,mobile,Midwest,1,4,Yes,No,0,0,0,0,3.01,57.1,first_click
+ATT-00357,aa453e0ce14d43,U606390,2026-02-21 11:11:30,affiliate,cj_affiliate,affiliate,launch_promo,reel,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,mobile,West,1,2,No,No,0,0.83,0,0,5.08,83.6,time_decay
+ATT-00358,d75235dab46149,U908571,2025-11-12 01:22:39,paid_search,google_ads,cpc,ergo_chair_generic,,best chair,/products,ErgoPro 500,mobile,Southwest,1,2,Yes,No,0,7.46,0,1.49,5.45,80.1,linear
+ATT-00359,9c6abe2c13f647,U976145,2026-03-31 12:28:52,social,linkedin,social,influencer_collab,carousel_ad,ergo chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,desktop,Southwest,1,3,Yes,No,0,1.28,0,0,3.16,61.1,first_click
+ATT-00360,c47c6cc670564f,U721811,2026-02-02 16:23:29,organic_search,google,organic,(none),text_ad,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,tablet,Midwest,1,3,Yes,No,0,0,0,0,4.88,23.9,data_driven
+ATT-00361,8ea19a91d38e40,U704716,2025-10-10 15:57:59,direct,(direct),(none),(none),plain_text_email,ergonomic chair,/blog,ErgoPro 500,desktop,Northeast,1,3,No,No,0,0,0,0,2.82,12.7,time_decay
+ATT-00362,735bded5d6e745,U950325,2025-10-19 20:13:46,paid_search,google_ads,cpc,ergo_chair_brand,plain_text_email,,/products/ergo-pro-500,ErgoPro 900,desktop,Northeast,1,8,No,No,0,5.02,0,1.25,6.07,48.1,first_click
+ATT-00363,d932640af67d44,U283211,2025-12-23 02:07:18,organic_search,bing,organic,(none),html_email,office chair,/about,ErgoPro 500,mobile,West,1,6,No,No,0,0,0,0,3.97,73.2,first_click
+ATT-00364,cdc3d183e4a849,U159993,2025-11-26 09:42:52,paid_search,bing_ads,cpc,ergo_chair_generic,plain_text_email,,/blog,ErgoPro 200,mobile,Southwest,1,3,Yes,No,0,6.01,0,1.5,3.32,57.0,data_driven
+ATT-00365,923b25778a0f48,U655233,2025-11-14 20:30:30,paid_search,bing_ads,cpc,ergo_chair_generic,html_email,ergo chair,/products/ergo-pro-900,ErgoPro 900,desktop,West,1,7,No,No,0,7.8,0,1.95,0.85,44.3,time_decay
+ATT-00366,c955d77830ab46,U896322,2025-10-15 01:51:48,email,mailchimp,email,weekly_newsletter,carousel_ad,best chair,/products/ergo-pro-200,ErgoPro 200,desktop,Northeast,1,8,No,No,0,0.4,0,0,2.8,53.4,first_click
+ATT-00367,5147423a35ce42,U142907,2026-01-04 21:59:48,email,mailchimp,email,launch_announcement,plain_text_email,best chair,/about,ErgoPro 200,tablet,Southeast,1,4,Yes,No,0,2.0,0,0,1.82,18.9,linear
+ATT-00368,5dd088d90bf443,U230242,2026-02-07 11:30:49,direct,(direct),(none),(none),html_email,office chair,/blog,ErgoPro 900,mobile,Midwest,1,7,Yes,No,0,0,0,0,6.29,67.5,last_click
+ATT-00369,92def8f2e55e44,U296312,2025-12-03 15:25:24,paid_search,google_ads,cpc,ergo_chair_brand,text_ad,office chair,/blog,ErgoPro 900,mobile,Southeast,1,1,No,No,0,8.46,0,4.23,3.38,13.7,first_click
+ATT-00370,1460ae3048024c,U786404,2026-01-26 16:03:51,organic_search,bing,organic,(none),html_email,lumbar support chair,/products/ergo-pro-500,ErgoPro 200,mobile,Midwest,1,4,Yes,No,0,0,0,0,1.26,42.6,data_driven
+ATT-00371,0123d8bb778f44,U524552,2026-03-16 10:19:40,social,facebook,social,ugc_repost,,lumbar support chair,/,ErgoPro 900,mobile,Southwest,1,3,No,No,0,1.26,0,0,6.5,80.8,time_decay
+ATT-00372,dbef2ef90a7c46,U329232,2026-02-05 12:37:58,organic_search,bing,organic,(none),plain_text_email,office chair,/products,ErgoPro 900,desktop,West,1,4,No,No,0,0,0,0,1.41,27.7,linear
+ATT-00373,8f7f9106a6644e,U150159,2026-02-07 18:12:44,affiliate,cj_affiliate,affiliate,launch_promo,story_ad,best chair,/,ErgoPro 200,tablet,West,1,5,No,No,0,0.56,0,0,5.87,32.3,first_click
+ATT-00374,bc0b740791d540,U873377,2026-03-08 11:50:07,direct,(direct),(none),(none),text_ad,,/compare,ErgoPro 200,mobile,Southwest,1,3,Yes,No,0,0,0,0,4.37,36.0,last_click
+ATT-00375,c8c1550a64df40,U241413,2026-01-05 10:48:12,paid_search,google_ads,cpc,ergo_chair_generic,carousel_ad,ergonomic chair,/products,ErgoPro 500,desktop,Southwest,1,5,No,No,0,4.09,0,2.04,2.68,26.0,time_decay
+ATT-00376,281ef7877e0d49,U977876,2025-12-21 17:37:27,social,instagram,social,influencer_collab,carousel_ad,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,desktop,Southwest,1,3,No,No,0,0.35,0,0,4.39,77.5,time_decay
+ATT-00377,d84ca88618ce40,U883838,2026-01-29 01:47:33,organic_search,google,organic,(none),carousel_ad,,/blog/how-to-set-up-your-home-office,ErgoPro 900,mobile,Midwest,1,1,No,No,0,0,0,0,1.4,76.8,first_click
+ATT-00378,22aa16b42b5341,U295192,2025-11-05 11:29:34,email,mailchimp,email,weekly_newsletter,hero_banner,ergonomic chair,/products/ergo-pro-500,ErgoPro 500,desktop,West,1,5,No,No,0,1.67,0,0,4.33,67.1,first_click
+ATT-00379,59da7b2c867548,U471379,2026-02-10 02:10:34,organic_search,google,organic,(none),plain_text_email,office chair,/products/ergo-pro-900,ErgoPro 200,tablet,Southeast,1,3,No,No,0,0,0,0,1.55,22.6,linear
+ATT-00380,32d2b5cfd9b349,U614153,2026-01-16 10:20:41,organic_search,google,organic,(none),reel,lumbar support chair,/compare,ErgoPro 500,mobile,Southwest,1,7,No,No,0,0,0,0,3.84,29.0,time_decay
+ATT-00381,1efce926facd4d,U109149,2025-11-21 07:32:48,organic_search,bing,organic,(none),plain_text_email,,/compare,ErgoPro 900,mobile,West,1,1,No,No,0,0,0,0,5.65,75.0,linear
+ATT-00382,2a6f0c9771c846,U514078,2025-11-18 06:23:23,organic_search,google,organic,(none),plain_text_email,,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Midwest,1,3,No,No,0,0,0,0,3.7,75.8,linear
+ATT-00383,2eed3cae290a48,U119968,2026-01-05 15:10:05,social,tiktok,social,product_demo,story_ad,ergonomic chair,/products/ergo-pro-900,ErgoPro 200,tablet,Southeast,1,1,No,No,0,1.74,0,0,5.07,82.4,last_click
+ATT-00384,a104fc3a93684b,U758036,2026-03-23 19:32:49,direct,(direct),(none),(none),hero_banner,,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,West,1,6,Yes,No,0,0,0,0,3.49,43.5,linear
+ATT-00385,e22570843f6544,U997839,2026-02-26 01:25:46,organic_search,bing,organic,(none),reel,office chair,/about,ErgoPro 900,tablet,West,1,3,Yes,No,0,0,0,0,6.01,83.6,time_decay
+ATT-00386,a01dc143e0294e,U450146,2025-10-07 17:10:36,social,instagram,social,ugc_repost,plain_text_email,ergo chair,/,ErgoPro 200,desktop,Northeast,1,2,Yes,No,0,0.34,0,0,4.47,48.0,time_decay
+ATT-00387,2e9193f6ca5c4f,U654735,2026-02-24 13:14:10,organic_search,bing,organic,(none),hero_banner,office chair,/about,ErgoPro 500,mobile,Southwest,1,3,Yes,No,0,0,0,0,1.12,76.7,linear
+ATT-00388,765d34769efb49,U515910,2026-01-13 02:14:43,referral,wirecutter.com,referral,(none),reel,lumbar support chair,/products,ErgoPro 200,desktop,West,1,2,No,Yes,349,0,0,0,4.2,12.7,first_click
+ATT-00389,3227e377bb274c,U678465,2025-12-20 06:06:57,organic_search,bing,organic,(none),,ergonomic chair,/about,ErgoPro 900,desktop,Southwest,1,3,Yes,No,0,0,0,0,1.91,20.4,linear
+ATT-00390,5f9d8b4f9e3847,U876820,2026-03-17 02:13:55,email,klaviyo,email,weekly_newsletter,text_ad,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,tablet,Northeast,1,1,No,No,0,0.28,0,0,3.13,13.0,data_driven
+ATT-00391,43f531815f0e40,U175322,2026-01-13 11:47:15,organic_search,google,organic,(none),html_email,ergo chair,/,ErgoPro 900,mobile,Southwest,1,3,Yes,No,0,0,0,0,3.26,32.0,data_driven
+ATT-00392,43a2634f1d2949,U314269,2026-02-07 13:35:31,organic_search,google,organic,(none),plain_text_email,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Midwest,1,6,No,Yes,649,0,0,0,1.22,72.0,data_driven
+ATT-00393,a3aa894feadc4b,U247045,2026-03-14 03:29:10,paid_search,google_ads,cpc,ergo_chair_brand,html_email,lumbar support chair,/,ErgoPro 900,desktop,Southeast,1,6,No,No,0,4.22,0,4.22,1.15,25.1,time_decay
+ATT-00394,225353c4c8e347,U767872,2026-01-15 07:09:01,paid_search,google_ads,cpc,ergo_chair_generic,text_ad,office chair,/about,ErgoPro 200,tablet,Northeast,1,8,No,No,0,4.13,0,4.13,4.53,41.3,first_click
+ATT-00395,5f9d4acac5a741,U722729,2025-11-22 05:05:41,organic_search,bing,organic,(none),carousel_ad,lumbar support chair,/products/ergo-pro-200,ErgoPro 500,desktop,West,1,3,Yes,No,0,0,0,0,6.07,38.2,last_click
+ATT-00396,a9d1f7b8354c43,U194774,2026-01-03 01:19:31,organic_search,bing,organic,(none),story_ad,lumbar support chair,/,ErgoPro 200,tablet,Southeast,1,4,No,No,0,0,0,0,2.86,56.4,linear
+ATT-00397,6b3bb5a5ec1045,U701118,2025-11-30 05:41:31,affiliate,shareasale,affiliate,launch_promo,html_email,lumbar support chair,/about,ErgoPro 900,tablet,Midwest,1,4,No,Yes,999,1.51,661.59,0,5.39,44.5,time_decay
+ATT-00398,509653fa19d348,U987783,2025-11-19 07:56:35,email,mailchimp,email,weekly_newsletter,plain_text_email,lumbar support chair,/,ErgoPro 200,desktop,West,1,3,No,No,0,0.93,0,0,2.2,75.2,first_click
+ATT-00399,ccc8996ad53840,U946998,2026-02-22 13:35:39,direct,(direct),(none),(none),plain_text_email,,/blog,ErgoPro 200,desktop,West,1,5,Yes,No,0,0,0,0,5.06,65.6,first_click
+ATT-00400,84f66f5983c843,U657051,2026-01-24 15:44:17,organic_search,bing,organic,(none),,lumbar support chair,/blog,ErgoPro 900,desktop,Southeast,1,3,Yes,No,0,0,0,0,1.56,78.2,linear
+ATT-00401,4679242b009e49,U207229,2025-10-19 12:04:14,paid_search,google_ads,cpc,ergo_chair_brand,plain_text_email,office chair,/compare,ErgoPro 200,tablet,Northeast,1,8,No,No,0,2.08,0,2.08,1.51,20.4,data_driven
+ATT-00402,174e005a1a1c47,U409460,2026-02-26 17:48:29,referral,rtings.com,referral,(none),reel,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,desktop,Northeast,1,2,No,No,0,0,0,0,0.81,27.9,linear
+ATT-00403,8ec14952010247,U643566,2026-03-31 00:18:25,social,linkedin,social,influencer_collab,carousel_ad,,/,ErgoPro 500,mobile,Southeast,1,3,No,No,0,0.25,0,0,4.76,31.6,last_click
+ATT-00404,352884b1ce164e,U759707,2026-02-28 09:57:58,email,mailchimp,email,vip_early_access,,lumbar support chair,/about,ErgoPro 200,mobile,Southeast,1,1,Yes,No,0,0.6,0,0,1.61,17.1,first_click
+ATT-00405,e8d406b0f3df49,U118110,2025-12-07 13:01:46,organic_search,bing,organic,(none),carousel_ad,ergo chair,/blog,ErgoPro 200,desktop,Northeast,1,6,No,No,0,0,0,0,0.98,62.0,last_click
+ATT-00406,1073b9c3e11047,U730339,2025-12-21 06:30:21,affiliate,cj_affiliate,affiliate,launch_promo,,office chair,/about,ErgoPro 200,desktop,West,1,3,No,No,0,0.84,0,0,4.7,13.1,last_click
+ATT-00407,06dc1e874cc540,U755585,2025-12-28 04:57:12,social,instagram,social,launch_reel,hero_banner,,/blog/how-to-set-up-your-home-office,ErgoPro 900,desktop,West,1,3,No,No,0,1.5,0,0,4.31,17.5,last_click
+ATT-00408,7e09948d906046,U829814,2025-12-20 20:11:12,direct,(direct),(none),(none),carousel_ad,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,desktop,Northeast,1,6,No,No,0,0,0,0,6.23,78.7,linear
+ATT-00409,1f2b4b4099224d,U155655,2025-10-23 15:41:13,referral,wirecutter.com,referral,(none),plain_text_email,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Northeast,1,6,Yes,No,0,0,0,0,2.6,72.1,time_decay
+ATT-00410,1c29f9a06a0947,U455085,2025-12-20 10:38:36,organic_search,google,organic,(none),html_email,ergonomic chair,/products/ergo-pro-500,ErgoPro 200,desktop,Midwest,1,5,Yes,No,0,0,0,0,1.01,65.0,first_click
+ATT-00411,431125f0e6ae4e,U943849,2025-12-07 17:51:44,social,facebook,social,influencer_collab,reel,,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Midwest,1,2,No,No,0,0.42,0,0,1.9,67.9,data_driven
+ATT-00412,2d295fd794db46,U637278,2026-01-11 20:47:58,organic_search,google,organic,(none),text_ad,ergonomic chair,/about,ErgoPro 500,desktop,Southwest,1,6,Yes,No,0,0,0,0,4.15,29.5,data_driven
+ATT-00413,a8bdc215a2f940,U687265,2026-01-23 02:47:07,organic_search,bing,organic,(none),,best chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Northeast,1,1,Yes,No,0,0,0,0,5.91,74.0,time_decay
+ATT-00414,85972c4dad3d4d,U795016,2026-01-18 19:09:35,social,instagram,social,influencer_collab,,,/products/ergo-pro-500,ErgoPro 900,tablet,Midwest,1,2,No,No,0,1.33,0,0,5.52,58.8,linear
+ATT-00415,e0b316d8b08846,U517653,2025-11-19 20:58:49,email,mailchimp,email,vip_early_access,text_ad,lumbar support chair,/products,ErgoPro 200,desktop,West,1,2,Yes,No,0,0.15,0,0,3.34,28.3,linear
+ATT-00416,19d4a491078b44,U526211,2025-12-20 23:41:28,organic_search,bing,organic,(none),story_ad,office chair,/about,ErgoPro 900,mobile,Midwest,1,2,No,No,0,0,0,0,6.49,68.8,linear
+ATT-00417,53a924ac35bb4c,U923009,2026-02-04 01:31:04,paid_search,bing_ads,cpc,ergo_chair_brand,,office chair,/compare,ErgoPro 500,mobile,Southeast,1,1,No,No,0,8.43,0,2.81,5.51,27.1,linear
+ATT-00418,b5e4f2f73e244d,U924991,2025-12-03 02:14:52,paid_search,google_ads,cpc,ergo_chair_generic,carousel_ad,ergo chair,/products/ergo-pro-200,ErgoPro 500,mobile,Southwest,1,6,Yes,No,0,2.85,0,0.95,5.56,14.8,data_driven
+ATT-00419,8b609832b64642,U142758,2026-03-13 15:55:40,referral,rtings.com,referral,(none),,ergonomic chair,/products/ergo-pro-200,ErgoPro 500,tablet,Southeast,1,6,No,No,0,0,0,0,1.23,46.1,last_click
+ATT-00420,72d75352dbd94c,U264102,2026-01-17 21:53:45,organic_search,google,organic,(none),story_ad,ergonomic chair,/products/ergo-pro-200,ErgoPro 500,mobile,Southeast,1,3,No,No,0,0,0,0,4.48,77.0,data_driven
+ATT-00421,123281bbeaef48,U329472,2026-02-04 06:56:38,paid_search,bing_ads,cpc,competitor_conquest,html_email,best chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,desktop,Southeast,1,3,Yes,No,0,7.62,0,2.54,3.62,62.0,last_click
+ATT-00422,19c0d2fa115a46,U240999,2025-10-06 03:13:36,social,instagram,social,product_demo,text_ad,,/blog/best-ergonomic-chairs-2026,ErgoPro 200,tablet,Northeast,1,6,Yes,No,0,1.73,0,0,0.89,11.0,linear
+ATT-00423,8683284339154a,U895648,2026-02-10 00:45:00,organic_search,bing,organic,(none),html_email,lumbar support chair,/products/ergo-pro-900,ErgoPro 500,desktop,Southwest,1,8,No,No,0,0,0,0,3.78,34.3,first_click
+ATT-00424,c0808e2189f343,U149146,2026-01-19 03:32:17,organic_search,bing,organic,(none),plain_text_email,office chair,/,ErgoPro 500,tablet,West,1,2,No,No,0,0,0,0,3.53,23.8,data_driven
+ATT-00425,51b818629bb749,U148621,2025-11-16 09:22:44,organic_search,bing,organic,(none),story_ad,ergo chair,/blog,ErgoPro 200,mobile,Southwest,1,6,No,No,0,0,0,0,3.14,56.1,data_driven
+ATT-00426,04fb6f00a73544,U619079,2025-12-09 17:50:40,organic_search,google,organic,(none),,best chair,/products/ergo-pro-200,ErgoPro 200,desktop,Northeast,1,8,No,Yes,698,0,0,0,2.71,17.0,linear
+ATT-00427,061e5098d92f4e,U509539,2025-12-13 04:10:22,paid_search,google_ads,cpc,competitor_conquest,story_ad,,/products/ergo-pro-500,ErgoPro 200,tablet,West,1,4,No,No,0,7.81,0,1.56,1.16,55.0,first_click
+ATT-00428,d3c6ece4e76441,U353918,2026-02-27 17:03:45,organic_search,bing,organic,(none),carousel_ad,lumbar support chair,/products/ergo-pro-500,ErgoPro 200,desktop,Southeast,1,1,No,No,0,0,0,0,6.38,25.2,time_decay
+ATT-00429,48d2d2f64bf541,U530646,2026-03-28 05:44:10,organic_search,google,organic,(none),,office chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,mobile,Northeast,1,5,Yes,No,0,0,0,0,2.65,70.0,data_driven
+ATT-00430,2eed077b6cc645,U999469,2026-01-31 04:02:44,social,linkedin,social,influencer_collab,text_ad,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,desktop,Southwest,1,6,Yes,No,0,1.53,0,0,5.05,54.0,data_driven
+ATT-00431,4a92e25adf014d,U314005,2025-10-26 09:39:45,organic_search,bing,organic,(none),text_ad,,/products,ErgoPro 200,mobile,Southeast,1,8,No,No,0,0,0,0,3.53,62.1,last_click
+ATT-00432,a55f4369521447,U369345,2025-12-08 10:21:08,paid_search,bing_ads,cpc,ergo_chair_generic,plain_text_email,best chair,/products,ErgoPro 500,mobile,Midwest,1,7,No,No,0,5.38,0,1.08,5.01,29.3,time_decay
+ATT-00433,a64fb4accd404a,U342264,2025-10-10 17:25:06,email,mailchimp,email,abandoned_cart,reel,lumbar support chair,/blog/how-to-set-up-your-home-office,ErgoPro 500,mobile,Midwest,1,3,No,No,0,0.79,0,0,4.24,31.4,last_click
+ATT-00434,2015cea0d14248,U131536,2026-03-21 09:42:00,paid_search,google_ads,cpc,competitor_conquest,plain_text_email,,/blog,ErgoPro 900,mobile,Southeast,1,2,No,No,0,1.06,0,0.27,4.15,43.8,linear
+ATT-00435,10177a5bcad94e,U554929,2026-03-24 10:55:12,organic_search,bing,organic,(none),html_email,lumbar support chair,/products/ergo-pro-200,ErgoPro 900,tablet,Southeast,1,7,No,No,0,0,0,0,2.01,41.7,linear
+ATT-00436,be7e8d2048f04b,U303648,2026-02-26 02:31:05,organic_search,bing,organic,(none),hero_banner,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,mobile,Midwest,1,7,Yes,No,0,0,0,0,5.27,22.1,time_decay
+ATT-00437,8f70ffd0a2ce44,U316563,2026-01-20 16:01:25,paid_search,google_ads,cpc,ergo_chair_brand,story_ad,office chair,/blog/best-ergonomic-chairs-2026,ErgoPro 900,mobile,Southeast,1,6,No,No,0,7.39,0,3.69,3.82,36.5,first_click
+ATT-00438,521e6b96781148,U787286,2026-01-07 21:16:50,organic_search,bing,organic,(none),,ergo chair,/products/ergo-pro-200,ErgoPro 900,mobile,West,1,2,Yes,No,0,0,0,0,1.88,20.8,linear
+ATT-00439,3eb4f3e01ad94c,U378207,2026-02-27 17:17:59,organic_search,bing,organic,(none),story_ad,ergonomic chair,/blog,ErgoPro 900,desktop,West,1,6,Yes,No,0,0,0,0,4.5,39.4,linear
+ATT-00440,71a69c91810249,U752123,2026-03-24 04:08:40,referral,thewirecutter.com,referral,(none),carousel_ad,office chair,/about,ErgoPro 200,desktop,Northeast,1,7,No,No,0,0,0,0,1.66,37.9,linear
+ATT-00441,5682cea0f57e4d,U286473,2026-03-23 11:31:45,social,tiktok,social,launch_reel,,,/about,ErgoPro 500,mobile,Southeast,1,2,No,No,0,1.44,0,0,1.63,53.1,last_click
+ATT-00442,f599b5e9134140,U834001,2026-01-12 09:35:04,social,tiktok,social,influencer_collab,story_ad,,/products/ergo-pro-900,ErgoPro 500,desktop,Midwest,1,7,No,No,0,1.0,0,0,1.88,11.0,data_driven
+ATT-00443,1e307762ea764c,U317444,2025-10-24 08:49:57,direct,(direct),(none),(none),reel,lumbar support chair,/products/ergo-pro-500,ErgoPro 900,desktop,Southeast,1,8,No,No,0,0,0,0,5.7,40.9,time_decay
+ATT-00444,614ff02471f946,U228292,2026-03-20 10:27:09,direct,(direct),(none),(none),html_email,office chair,/products/ergo-pro-900,ErgoPro 500,desktop,Southwest,1,4,Yes,No,0,0,0,0,3.21,74.5,data_driven
+ATT-00445,7d59ff9d118f41,U931884,2026-03-13 11:03:14,organic_search,google,organic,(none),html_email,,/compare,ErgoPro 900,desktop,Northeast,1,5,Yes,No,0,0,0,0,5.23,59.7,time_decay
+ATT-00446,5a448bd54cb146,U412421,2025-11-26 18:49:46,organic_search,bing,organic,(none),story_ad,office chair,/products/ergo-pro-900,ErgoPro 200,desktop,Midwest,1,2,No,No,0,0,0,0,4.72,13.4,last_click
+ATT-00447,b22606f92fd542,U373979,2026-01-30 19:51:33,organic_search,google,organic,(none),hero_banner,ergo chair,/products/ergo-pro-200,ErgoPro 900,desktop,West,1,3,No,No,0,0,0,0,4.29,38.5,data_driven
+ATT-00448,2846b0710b2b4c,U256721,2026-03-22 00:07:09,organic_search,bing,organic,(none),story_ad,,/products/ergo-pro-200,ErgoPro 200,desktop,Northeast,1,3,Yes,No,0,0,0,0,3.4,73.6,data_driven
+ATT-00449,bc1514aa42b541,U399422,2026-01-09 06:42:51,paid_search,bing_ads,cpc,ergo_chair_generic,reel,,/,ErgoPro 900,tablet,Northeast,1,8,Yes,No,0,4.56,0,1.14,4.59,21.3,linear
+ATT-00450,9d703244615743,U301417,2025-10-05 21:47:51,direct,(direct),(none),(none),,,/about,ErgoPro 900,desktop,Northeast,1,1,No,No,0,0,0,0,4.62,35.7,linear
+ATT-00451,4e5ebcfc7e2f48,U501691,2026-01-27 08:42:19,paid_search,google_ads,cpc,ergo_chair_generic,carousel_ad,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,Northeast,1,6,No,No,0,0.57,0,0.28,5.79,48.2,last_click
+ATT-00452,d95071cf6f3f44,U586856,2026-03-11 23:44:02,organic_search,bing,organic,(none),reel,,/about,ErgoPro 900,desktop,West,1,6,No,No,0,0,0,0,3.5,53.2,data_driven
+ATT-00453,0406a9977ea54f,U258312,2025-12-06 04:03:15,paid_search,bing_ads,cpc,ergo_chair_brand,,,/products,ErgoPro 900,tablet,Midwest,1,2,No,No,0,5.57,0,1.11,6.16,83.9,first_click
+ATT-00454,6586567fd56840,U981799,2026-03-17 16:30:46,organic_search,google,organic,(none),hero_banner,,/products/ergo-pro-200,ErgoPro 500,desktop,Southwest,1,8,No,No,0,0,0,0,3.67,54.0,last_click
+ATT-00455,ac03daeed2b04f,U288279,2025-10-31 10:16:50,paid_search,google_ads,cpc,ergo_chair_brand,text_ad,,/products/ergo-pro-900,ErgoPro 900,mobile,Southeast,1,5,No,No,0,7.99,0,1.6,5.74,81.6,data_driven
+ATT-00456,1fb5672891cf44,U961089,2026-01-23 12:32:13,organic_search,google,organic,(none),html_email,ergonomic chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,Southeast,1,6,Yes,No,0,0,0,0,2.81,25.5,last_click
+ATT-00457,490a12711bc840,U171312,2026-01-24 08:28:23,direct,(direct),(none),(none),carousel_ad,lumbar support chair,/blog,ErgoPro 900,desktop,Midwest,1,1,Yes,No,0,0,0,0,5.99,74.6,last_click
+ATT-00458,3d7fe7b57d504d,U893715,2025-11-28 23:20:36,organic_search,google,organic,(none),hero_banner,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,mobile,Midwest,1,5,Yes,Yes,649,0,0,0,1.07,18.9,first_click
+ATT-00459,e89a81d9a95446,U564344,2026-03-18 04:28:21,organic_search,bing,organic,(none),text_ad,,/products/ergo-pro-200,ErgoPro 900,mobile,Midwest,1,3,No,No,0,0,0,0,0.9,12.2,first_click
+ATT-00460,a300e2ea956b4b,U695282,2025-11-25 06:15:55,organic_search,bing,organic,(none),plain_text_email,lumbar support chair,/products,ErgoPro 500,desktop,Southwest,1,7,No,No,0,0,0,0,4.04,15.1,first_click
+ATT-00461,fdf64ed1fefc4a,U798825,2026-03-18 20:58:09,direct,(direct),(none),(none),text_ad,lumbar support chair,/products,ErgoPro 200,desktop,Midwest,1,7,Yes,No,0,0,0,0,5.75,31.2,data_driven
+ATT-00462,bf9e460842cf45,U618155,2026-03-29 00:58:57,paid_search,bing_ads,cpc,ergo_chair_brand,reel,,/products/ergo-pro-900,ErgoPro 900,desktop,West,1,4,Yes,No,0,2.22,0,0.44,2.01,19.9,linear
+ATT-00463,e70569ea7bac41,U682672,2026-01-11 11:24:12,organic_search,bing,organic,(none),reel,office chair,/products/ergo-pro-500,ErgoPro 500,mobile,Midwest,1,2,No,Yes,649,0,0,0,3.63,61.3,first_click
+ATT-00464,4616bb3a6e4942,U477863,2025-11-12 15:02:52,email,klaviyo,email,abandoned_cart,hero_banner,,/,ErgoPro 900,mobile,Southwest,1,2,No,No,0,0.15,0,0,3.15,10.8,time_decay
+ATT-00465,b6f859fe7c8643,U616285,2026-03-23 18:20:21,social,facebook,social,product_demo,html_email,,/products,ErgoPro 500,tablet,Southeast,1,1,Yes,No,0,0.55,0,0,1.5,12.6,linear
+ATT-00466,2633660bb42f4b,U730868,2026-01-30 05:17:43,paid_search,bing_ads,cpc,competitor_conquest,plain_text_email,lumbar support chair,/,ErgoPro 200,desktop,Northeast,1,1,No,No,0,2.44,0,0.61,4.75,42.0,linear
+ATT-00467,1149e24bae1649,U696649,2026-02-03 14:51:26,direct,(direct),(none),(none),plain_text_email,,/about,ErgoPro 500,tablet,Southeast,1,2,Yes,No,0,0,0,0,1.21,40.7,data_driven
+ATT-00468,de61be88985f4d,U821782,2025-11-18 01:32:16,organic_search,google,organic,(none),html_email,office chair,/products/ergo-pro-500,ErgoPro 900,desktop,West,1,5,No,No,0,0,0,0,2.39,51.1,time_decay
+ATT-00469,571d1d5f538349,U100797,2026-01-12 09:34:30,organic_search,bing,organic,(none),html_email,,/blog,ErgoPro 900,mobile,West,1,6,Yes,No,0,0,0,0,2.19,77.8,last_click
+ATT-00470,909f437f90c743,U188447,2026-02-26 23:04:13,paid_search,google_ads,cpc,ergo_chair_generic,plain_text_email,best chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,mobile,West,1,3,Yes,No,0,4.99,0,2.5,1.12,62.2,data_driven
+ATT-00471,bd0002c15dfe43,U603881,2025-11-27 15:38:54,organic_search,google,organic,(none),carousel_ad,ergo chair,/,ErgoPro 900,mobile,Southeast,1,2,No,No,0,0,0,0,5.86,14.5,linear
+ATT-00472,a8cfd23a698844,U878701,2026-03-13 07:15:22,social,instagram,social,launch_reel,carousel_ad,best chair,/,ErgoPro 900,tablet,Northeast,1,5,No,No,0,1.81,0,0,5.24,39.2,data_driven
+ATT-00473,8a35500bdb3943,U755337,2025-11-13 09:00:47,email,klaviyo,email,weekly_newsletter,,best chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Southeast,1,1,No,No,0,1.81,0,0,3.18,19.3,linear
+ATT-00474,2f3d9562b11d42,U872108,2025-12-07 14:38:01,organic_search,google,organic,(none),,office chair,/products,ErgoPro 500,desktop,Southwest,1,8,No,No,0,0,0,0,2.14,54.7,first_click
+ATT-00475,239cd5ea906143,U694291,2025-12-08 00:59:00,affiliate,shareasale,affiliate,launch_promo,carousel_ad,lumbar support chair,/products,ErgoPro 900,desktop,Southeast,1,5,No,No,0,0.87,0,0,4.92,40.7,last_click
+ATT-00476,7233409508404f,U584559,2025-12-05 04:45:02,social,facebook,social,ugc_repost,,lumbar support chair,/compare,ErgoPro 900,mobile,Southwest,1,8,Yes,Yes,2997,0.4,7492.5,0,6.21,32.2,data_driven
+ATT-00477,95a25de95fb241,U675216,2026-03-01 16:14:14,paid_search,bing_ads,cpc,ergo_chair_brand,plain_text_email,best chair,/products/ergo-pro-500,ErgoPro 500,mobile,Northeast,1,8,Yes,No,0,4.12,0,0.82,2.14,65.9,linear
+ATT-00478,5571d1bbf7684c,U126168,2026-03-19 22:09:32,social,linkedin,social,influencer_collab,story_ad,ergo chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,tablet,Midwest,1,1,No,No,0,1.37,0,0,3.45,25.4,last_click
+ATT-00479,4f71119d89d146,U886698,2025-12-31 14:44:25,paid_search,bing_ads,cpc,competitor_conquest,hero_banner,,/,ErgoPro 200,mobile,West,1,4,Yes,No,0,2.81,0,0.56,4.7,61.8,time_decay
+ATT-00480,bdea23c471df4a,U300313,2025-12-28 04:41:51,organic_search,bing,organic,(none),reel,best chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,tablet,Northeast,1,4,No,No,0,0,0,0,4.29,15.0,data_driven
+ATT-00481,4a96b4cfd9aa45,U528197,2025-10-12 13:13:49,social,facebook,social,influencer_collab,carousel_ad,ergo chair,/products/ergo-pro-900,ErgoPro 500,desktop,West,1,4,Yes,No,0,1.14,0,0,5.97,37.4,first_click
+ATT-00482,2e4c4d5439f944,U431671,2026-01-01 00:46:48,organic_search,google,organic,(none),hero_banner,,/blog/best-ergonomic-chairs-2026,ErgoPro 900,desktop,Southeast,1,8,No,No,0,0,0,0,2.8,57.6,data_driven
+ATT-00483,3667bbd296f649,U975001,2025-11-22 16:45:31,email,mailchimp,email,launch_announcement,carousel_ad,,/blog/best-ergonomic-chairs-2026,ErgoPro 500,desktop,West,1,3,No,No,0,0.78,0,0,5.66,42.6,last_click
+ATT-00484,c0c097966b8843,U823767,2025-10-23 17:29:37,organic_search,google,organic,(none),,lumbar support chair,/compare,ErgoPro 500,desktop,Southwest,1,7,No,No,0,0,0,0,5.5,70.0,linear
+ATT-00485,5438a711dfb24f,U786690,2025-10-31 14:35:19,organic_search,google,organic,(none),story_ad,,/blog/how-to-set-up-your-home-office,ErgoPro 200,mobile,Northeast,1,2,Yes,No,0,0,0,0,2.99,48.8,time_decay
+ATT-00486,19d2cd9f0e2747,U598214,2026-02-17 18:45:21,social,tiktok,social,ugc_repost,carousel_ad,ergo chair,/blog/how-to-set-up-your-home-office,ErgoPro 900,desktop,Southeast,1,7,No,No,0,1.98,0,0,3.71,11.5,last_click
+ATT-00487,e9a9e6d52cd84e,U555926,2025-11-28 03:58:15,direct,(direct),(none),(none),reel,,/blog/how-to-set-up-your-home-office,ErgoPro 900,tablet,Northeast,1,1,Yes,No,0,0,0,0,6.08,78.1,first_click
+ATT-00488,03aa24831b954c,U612609,2025-10-04 04:18:11,organic_search,bing,organic,(none),story_ad,,/,ErgoPro 500,mobile,Northeast,1,2,No,No,0,0,0,0,4.99,72.1,data_driven
+ATT-00489,a1d55c25ad2a4a,U766985,2026-02-05 18:33:03,email,klaviyo,email,launch_announcement,,lumbar support chair,/blog/best-ergonomic-chairs-2026,ErgoPro 200,desktop,West,1,7,Yes,No,0,0.66,0,0,2.85,53.2,last_click
+ATT-00490,6b0a3d90bc4546,U497675,2026-01-13 22:54:21,paid_search,bing_ads,cpc,competitor_conquest,,lumbar support chair,/products/ergo-pro-200,ErgoPro 500,desktop,Northeast,1,6,No,Yes,649,0.81,801.23,0.16,1.6,84.6,last_click
+ATT-00491,bf6fb30fd1ab42,U678222,2026-03-27 15:31:19,organic_search,google,organic,(none),,ergonomic chair,/blog,ErgoPro 900,tablet,Northeast,1,4,No,No,0,0,0,0,1.19,42.5,data_driven
+ATT-00492,e1417850c69a4b,U113747,2026-03-08 06:23:14,email,klaviyo,email,weekly_newsletter,text_ad,,/products/ergo-pro-500,ErgoPro 200,mobile,Southeast,1,4,No,No,0,0.5,0,0,4.63,69.8,first_click
+ATT-00493,06da183a4b094a,U893706,2026-03-16 02:55:47,social,linkedin,social,ugc_repost,carousel_ad,ergo chair,/compare,ErgoPro 500,desktop,Midwest,1,8,Yes,No,0,0.27,0,0,1.42,54.2,linear
+ATT-00494,4ecf737794ad43,U883259,2026-02-05 10:35:09,organic_search,bing,organic,(none),,ergonomic chair,/,ErgoPro 500,mobile,Midwest,1,4,No,No,0,0,0,0,5.47,19.6,first_click
+ATT-00495,40ccba5d205a45,U164869,2025-12-10 01:32:39,organic_search,bing,organic,(none),carousel_ad,lumbar support chair,/about,ErgoPro 900,mobile,Northeast,1,1,No,No,0,0,0,0,3.24,10.7,last_click
+ATT-00496,6bfc79d4ace84c,U709354,2026-02-28 04:58:24,organic_search,bing,organic,(none),html_email,ergo chair,/products/ergo-pro-200,ErgoPro 900,mobile,Southwest,1,4,No,No,0,0,0,0,5.21,24.2,data_driven
+ATT-00497,f79f6ea8899a43,U230682,2025-12-22 02:51:32,direct,(direct),(none),(none),text_ad,,/blog/how-to-set-up-your-home-office,ErgoPro 900,tablet,Midwest,1,4,Yes,No,0,0,0,0,1.93,44.7,data_driven
+ATT-00498,08acc3384bc04f,U449270,2026-01-03 10:25:55,paid_search,bing_ads,cpc,ergo_chair_generic,html_email,best chair,/compare,ErgoPro 200,mobile,Southeast,1,4,No,No,0,2.06,0,0.41,1.7,77.2,time_decay
+ATT-00499,b02b48e238a149,U474592,2025-12-15 10:24:33,email,klaviyo,email,vip_early_access,hero_banner,ergonomic chair,/blog/how-to-set-up-your-home-office,ErgoPro 200,desktop,Midwest,1,4,Yes,No,0,1.12,0,0,2.07,30.8,time_decay
+ATT-00500,3af92670493c45,U599765,2025-10-14 12:35:19,organic_search,bing,organic,(none),,ergonomic chair,/blog,ErgoPro 500,tablet,Midwest,1,6,Yes,No,0,0,0,0,5.78,64.6,linear

@@ -7,22 +7,21 @@ e-commerce go-to-market use case.
 ## Architecture Overview
 
 ```
-                        ┌─────────────────────────┐
-                        │   ErgoPro Launch        │
-                        │   Supervisor Agent      │
-                        └────────────┬────────────┘
-                                     │ delegates
-          ┌──────────────────────────┼──────────────────────────┐
-          │              │           │          │                │
-    ┌─────▼────┐  ┌──────▼───┐ ┌────▼─────┐ ┌─▼────────┐ ┌────▼─────┐
-    │ Product  │  │Inventory │ │ Pricing  │ │Marketing │ │Customer  │
-    │ Research │  │  Mgmt    │ │ & Promos │ │  Copy    │ │ Support  │
-    └──────────┘  └──────────┘ └──────────┘ └──────────┘ └──────────┘
-          │              │           │          │                │
-    ┌─────▼────┐  ┌──────▼───┐ ┌────▼─────┐ ┌─▼────────┐
-    │  Order   │  │ Website  │ │Knowledge │ │ You.com  │
-    │Fulfillmt │  │ Perf.    │ │Assistant │ │Web Search│
-    └──────────┘  └──────────┘ └──────────┘ └──────────┘
+                         ┌──────────────────────────┐
+                         │  ErgoPro Launch          │
+                         │  Supervisor Agent        │
+                         └────────────┬─────────────┘
+                                      │ delegates
+          ┌──────────┬──────────┬─────┴────┬──────────┬──────────┐
+     ┌────▼───┐ ┌────▼───┐ ┌───▼────┐ ┌───▼────┐ ┌───▼────┐
+     │Product │ │Invntry │ │Pricing │ │Mktng   │ │Custmr  │
+     │Research│ │  Mgmt  │ │& Promos│ │  Copy  │ │Support │
+     └────────┘ └────────┘ └────────┘ └────────┘ └────────┘
+          ┌──────────┬──────────┬──────────┐
+     ┌────▼───┐ ┌────▼───┐ ┌───▼────┐ ┌───▼────┐
+     │Order   │ │Website │ │Knwldge │ │You.com │
+     │Fulfmnt │ │  Perf  │ │  Asst  │ │  Web   │
+     └────────┘ └────────┘ └────────┘ └────────┘
 ```
 
 ## Folder Structure
