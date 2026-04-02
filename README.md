@@ -4,7 +4,7 @@
 
 ---
 
-## Repo Structure
+## Repo Structure :) 
 
 ```
 nexus-ai-e2e-mas-chatbot-databricks/
